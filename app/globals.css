@@ -1,12 +1,12 @@
 /* Dictionnaire de l'Invisible — reference-tool layout.
    Neutral white/black ground, one blue for links and selection, the data's question colours as swatches only.
-   Type: Literata for dictionary content, IBM Plex Sans for interface. Scale ≈1.25: 12 · 13 · 15 · 16 · 20 · 25 · 31.
+   Type: Source Serif 4 for dictionary content, Source Sans 3 for interface. Scale ≈1.25: 12 · 13 · 15 · 16 · 20 · 25 · 31.
    Every control is a rectangle (radius 0). No gradients. */
 
 :root{
- --bg:#ffffff;--sur:#f1f3f6;--sur2:#e6e9ee;--fg:#111317;--mut:#545b67;--line:#d3d7de;--strong:#111317;
+ --bg:#ffffff;--sur:#f1f3f6;--sur2:#e6e9ee;--fg:#23262c;--mut:#555c68;--line:#d3d7de;--strong:#23262c;
  --acc:#1747c9;--lnk:#1747c9;--on:#ffffff;--sel:#e8eefc;
- --serif:"Literata",Georgia,serif;--sans:"IBM Plex Sans",system-ui,sans-serif;
+ --serif:"Source Serif 4",Georgia,serif;--sans:"Source Sans 3",system-ui,sans-serif;
  --r:0;color-scheme:light}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
  --bg:#0f1012;--sur:#191b1f;--sur2:#23262c;--fg:#eceef2;--mut:#a3a9b4;--line:#30343b;--strong:#eceef2;
@@ -17,7 +17,7 @@
 
 *,*::before,*::after{box-sizing:border-box}
 html,body{background:var(--bg);color:var(--fg)}
-body{margin:0;font:16px/1.45 var(--serif);font-optical-sizing:auto;
+body{margin:0;font:17px/1.5 var(--serif);font-optical-sizing:auto;
  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-bottom:48px;
  -webkit-text-size-adjust:100%}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
