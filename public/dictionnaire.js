@@ -6,8 +6,8 @@ const norm=s=>String(s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u03
 async function getTh(k){if(!TH[k]){const r=await fetch('/data/t'+k+'.json');TH[k]=await r.json();idx(TH[k],k)}return TH[k]}
 function idx(t,k){t.fiches.forEach(f=>f.w.forEach(w=>BYID[w.i]={e:w,f,t,k}));t.secs.forEach(s=>s.n.forEach(n=>n.e.forEach(e=>{if(e.i)BYID[e.i]={e,n,s,t,k}})))}
 const pair=(fr,en,cls='')=>(fr?`<p class="${cls}">${esc(fr)}</p>`:'')+(en?`<p class="en">${esc(en)}</p>`:'');
-const chip=t=>{const q=QT[t];return q?`<span class="chip" style="background:${q[4]}">${esc(q[0])}</span>`:''};
-const qhead=(x,id)=>x.q?`<p class="q" ${id?`id="${id}"`:''} style="color:${QT[x.qt]?.[4]||'inherit'}">${chip(x.qt)}${esc(x.q[0])}</p><p class="en">${esc(x.q[1])}</p><div class="box"><p>${esc(x.d[0])}</p><p class="en">${esc(x.d[1])}</p></div>`:'';
+const chip=t=>{const q=QT[t];return q?`<span class="chip" style="--qc:${q[4]}">${esc(q[0])}</span>`:''};
+const qhead=(x,id)=>x.q?`<p class="q qh" ${id?`id="${id}"`:''} style="--qc:${QT[x.qt]?.[4]||'var(--line)'}">${chip(x.qt)}${esc(x.q[0])}</p><p class="en">${esc(x.q[1])}</p><div class="box"><p>${esc(x.d[0])}</p><p class="en">${esc(x.d[1])}</p></div>`:'';
 const wlink=(id,t,r)=>`<p class="wl"><span class="lk" tabindex="0" data-id="${id}">${esc(t)}</span>${r?' — '+esc(r):''}</p>`;
 function entryHTML(e,mid=''){let h=`<h2 class="hd">${esc(e.h||e.t)}</h2>`+(e.r?`<p class="tr">${esc(e.r)}</p>`:'')+mid;
  if(e.gd)h+=`<div class="gd"><p><b>GENRE</b> ${esc(e.gd[0])} <b>· DIFFÉRENCE</b> ${esc(e.gd[1])}</p><p class="en">Genus: ${esc(e.gd[2])} · Difference: ${esc(e.gd[3])}</p></div>`;
@@ -36,7 +36,7 @@ function keyBlock(n,id){if(!n.k)return'';KW[id]={root:n.k,stack:[],ents:Object.f
  return `<button class="kbtn" data-kopen="${id}">Trouver le mot pas à pas · Find the word step by step</button><div class="key" id="key-${id}" hidden></div>`}
 function kPath(n,id,acc=[]){if(Array.isArray(n))return n.includes(id)?acc:null;for(const b of n.br){const r=kPath(b[2],id,acc.concat([[n.q[0],b[0]]]));if(r)return r}return null}
 function porHTML(x,k){const L=[],pg=PGEN[k];
- L.push(['Genre de départ',`Partie ${THNAME[k][0]} — ${THNAME[k][1]}`,pg?.[0]]);
+ L.push(['Genre de départ',THNAME[k][1],pg?.[0]]);
  L.push(['Thème',x.t.fr,x.t.d?.[0]]);
  if(x.s)L.push(['Section',x.s.fr,x.s.d?.[0]]);
  const g=x.n||x.f;if(g&&g.q)L.push(['Question',g.q[0],g.d?.[0]]);
@@ -58,22 +58,22 @@ const wzBtn=(i,title,sub,n,en)=>`<button data-wz="${i}">${n!=null?`<span class="
 const nW=n=>Array.isArray(n)?n.length:n.br.reduce((a,b)=>a+nW(b[2]),0);
 async function wiz(){last=wiz;const P=WP,crumbs=[];let h='',pre='',opts='',step='',q='',qen='',box='',words=null,near=null;
  const pr=P.length>0?FRONT.parts[P[0]]:null;
- if(!pr){step='Étape 1 · Le genre le plus large';q='De quel domaine parle le mot que vous cherchez ?';qen='What area does the word you are looking for belong to?';
+ if(!pr){step='Le genre le plus large';q='De quel domaine parle le mot que vous cherchez ?';qen='What area does the word you are looking for belong to?';
   opts=FRONT.parts.map((p,i)=>wzBtn(i,p.fr,p.gen?.[0],null,p.en)).join('');pre=`<div class="msearch"><label for="wzq">Le plus rapide : décrivez le sens avec vos mots</label><p class="en">Fastest: describe the meaning in your own words</p><div class="mrow"><input id="wzq" type="search" placeholder="ex. : peur de la technologie, not said out loud…" value="${esc(MQ)}"><button id="wzgo">Chercher</button></div><div id="mres"></div></div><p class="wz-step">Ou descendez l'arbre, du plus général au mot</p>`}
  else{crumbs.push(['Domaine',pr.fr]);const th=P.length>1?pr.themes[P[1]]:null;
-  if(!th){step='Étape 2 · Le thème';q='Quel thème correspond le mieux ?';qen='Which theme fits best?';
+  if(!th){step='Le thème';q='Quel thème correspond le mieux ?';qen='Which theme fits best?';
    opts=pr.themes.map((t,i)=>wzBtn(i,t[0],t[5]?.[0],null,t[1])).join('')}
   else{crumbs.push(['Thème',th[0]]);out.innerHTML='<p class="st">Chargement…</p>';const t=await getTh(th[2]);
    const items=[...t.fiches.map((f,i)=>({k:'f'+i,fr:f.fr,en:f.en,d:f.d?.[0],n:f.wl.length,f})),...t.secs.map((s,i)=>({k:'s'+i,fr:s.fr,en:s.en,d:s.d?.[0],n:s.n.reduce((a,x)=>a+x.e.length,0),ex:s.n.map(x=>x.e[0]&&x.e[0].t).filter(Boolean).slice(0,4),s}))];
    if(P.length===2&&items.length===1){P.push(items[0].k);WAUTO.add(2)}
    const it=P.length>2?items.find(x=>x.k===P[2]):null;
-   if(!it){step='Étape 3 · La famille de mots';q='Dans quelle famille se trouve le mot ?';qen='Which family is the word in?';
+   if(!it){step='La famille de mots';q='Dans quelle famille se trouve le mot ?';qen='Which family is the word in?';
     opts=items.map(x=>wzBtn(x.k,x.fr,(x.ex&&x.ex.length?'ex. : '+x.ex.join(', ')+'. ':'')+(x.d||''),x.n,x.en!==x.fr?x.en:'')).join('')}
    else{crumbs.push(['Famille',it.fr]);
     if(it.f){step='Les mots';q=it.f.q?it.f.q[0]:it.fr;words=it.f.wl.map(w=>[w[0],w[1],w[2]])}
     else{const ns=it.s.n;if(P.length===3&&ns.length===1){P.push(0);WAUTO.add(3)}
      const n=P.length>3?ns[P[3]]:null;
-     if(!n){step='Étape 4 · La question';q='Quelle question décrit le mieux ce que vous cherchez ?';qen='Which question best describes what you are looking for?';
+     if(!n){step='La question';q='Quelle question décrit le mieux ce que vous cherchez ?';qen='Which question best describes what you are looking for?';
       opts=ns.map((x,i)=>wzBtn(i,(QT[x.qt]?QT[x.qt][0]+' — ':'')+(x.q?x.q[0]:'Mots'),x.d?.[0],x.e.length,x.q?.[1])).join('')}
      else{crumbs.push(['Question',n.q?n.q[0]:'Mots']);const ents=Object.fromEntries(n.e.map(e=>[e.i||e.ref,e]));
       if(!n.k){step='Les mots';q=n.q?.[0]||'';box=n.d;words=n.e.map(e=>[e.i||e.ref,e.t,e.r])}
@@ -81,7 +81,7 @@ async function wiz(){last=wiz;const P=WP,crumbs=[];let h='',pre='',opts='',step=
        for(;k<P.length;k++){crumbs.push(['Différence',node.br[P[k]][0]]);parent=node;node=node.br[P[k]][2]}
        if(Array.isArray(node)){step='Le mot';q=n.q[0];words=node.map(i=>[i,ents[i]?.t,ents[i]?.r]);
         if(parent)near=kWords(parent).filter(i=>!node.includes(i)).map(i=>[i,ents[i]?.t])}
-       else{step=`Étape ${5+P.length-4} · Différence`;q=node.q[0];qen=node.q[1];
+       else{step='Différence';q=node.q[0];qen=node.q[1];
         opts=node.br.map((b,j)=>wzBtn(j,b[0],'',nW(b[2]),b[1])).join('')}}}}}}}
  h+=`<div class="wz-crumbs">`+(crumbs.length?`<button data-wzc="0"><b>↺</b>Début</button>`:'')+crumbs.map((c,i)=>`<button data-wzc="${i+1}"><b>${esc(c[0])}</b>${esc(c[1])}</button>`).join('')+`</div>`;
  h+=pre+`<p class="wz-step">${esc(step)}</p><p class="wz-q">${esc(q)}</p>${qen?`<p class="en">${esc(qen)}</p>`:''}`;
@@ -102,17 +102,17 @@ async function show(id){const prev=last;const r=IDX.find(x=>x[2]===id);if(!r){ou
  const me=()=>show(id);wireBack(prev);last=me;window.scrollTo(0,0)}
 function search(){last=search;const v=norm($('#q').value.trim());if(!v){out.innerHTML=`<p class="st">${IDX.length.toLocaleString('fr')} mots et expressions dans les 8 volumes (5 tomes, Verbes, Adjectifs, Descriptions). Tapez un mot anglais (ex. <i>jenny</i>) ou français (ex. <i>ânesse</i>).</p>`;return}
  const a=[],b=[],c=[];for(const r of IDX){const t=norm(r[0]),f=norm(r[1]);if(t===v||f===v)a.push(r);else if(t.startsWith(v)||f.startsWith(v))b.push(r);else if(v.length>2&&(t.includes(v)||f.includes(v)||norm(r[4]).includes(v)))c.push(r);if(a.length+b.length>300)break}
- let res=a.concat(b,c);if(!res.length){const T=v.split(/\s+/).filter(w=>w.length>2);if(T.length>1)for(const r of IDX){const h=norm(r[0]+' '+r[1]+' '+r[4]);if(T.every(t=>h.includes(t))){res.push(r);if(res.length>150)break}}}res=res.slice(0,150);out.innerHTML=(res.length?`<p class="st">${res.length} résultat${res.length>1?'s':''}</p>`:`<p class="st">Aucun mot ne porte ce nom. Si vous cherchez par le sens, utilisez l'onglet « Je connais le sens ».</p>`)+`<ul class="res">`+res.map(r=>`<li tabindex="0" data-id="${r[2]}"><b>${esc(r[0])}</b> — ${esc(r[1])}<span class="p">${esc(r[4])}<span class="vol">${esc(VOLOF[r[3]])}</span></span></li>`).join('')+'</ul>'}
-function browse(){last=browse;out.innerHTML=FRONT.parts.map(p=>`<details class="pt"><summary>Partie ${esc(p.num)} — ${esc(p.fr)} <span class="vol">${esc(p.vol)}</span><br><span class="en">${esc(p.en)}</span></summary>`+p.themes.map(t=>`<span class="thl lk" tabindex="0" data-th="${t[2]}">${esc(t[0])}<small>${esc(t[1])} · ${t[3]?t[3]+' fiches · ':''}${t[4]} questions</small></span>`).join('')+`</details>`).join('')}
+ let res=a.concat(b,c);if(!res.length){const T=v.split(/\s+/).filter(w=>w.length>2);if(T.length>1)for(const r of IDX){const h=norm(r[0]+' '+r[1]+' '+r[4]);if(T.every(t=>h.includes(t))){res.push(r);if(res.length>150)break}}}res=res.slice(0,150);out.innerHTML=(res.length?`<p class="st">${res.length} résultat${res.length>1?'s':''}</p>`:`<p class="st">Aucun mot ne porte ce nom. Si vous cherchez par le sens, utilisez l'onglet « Je connais le sens ».</p>`)+`<ul class="res">`+res.map(r=>`<li tabindex="0" data-id="${r[2]}"><b>${esc(r[0])}</b><span class="t">${esc(r[1])}</span><span class="p">${esc(r[4])}</span><span class="vol">${esc(VOLOF[r[3]])}</span></li>`).join('')+'</ul>'}
+function browse(){last=browse;out.innerHTML=FRONT.parts.map(p=>`<details class="pt"><summary><span class="pn">${esc(p.fr)}</span> <span class="vol">${esc(p.vol)}</span><span class="en">${esc(p.en)}</span></summary>`+p.themes.map(t=>`<span class="thl lk" tabindex="0" data-th="${t[2]}">${esc(t[0])}<small>${esc(t[1])} · ${t[3]?t[3]+' fiches · ':''}${t[4]} questions</small></span>`).join('')+`</details>`).join('')}
 async function theme(k,anchor){const prev=last;out.innerHTML='<p class="st">Chargement du thème…</p>';const t=await getTh(k);
- let h=backBtn()+`<p class="path">Partie ${esc(THNAME[k][0])} · ${esc(THNAME[k][1])} <span class="vol">${esc(VOLOF[k])}</span></p><h2 class="hd">${esc(t.fr)}</h2><p class="en">${esc(t.en)}</p>`+(t.d?`<div class="box"><p>${esc(t.d[0])}</p><p class="en">${esc(t.d[1])}</p></div>`:'');
+ let h=backBtn()+`<p class="path">${esc(THNAME[k][1])} <span class="vol">${esc(VOLOF[k])}</span></p><h2 class="hd">${esc(t.fr)}</h2><p class="en">${esc(t.en)}</p>`+(t.d?`<div class="box"><p>${esc(t.d[0])}</p><p class="en">${esc(t.d[1])}</p></div>`:'');
  t.fiches.forEach((f,fi)=>{h+=`<h3 class="sec">${esc(f.fr)}</h3><p class="en">${esc(f.en)}</p>`+qhead(f,'f'+fi)+f.b.map(b=>`<div class="lab">${esc(b[0])}</div>`+pair(b[2],b[3])).join('')+`<div class="lab">Mots</div>`+f.wl.map(w=>wlink(w[0],w[1],w[2])).join('')});
  let g=null;t.secs.forEach((s,si)=>{if(s.g&&s.g!==g){g=s.g;h+=`<p class="grp">${esc(g)}</p>`}h+=`<h3 class="sec">${esc(s.fr)}</h3>`+(s.en&&s.en!==s.fr?`<p class="en">${esc(s.en)}</p>`:'')+(s.d?`<p class="sd">${esc(s.d[0])}</p><p class="sd en">${esc(s.d[1])}</p>`:'')+s.n.map((n,k2)=>qhead(n,`s${si}_${k2}`)+keyBlock(n,`${k}-${si}-${k2}`)+n.e.map(e=>wlink(e.i||e.ref,e.t,e.r)).join('')).join('')});
  out.innerHTML=h;wireBack(prev);last=()=>theme(k);const el=anchor&&document.getElementById(anchor);if(el)el.scrollIntoView();else window.scrollTo(0,0)}
 function quest(){last=quest;let h=`<p class="st">Vous ne savez pas quelle question poser ? Partez du type de question. Chaque type réunit les questions qui demandent la même sorte de chose, rangées par thème.</p>`;
  for(const [n,q] of Object.entries(QT)){const items=FRONT.qrep.filter(r=>r[0]==n);if(!items.length)continue;
-  h+=`<details><summary><span class="chip" style="background:${q[4]}">${n}</span>${esc(q[0])} <span class="en">· ${esc(q[1])}</span> <span class="vol">${items.length}</span><br><span class="path">${esc(q[2])}</span></summary>`;let cur=null;
-  for(const r of items){if(r[1]!==cur){cur=r[1];h+=`<p class="qth">${esc(cur)}</p>`}h+=`<span class="qi lk" tabindex="0" style="border-color:${q[4]}" data-th="${r[3]}" data-a="${r[4]}">${esc(r[2])}</span>`}h+='</details>'}
+  h+=`<details><summary><span class="sw" style="--qc:${q[4]}"></span>${esc(q[0])} <span class="en">· ${esc(q[1])}</span> <span class="vol">${items.length}</span><br><span class="path">${esc(q[2])}</span></summary>`;let cur=null;
+  for(const r of items){if(r[1]!==cur){cur=r[1];h+=`<p class="qth">${esc(cur)}</p>`}h+=`<span class="qi lk" tabindex="0" style="--qc:${q[4]}" data-th="${r[3]}" data-a="${r[4]}">${esc(r[2])}</span>`}h+='</details>'}
  out.innerHTML=h}
 function guide(){last=guide;const it=x=>x.type==='heading'?`<p class="q">${esc(x.fr)}</p><p class="en">${esc(x.en)}</p>`:pair(x.fr,x.en);
  const o=FRONT.origin;out.innerHTML=`<div class="card">${FRONT.mode.map(it).join('')}</div><div class="card"><h2 class="hd">${esc(o.title_fr)}</h2>`+o.sections.map(s=>`<p class="q">${esc(s.title_fr)}</p>`+s.entries.map(e=>e.blocks.map(b=>`<div class="lab">${esc(b.label_fr||b.label)}</div>`+pair(b.fr,b.en)).join('')).join('<hr>')).join('')+(FRONT.gold||[]).map(it).join('')+'</div>'}
