@@ -9,7 +9,9 @@ import { estOutil } from "../lib/gloses.ts";
 import { minuscules } from "../lib/normaliser.ts";
 import { decouper, expliquer, sensPossibles } from "../lib/sens.ts";
 
-const N = 50;
+// N=30 MODE=aveugle : le juge choisit le sens sans voir la réponse du système (audit du 2026-11-13).
+const N = Number(process.env.N ?? 50);
+const AVEUGLE = process.env.MODE === "aveugle";
 const JUGE = "claude-sonnet-5-5";
 const PARALLELE = 5;
 let graine = 20261113;
@@ -33,6 +35,20 @@ while (cas.length < N) {
 }
 
 const api = new Anthropic({ maxRetries: 4 });
+// À l'aveugle : le juge donne le numéro du bon sens (0 = aucun ne convient), sans voir le système.
+async function choisir(phrase: string, mot: string, sens: string[]): Promise<{ choix: number; raison: string }> {
+  const r = await api.messages.create({ model: JUGE, max_tokens: 800, messages: [{ role: "user", content:
+`Phrase : « ${phrase} »
+Mot : « ${mot} »
+Sens possibles :
+${sens.map((s, i) => `${i + 1}. ${s}`).join("\n")}
+Dans quel sens le mot est-il employé dans cette phrase ? Donne le numéro, ou 0 si aucun sens de la liste ne convient.
+Réponds uniquement par un objet JSON : {"choix": <numéro>, "raison": "<une phrase>"}` }] });
+  const t = r.content.map((b) => (b.type === "text" ? b.text : "")).join("");
+  const j = JSON.parse(t.match(/\{[\s\S]*\}/)?.[0] ?? "{}");
+  return { choix: Number(j.choix ?? -1), raison: String(j.raison ?? "") };
+}
+
 async function juger(phrase: string, mot: string, sens: string[], verdict: string): Promise<{ correct: boolean; raison: string }> {
   const r = await api.messages.create({ model: JUGE, max_tokens: 800, messages: [{ role: "user", content:
 `Tu juges un système qui dit dans quel sens un mot est employé dans une phrase.
@@ -60,8 +76,17 @@ async function ouvrier() {
       const e = await expliquer(q, ctx, sens);
       const verdict = e.tranche && e.sens_retenu === "AUCUN" ? `aucun des sens proposés ne convient ; le sens ici est : « ${e.reformulation_fr} »`
         : e.tranche ? `sens retenu : « ${libelle(e.sens_retenu!)} »` : `on ne peut pas trancher entre « ${libelle(e.sens_alternatifs[0])} » et « ${libelle(e.sens_alternatifs[1])} »`;
-      const j = await juger(ctx.phrase, x.mot, sens.map((s) => `${s.texte_fr} [${s.domaine}]`), verdict);
-      resultats[i] = { mot: x.mot, phrase: ctx.phrase, n_sens: sens.length, verdict, indices: e.indices.map((ind) => ind.mot), ...j };
+      const libelles = sens.map((s) => `${s.texte_fr} [${s.domaine}]`);
+      if (AVEUGLE) {
+        const j = await choisir(ctx.phrase, x.mot, libelles);
+        const systeme = e.tranche ? (e.sens_retenu === "AUCUN" ? 0 : sens.findIndex((y) => y.id === e.sens_retenu) + 1) : -1;
+        const alternatifs = e.sens_alternatifs.map((id) => sens.findIndex((y) => y.id === id) + 1);
+        resultats[i] = { mot: x.mot, phrase: ctx.phrase, n_sens: sens.length, systeme, alternatifs, juge: j.choix, raison: j.raison,
+          aucun_systeme: systeme === 0, aucun_juge: j.choix === 0, correct: systeme === j.choix, partiel: systeme === -1 && alternatifs.includes(j.choix) };
+      } else {
+        const j = await juger(ctx.phrase, x.mot, libelles, verdict);
+        resultats[i] = { mot: x.mot, phrase: ctx.phrase, n_sens: sens.length, verdict, indices: e.indices.map((ind) => ind.mot), ...j };
+      }
     } catch (err) {
       resultats[i] = { mot: x.mot, phrase: ctx.phrase, n_sens: sens.length, correct: false, rejete: String(err) };
     }
@@ -70,7 +95,10 @@ async function ouvrier() {
 await Promise.all(Array.from({ length: PARALLELE }, ouvrier));
 await c.end();
 const justes = resultats.filter((r) => r.correct).length;
-const resume = { occurrences: N, justes, taux: justes / N, rejetes: resultats.filter((r) => r.rejete).length };
-writeFileSync("tests/resultats/sens-fr.json", JSON.stringify({ resume, resultats }, null, 1));
+const resume = { mode: AVEUGLE ? "aveugle" : "le juge voit la réponse", occurrences: N, justes, taux: justes / N,
+  rejetes: resultats.filter((r) => r.rejete).length,
+  ...(AVEUGLE ? { aucun_systeme: resultats.filter((r) => r.aucun_systeme).length, aucun_juge: resultats.filter((r) => r.aucun_juge).length,
+    aucun_les_deux: resultats.filter((r) => r.aucun_systeme && r.aucun_juge).length, non_tranches_avec_bon_sens: resultats.filter((r) => r.partiel).length } : {}) };
+writeFileSync(`tests/resultats/sens-fr${AVEUGLE ? "-aveugle" : ""}.json`, JSON.stringify({ resume, resultats }, null, 1));
 console.log(JSON.stringify(resume, null, 1));
-for (const r of resultats.filter((x) => !x.correct)) console.log("✗", r.mot, "|", String(r.phrase).slice(0, 90), "|", r.verdict ?? r.rejete, "|", r.raison ?? "");
+for (const r of resultats.filter((x) => !x.correct)) console.log("✗", r.mot, "|", String(r.phrase).slice(0, 80), "|", AVEUGLE ? `système ${r.systeme} / juge ${r.juge}` : r.verdict ?? r.rejete, "|", String(r.raison ?? r.rejete ?? "").slice(0, 160));

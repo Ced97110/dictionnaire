@@ -22,11 +22,20 @@ const V3 =
   '"reformulation_en": "...", "role_fr": "<ce que fait le mot : sujet, action, qualité de tel nom…>", "role_en": "...", ' +
   '"rattache_a": "<le mot de la phrase auquel il se rattache>"}';
 
+// Choix seul (audit du 2026-11-13) : pas d'explication, pas d'incitation vers le sens le plus
+// fréquent, pas d'option « aucun ». Mesure le plafond de Haiku sur la seule tâche de choix.
+const CHOIX_SEUL =
+  "Dans quel sens le mot est-il employé dans la PHRASE ? La phrase précédente et la suivante servent de contexte.\n" +
+  "Choisis exactement un identifiant de la liste. Cite 1 à 3 indices : des mots copiés tels quels de la PHRASE, " +
+  "sans le mot lui-même.\n" +
+  'Réponds uniquement par un objet JSON : {"indices": [{"mot": "<mot de la phrase>"}], "sens_retenu": "<identifiant>"}';
+
 interface Variante { options: Options; synonymes: boolean }
 const VARIANTES: Record<string, Variante> = {
   v3: { options: { consigne: V3 }, synonymes: false },
   v4: { options: {}, synonymes: true },
   "v4-reflexion": { options: { reflechir: true }, synonymes: true },
+  "choix-seul": { options: { consigne: CHOIX_SEUL }, synonymes: true },
 };
 const choisies = process.argv.slice(2).length ? process.argv.slice(2) : Object.keys(VARIANTES);
 const cas = JSON.parse(readFileSync("tests/semcor_dev.json", "utf8")) as any[];
