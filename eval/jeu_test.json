@@ -1,0 +1,2402 @@
+[
+ {
+  "id": "d005799",
+  "t": "clearcut",
+  "r": "coupe rase (coupe à blanc)",
+  "sid": 403,
+  "section": "Nature, terre et climat › Arbres, forêts et jungles",
+  "jeu": "reglage"
+ },
+ {
+  "id": "a8_1",
+  "t": "orthodoxe",
+  "r": "orthodox",
+  "sid": 742,
+  "section": "La vie sociale › Croyances et principes",
+  "jeu": "reglage"
+ },
+ {
+  "id": "x03395",
+  "t": "anguineous",
+  "r": "serpentin",
+  "sid": 796,
+  "section": "Terre, ciel et animaux › Adjectifs désignant les animaux",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d003507",
+  "t": "camphor glass",
+  "r": "≈ verre camphre (verre blanc laiteux, verre opaque blanc)",
+  "sid": 231,
+  "section": "Apparence, vêtements et mode › Bijoux",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d013571",
+  "t": "lifeguard submarine",
+  "r": "sous-marin de sauvetage (sous-marin de recueil)",
+  "sid": 44,
+  "section": "Conflit, guerre et armes › Sous-marins",
+  "jeu": "reglage"
+ },
+ {
+  "id": "s02083",
+  "t": "minmax()",
+  "r": "min-max",
+  "sid": 524,
+  "section": "Frontend › termes CSS : mise en page (flexbox, grid, positionnement)",
+  "jeu": "reglage"
+ },
+ {
+  "id": "a52_1",
+  "t": "sain, saine",
+  "r": "healthy",
+  "sid": 687,
+  "section": "Le monde physique et le corps › Santé et soins",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d017698",
+  "t": "osmium",
+  "r": "osmium",
+  "sid": 472,
+  "section": "Sciences et technologies › Éléments",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d000377",
+  "t": "velociraptor",
+  "r": "vélociraptor",
+  "sid": 367,
+  "section": "Animaux › Dinosaures",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d020452",
+  "t": "mile pole",
+  "r": "≈ poteau du mile (poteau d'un mile)",
+  "sid": 276,
+  "section": "Sports et loisirs › Courses de pur-sang",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d003589",
+  "t": "fede ring",
+  "r": "bague fede (bague de mains jointes)",
+  "sid": 231,
+  "section": "Apparence, vêtements et mode › Bijoux",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d001808",
+  "t": "ambry",
+  "r": "≈ armoire eucharistique (armarium, niche aux saintes huiles)",
+  "sid": 424,
+  "section": "Architecture, maison et mobilier › Édifices religieux",
+  "jeu": "reglage"
+ },
+ {
+  "id": "b30911",
+  "t": "free cash flow to the firm (FCFF)",
+  "r": "flux de trésorerie disponible pour l'entreprise",
+  "sid": 96,
+  "section": "Économie, argent et métiers › Évaluation",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d014700",
+  "t": "mortuary science",
+  "r": "thanatopraxie (science funéraire)",
+  "sid": 82,
+  "section": "Économie, argent et métiers › Services funéraires",
+  "jeu": "reglage"
+ },
+ {
+  "id": "b31033",
+  "t": "value investing",
+  "r": "investissement en valeur",
+  "sid": 99,
+  "section": "Économie, argent et métiers › Efficience et comportement des marchés",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d022351",
+  "t": "au courant",
+  "r": "au courant (à la page, informé)",
+  "sid": 126,
+  "section": "Parole, langue et écriture › Mots et expressions à connaître",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d002472",
+  "t": "Sainte-Baume marble",
+  "r": "marbre de Sainte-Baume (Sainte-Baume)",
+  "sid": 169,
+  "section": "Arts visuels › Marbres de sculpture",
+  "jeu": "reglage"
+ },
+ {
+  "id": "s00711",
+  "t": "decision tree",
+  "r": "arbre de décision",
+  "sid": 501,
+  "section": "Algorithmes et structures de données › arbres",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d011071",
+  "t": "comprobatio",
+  "r": "≈ comprobatio (flatterie persuasive)",
+  "sid": 125,
+  "section": "Parole, langue et écriture › Mots à propos des mots",
+  "jeu": "reglage"
+ },
+ {
+  "id": "b10341",
+  "t": "safe-haven currency",
+  "r": "monnaie refuge",
+  "sid": 85,
+  "section": "Économie, argent et métiers › Monnaies de réserve et réserves de change",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d010827",
+  "t": "booty",
+  "r": "fesses (derrière, cul)",
+  "sid": 122,
+  "section": "Parole, langue et écriture › Argot de rue et de rap",
+  "jeu": "reglage"
+ },
+ {
+  "id": "x05100",
+  "t": "naughty",
+  "r": "vilain",
+  "sid": 818,
+  "section": "Les personnes › Tempérament et comportement",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d019611",
+  "t": "defensemen",
+  "r": "défenseurs (arrières)",
+  "sid": 261,
+  "section": "Sports et loisirs › Hockey",
+  "jeu": "reglage"
+ },
+ {
+  "id": "a71_1",
+  "t": "puissant, puissante",
+  "r": "powerful",
+  "sid": 756,
+  "section": "La vie sociale › Pouvoir et contrôle",
+  "jeu": "reglage"
+ },
+ {
+  "id": "s02609",
+  "t": "dropper",
+  "r": "logiciel de dépôt",
+  "sid": 552,
+  "section": "Sécurité frontend et applicative › menaces, vulnérabilités et logiciels malveillants",
+  "jeu": "reglage"
+ },
+ {
+  "id": "s03542",
+  "t": "physical layer",
+  "r": "couche physique",
+  "sid": 575,
+  "section": "Internet et réseaux › modèle en couches (OSI, TCP/IP)",
+  "jeu": "reglage"
+ },
+ {
+  "id": "x00416",
+  "t": "naviculiform",
+  "r": "naviculiforme",
+  "sid": 764,
+  "section": "Propriétés des choses › FORMES PARTICULIÈRES OU RESSEMBLANCES",
+  "jeu": "reglage"
+ },
+ {
+  "id": "x04296",
+  "t": "dashing",
+  "r": "se précipiter",
+  "sid": 808,
+  "section": "Les personnes › Démarche",
+  "jeu": "reglage"
+ },
+ {
+  "id": "s03782",
+  "t": "cache key",
+  "r": "clé de cache",
+  "sid": 580,
+  "section": "Internet et réseaux › CDN, latence et bande passante",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d011010",
+  "t": "amphibology",
+  "r": "amphibologie (double sens involontaire)",
+  "sid": 125,
+  "section": "Parole, langue et écriture › Mots à propos des mots",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d019846",
+  "t": "axel, inside",
+  "r": "≈ axel intérieur (axel sur un pied)",
+  "sid": 268,
+  "section": "Sports et loisirs › Patinage",
+  "jeu": "reglage"
+ },
+ {
+  "id": "v26_3",
+  "t": "anéantir",
+  "r": "to annihilate",
+  "sid": 656,
+  "section": "Affaiblir et détruire › Destruction et dévastation",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d016685",
+  "t": "Bacchus",
+  "r": "Bacchus (Dionysos)",
+  "sid": 309,
+  "section": "Croyances, religions et sacré › Mythologie grecque et romaine",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d009171",
+  "t": "bipolar disorder",
+  "r": "trouble bipolaire (psychose maniaco-dépressive)",
+  "sid": 346,
+  "section": "Corps, santé et médecine › Psychologie et psychiatrie",
+  "jeu": "reglage"
+ },
+ {
+  "id": "x02320",
+  "t": "palace",
+  "r": "palais",
+  "sid": 780,
+  "section": "Structures et espaces › Types de bâtiments et d'habitations",
+  "jeu": "reglage"
+ },
+ {
+  "id": "b30861",
+  "t": "convexity",
+  "r": "convexité",
+  "sid": 94,
+  "section": "Économie, argent et métiers › Obligations",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d019025",
+  "t": "sabreur",
+  "r": "sabreur (tireur au sabre)",
+  "sid": 255,
+  "section": "Sports et loisirs › Escrime",
+  "jeu": "reglage"
+ },
+ {
+  "id": "x03836",
+  "t": "porcelain",
+  "r": "de porcelaine",
+  "sid": 799,
+  "section": "Les personnes › Tête, visage, teint et peau",
+  "jeu": "reglage"
+ },
+ {
+  "id": "x01028",
+  "t": "faux finishing",
+  "r": "en trompe-l'œil de bois ou de marbre",
+  "sid": 768,
+  "section": "Propriétés des choses › Surfaces et textures",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d014836",
+  "t": "M.O.",
+  "r": "mode opératoire (modus operandi)",
+  "sid": 24,
+  "section": "Loi, crime et sanction › Police et détectives",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d012227",
+  "t": "complete blood count",
+  "r": "numération formule sanguine (NFS, hémogramme)",
+  "sid": 354,
+  "section": "Corps, santé et médecine › Terminologie médicale et examens",
+  "jeu": "reglage"
+ },
+ {
+  "id": "s03702",
+  "t": "authoritative server",
+  "r": "serveur faisant autorité",
+  "sid": 578,
+  "section": "Internet et réseaux › DNS et noms de domaine",
+  "jeu": "reglage"
+ },
+ {
+  "id": "w81_3",
+  "t": "distrust",
+  "r": "méfiance",
+  "sid": 114,
+  "section": "Doute et incertitude › Doute et scepticisme",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d010040",
+  "t": "Somnus",
+  "r": "Somnus",
+  "sid": 351,
+  "section": "Corps, santé et médecine › Sommeil",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d003671",
+  "t": "parure",
+  "r": "parure",
+  "sid": 231,
+  "section": "Apparence, vêtements et mode › Bijoux",
+  "jeu": "reglage"
+ },
+ {
+  "id": "x02417",
+  "t": "carport",
+  "r": "abri pour voiture",
+  "sid": 781,
+  "section": "Structures et espaces › Parties ou éléments des bâtiments et habitations",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d005127",
+  "t": "pingo",
+  "r": "pingo",
+  "sid": 393,
+  "section": "Nature, terre et climat › Géologie et reliefs",
+  "jeu": "reglage"
+ },
+ {
+  "id": "x05534",
+  "t": "antipathetic",
+  "r": "antipathique",
+  "sid": 818,
+  "section": "Les personnes › Tempérament et comportement",
+  "jeu": "reglage"
+ },
+ {
+  "id": "x04205",
+  "t": "snub-nosed",
+  "r": "au nez camus",
+  "sid": 804,
+  "section": "Les personnes › Nez et oreilles",
+  "jeu": "reglage"
+ },
+ {
+  "id": "x04796",
+  "t": "metatarsals",
+  "r": "métatarsiens",
+  "sid": 814,
+  "section": "Les personnes › Termes médicaux pour les os et autres parties anatomiques",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d000709",
+  "t": "spiracles",
+  "r": "stigmates (spiracles)",
+  "sid": 372,
+  "section": "Animaux › Insectes et araignées",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d013276",
+  "t": "fallout",
+  "r": "retombées radioactives (retombées)",
+  "sid": 41,
+  "section": "Conflit, guerre et armes › Missiles, armes nucléaires et fusées",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d018735",
+  "t": "move out",
+  "r": "≈ se décaler vers le bord (démarrer sur le côté)",
+  "sid": 249,
+  "section": "Sports et loisirs › Bowling",
+  "jeu": "reglage"
+ },
+ {
+  "id": "x00674",
+  "t": "vorticiform",
+  "r": "vorticiforme",
+  "sid": 764,
+  "section": "Propriétés des choses › FORMES PARTICULIÈRES OU RESSEMBLANCES",
+  "jeu": "reglage"
+ },
+ {
+  "id": "x02214",
+  "t": "electric blue",
+  "r": "bleu électrique",
+  "sid": 778,
+  "section": "Propriétés des choses › Couleurs",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d014816",
+  "t": "informer",
+  "r": "indicateur (informateur, mouchard)",
+  "sid": 24,
+  "section": "Loi, crime et sanction › Police et détectives",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d009514",
+  "t": "psychic blindness",
+  "r": "cécité psychique",
+  "sid": 346,
+  "section": "Corps, santé et médecine › Psychologie et psychiatrie",
+  "jeu": "reglage"
+ },
+ {
+  "id": "x01847",
+  "t": "adjoined",
+  "r": "adjoint",
+  "sid": 775,
+  "section": "Propriétés des choses › Distance et contact",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d014867",
+  "t": "reverse paternity DNA",
+  "r": "test ADN de filiation inversée",
+  "sid": 24,
+  "section": "Loi, crime et sanction › Police et détectives",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d011493",
+  "t": "non vult contendere",
+  "r": "plaidoyer de non-contestation (nolo contendere, non vult contendere)",
+  "sid": 21,
+  "section": "Loi, crime et sanction › Droit pénal et responsabilité délictuelle",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d020905",
+  "t": "pipe wrench",
+  "r": "clé à tubes (clé serre-tube)",
+  "sid": 458,
+  "section": "Matière, forme, mesure et outils › Clés",
+  "jeu": "reglage"
+ },
+ {
+  "id": "b30961",
+  "t": "intrinsic value of an option",
+  "r": "valeur intrinsèque d'une option",
+  "sid": 97,
+  "section": "Économie, argent et métiers › Produits dérivés",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d020562",
+  "t": "tail wind",
+  "r": "vent arrière (vent dans le dos)",
+  "sid": 277,
+  "section": "Sports et loisirs › Athlétisme",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d016917",
+  "t": "thunderbirds",
+  "r": "oiseaux-tonnerre",
+  "sid": 310,
+  "section": "Croyances, religions et sacré › Monstres et créatures fabuleuses",
+  "jeu": "reglage"
+ },
+ {
+  "id": "s02930",
+  "t": "GraphQL",
+  "r": "GraphQL",
+  "sid": 559,
+  "section": "Backend › serveurs et API (REST, GraphQL, RPC)",
+  "jeu": "reglage"
+ },
+ {
+  "id": "x00209",
+  "t": "labyrinthian",
+  "r": "labyrinthien",
+  "sid": 763,
+  "section": "Propriétés des choses › FORMES GÉNÉRALES",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d015923",
+  "t": "toe point tap",
+  "r": "≈ frappe de pointe",
+  "sid": 183,
+  "section": "Spectacle, cinéma et médias › Claquettes",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d013033",
+  "t": "parlimentaire",
+  "r": "parlementaire (émissaire)",
+  "sid": 36,
+  "section": "Conflit, guerre et armes › Armée de terre, forces terrestres et termes militaires généraux",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d021876",
+  "t": "microprobe",
+  "r": "microsonde (mini-sonde)",
+  "sid": 446,
+  "section": "Voyages et transports › Satellites et sondes spatiales",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d018046",
+  "t": "relativity, general theory of",
+  "r": "relativité générale (théorie de la relativité générale)",
+  "sid": 476,
+  "section": "Sciences et technologies › Espace",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d001981",
+  "t": "Maya",
+  "r": "maya (architecture maya)",
+  "sid": 426,
+  "section": "Architecture, maison et mobilier › Styles architecturaux",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d010218",
+  "t": "gobsmacked",
+  "r": "abasourdi (sidéré, estomaqué)",
+  "sid": 116,
+  "section": "Parole, langue et écriture › Mots et argot britanniques",
+  "jeu": "reglage"
+ },
+ {
+  "id": "x03511",
+  "t": "unguiculate",
+  "r": "onguiculé",
+  "sid": 797,
+  "section": "Terre, ciel et animaux › Termes de zoologie",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d009717",
+  "t": "soul kiss",
+  "r": "baiser profond (patin, galoche)",
+  "sid": 157,
+  "section": "Liens humains et société › Sexualité",
+  "jeu": "reglage"
+ },
+ {
+  "id": "b00192",
+  "t": "wage labor",
+  "r": "travail salarié",
+  "sid": 153,
+  "section": "Culture générale : notions clés › Travail, loisirs et sport",
+  "jeu": "reglage"
+ },
+ {
+  "id": "a13_4",
+  "t": "décousu, décousue",
+  "r": "disjointed",
+  "sid": 755,
+  "section": "La vie sociale › Chaos et confusion",
+  "jeu": "reglage"
+ },
+ {
+  "id": "x00358",
+  "t": "campanulate",
+  "r": "campanulé",
+  "sid": 764,
+  "section": "Propriétés des choses › FORMES PARTICULIÈRES OU RESSEMBLANCES",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d004708",
+  "t": "megathrust earthquake",
+  "r": "séisme de subduction (mégaséisme, séisme de méga-chevauchement)",
+  "sid": 387,
+  "section": "Nature, terre et climat › Séismes",
+  "jeu": "reglage"
+ },
+ {
+  "id": "v25_4",
+  "t": "leurrer",
+  "r": "to delude",
+  "sid": 618,
+  "section": "Vérité et tromperie › Tromperie et ruse",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d004955",
+  "t": "prune",
+  "r": "tailler (élaguer)",
+  "sid": 391,
+  "section": "Nature, terre et climat › Jardins et aménagement paysager",
+  "jeu": "reglage"
+ },
+ {
+  "id": "s03411",
+  "t": "PACELC theorem",
+  "r": "théorème PACELC",
+  "sid": 571,
+  "section": "Conception de systèmes › cohérence et théorème CAP",
+  "jeu": "reglage"
+ },
+ {
+  "id": "s03331",
+  "t": "reverse-proxy cache",
+  "r": "cache du proxy inverse",
+  "sid": 569,
+  "section": "Conception de systèmes › cache",
+  "jeu": "reglage"
+ },
+ {
+  "id": "x03862",
+  "t": "masklike",
+  "r": "de masque",
+  "sid": 799,
+  "section": "Les personnes › Tête, visage, teint et peau",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d003257",
+  "t": "seersucker",
+  "r": "seersucker (crépon de coton, tissu gaufré)",
+  "sid": 223,
+  "section": "Apparence, vêtements et mode › Tissus et motifs de tissus",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d000915",
+  "t": "skipper",
+  "r": "hespérie (papillon sauteur)",
+  "sid": 379,
+  "section": "Animaux › Papillons de nuit et papillons de jour",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d018387",
+  "t": "$5 ride in a Yellow Cab",
+  "r": "≈ course de taxi à cinq dollars (gros coup de circuit)",
+  "sid": 246,
+  "section": "Sports et loisirs › Baseball",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d013901",
+  "t": "three striper",
+  "r": "capitaine de frégate (officier à trois galons)",
+  "sid": 48,
+  "section": "Conflit, guerre et armes › Marine",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d004145",
+  "t": "BitTorrent",
+  "r": "BitTorrent",
+  "sid": 590,
+  "section": "Informatique générale et électronique › Internet",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d020340",
+  "t": "aged",
+  "r": "âgé (cheval de sept ans et plus)",
+  "sid": 276,
+  "section": "Sports et loisirs › Courses de pur-sang",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d007310",
+  "t": "salade niçoise",
+  "r": "salade niçoise",
+  "sid": 205,
+  "section": "Fêtes, nourriture et boissons › Salades",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d014472",
+  "t": "polyphonic",
+  "r": "polyphonique (à plusieurs voix)",
+  "sid": 177,
+  "section": "Musique › Voix et chant",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d011669",
+  "t": "arithmancy",
+  "r": "arithmancie (arithmomancie)",
+  "sid": 316,
+  "section": "Croyances, religions et sacré › Magie et occultisme",
+  "jeu": "reglage"
+ },
+ {
+  "id": "s03492",
+  "t": "minimum viable product",
+  "r": "produit minimum viable",
+  "sid": 574,
+  "section": "Conception de systèmes › estimation et exigences",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d008273",
+  "t": "flip",
+  "r": "≈ pointes relevées",
+  "sid": 329,
+  "section": "Corps, santé et médecine › Coiffures",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d006902",
+  "t": "à la portugaise",
+  "r": "à la portugaise",
+  "sid": 198,
+  "section": "Fêtes, nourriture et boissons › Termes de cuisine française",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d015984",
+  "t": "direct to video",
+  "r": "≈ sorti directement en vidéo (direct-to-video)",
+  "sid": 184,
+  "section": "Spectacle, cinéma et médias › Cinéma",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d011964",
+  "t": "soothsaying",
+  "r": "divination (art de prédire l'avenir)",
+  "sid": 316,
+  "section": "Croyances, religions et sacré › Magie et occultisme",
+  "jeu": "reglage"
+ },
+ {
+  "id": "d001748",
+  "t": "puncheon",
+  "r": "madrier (dosse)",
+  "sid": 420,
+  "section": "Architecture, maison et mobilier › Architecture amérindienne",
+  "jeu": "reglage"
+ },
+ {
+  "id": "x04434",
+  "t": "insensible",
+  "r": "insensible",
+  "sid": 809,
+  "section": "Les personnes › Voix",
+  "jeu": "reglage"
+ },
+ {
+  "id": "p0282",
+  "t": "sunk cost",
+  "r": "coût irrécupérable",
+  "sid": 537,
+  "section": "Design de produit › risques, échecs et conduite du changement",
+  "jeu": "reglage"
+ },
+ {
+  "id": "x00801",
+  "t": "schematic",
+  "r": "schématique",
+  "sid": 766,
+  "section": "Propriétés des choses › MOTIFS",
+  "jeu": "test"
+ },
+ {
+  "id": "x04483",
+  "t": "icteric",
+  "r": "ictérique",
+  "sid": 810,
+  "section": "Les personnes › États physiques et symptômes",
+  "jeu": "test"
+ },
+ {
+  "id": "d001654",
+  "t": "chashitsu",
+  "r": "chashitsu (maison de thé, pavillon de thé)",
+  "sid": 417,
+  "section": "Architecture, maison et mobilier › Architecture d'Extrême-Orient",
+  "jeu": "test"
+ },
+ {
+  "id": "d020740",
+  "t": "nadi",
+  "r": "nadi",
+  "sid": 281,
+  "section": "Sports et loisirs › Yoga",
+  "jeu": "test"
+ },
+ {
+  "id": "d004669",
+  "t": "erg",
+  "r": "erg (mer de sable)",
+  "sid": 385,
+  "section": "Nature, terre et climat › Déserts",
+  "jeu": "test"
+ },
+ {
+  "id": "x03095",
+  "t": "warm front",
+  "r": "front chaud",
+  "sid": 792,
+  "section": "Terre, ciel et animaux › Météo et forces de la nature",
+  "jeu": "test"
+ },
+ {
+  "id": "s00927",
+  "t": "hash function",
+  "r": "fonction de hachage",
+  "sid": 504,
+  "section": "Algorithmes et structures de données › hachage et tables",
+  "jeu": "test"
+ },
+ {
+  "id": "d008622",
+  "t": "parambilical",
+  "r": "veine paraombilicale",
+  "sid": 336,
+  "section": "Corps, santé et médecine › Veines",
+  "jeu": "test"
+ },
+ {
+  "id": "w108_3",
+  "t": "perfidy",
+  "r": "perfidie",
+  "sid": 305,
+  "section": "Morale, faute et rachat › Contraire à l'éthique et immoral",
+  "jeu": "test"
+ },
+ {
+  "id": "d019806",
+  "t": "depth gauge",
+  "r": "profondimètre (manomètre de profondeur)",
+  "sid": 266,
+  "section": "Sports et loisirs › Plongée avec bouteille et en apnée",
+  "jeu": "test"
+ },
+ {
+  "id": "d016706",
+  "t": "Daphne",
+  "r": "Daphné",
+  "sid": 309,
+  "section": "Croyances, religions et sacré › Mythologie grecque et romaine",
+  "jeu": "test"
+ },
+ {
+  "id": "x02789",
+  "t": "catstep",
+  "r": "marche de pente",
+  "sid": 788,
+  "section": "Terre, ciel et animaux › Terrain et paysage",
+  "jeu": "test"
+ },
+ {
+  "id": "w112_7",
+  "t": "fever",
+  "r": "fièvre",
+  "sid": 360,
+  "section": "Corps, santé et médecine › Maux et mauvaise santé",
+  "jeu": "test"
+ },
+ {
+  "id": "w103_6",
+  "t": "philistinism",
+  "r": "philistinisme",
+  "sid": 144,
+  "section": "Évaluer autrui : blâme et éloge › Impolitesse et manque de raffinement",
+  "jeu": "test"
+ },
+ {
+  "id": "s01347",
+  "t": "compose",
+  "r": "composer",
+  "sid": 510,
+  "section": "Programmation et code › fonctions et portée",
+  "jeu": "test"
+ },
+ {
+  "id": "x00141",
+  "t": "protuberant",
+  "r": "saillant",
+  "sid": 763,
+  "section": "Propriétés des choses › FORMES GÉNÉRALES",
+  "jeu": "test"
+ },
+ {
+  "id": "d000288",
+  "t": "tom",
+  "r": "matou (chat mâle)",
+  "sid": 366,
+  "section": "Animaux › Chats",
+  "jeu": "test"
+ },
+ {
+  "id": "x02568",
+  "t": "terrazzo",
+  "r": "terrazzo",
+  "sid": 783,
+  "section": "Structures et espaces › Matériaux de construction courants",
+  "jeu": "test"
+ },
+ {
+  "id": "d003876",
+  "t": "archival storage",
+  "r": "stockage d'archivage (stockage d'archives)",
+  "sid": 588,
+  "section": "Informatique générale et électronique › Ordinateurs",
+  "jeu": "test"
+ },
+ {
+  "id": "x03875",
+  "t": "impish",
+  "r": "espiègle",
+  "sid": 799,
+  "section": "Les personnes › Tête, visage, teint et peau",
+  "jeu": "test"
+ },
+ {
+  "id": "a90_2",
+  "t": "oblique",
+  "r": "oblique",
+  "sid": 705,
+  "section": "L'expression et le degré › Subtil et indirect",
+  "jeu": "test"
+ },
+ {
+  "id": "x02041",
+  "t": "nontransparent",
+  "r": "non transparent",
+  "sid": 777,
+  "section": "Propriétés des choses › Lumière",
+  "jeu": "test"
+ },
+ {
+  "id": "v56_5",
+  "t": "se gaver",
+  "r": "to gorge",
+  "sid": 631,
+  "section": "La conduite : règle, excès, maîtrise › Imprudence et excès",
+  "jeu": "test"
+ },
+ {
+  "id": "s01168",
+  "t": "bit mask",
+  "r": "masque de bits",
+  "sid": 508,
+  "section": "Algorithmes et structures de données › bits, nombres et mathématiques discrètes",
+  "jeu": "test"
+ },
+ {
+  "id": "d022173",
+  "t": "poleax",
+  "r": "hache d'armes (hache à long manche)",
+  "sid": 55,
+  "section": "Conflit, guerre et armes › Armes d'hast",
+  "jeu": "test"
+ },
+ {
+  "id": "s02395",
+  "t": "wildcard origin",
+  "r": "origine générique",
+  "sid": 548,
+  "section": "Sécurité frontend et applicative › politiques du navigateur (CSP, CORS, same-origin)",
+  "jeu": "test"
+ },
+ {
+  "id": "s00708",
+  "t": "quadtree",
+  "r": "quadtree",
+  "sid": 501,
+  "section": "Algorithmes et structures de données › arbres",
+  "jeu": "test"
+ },
+ {
+  "id": "x03628",
+  "t": "herbivorous",
+  "r": "herbivore",
+  "sid": 797,
+  "section": "Terre, ciel et animaux › Termes de zoologie",
+  "jeu": "test"
+ },
+ {
+  "id": "a42_2",
+  "t": "artificiel, artificielle",
+  "r": "forced",
+  "sid": 744,
+  "section": "La vie sociale › Faux et hypocrite",
+  "jeu": "test"
+ },
+ {
+  "id": "x03614",
+  "t": "amphivorous",
+  "r": "amphivore",
+  "sid": 797,
+  "section": "Terre, ciel et animaux › Termes de zoologie",
+  "jeu": "test"
+ },
+ {
+  "id": "x05435",
+  "t": "illtempered",
+  "r": "de mauvais caractère",
+  "sid": 818,
+  "section": "Les personnes › Tempérament et comportement",
+  "jeu": "test"
+ },
+ {
+  "id": "x01132",
+  "t": "granitic",
+  "r": "granitique",
+  "sid": 769,
+  "section": "Propriétés des choses › Composition et consistance",
+  "jeu": "test"
+ },
+ {
+  "id": "d005520",
+  "t": "chemical weathering",
+  "r": "altération chimique (météorisation chimique)",
+  "sid": 400,
+  "section": "Nature, terre et climat › Roches et gemmes",
+  "jeu": "test"
+ },
+ {
+  "id": "x04919",
+  "t": "gamy",
+  "r": "faisandé",
+  "sid": 816,
+  "section": "Les personnes › Impressions sensorielles : odorat",
+  "jeu": "test"
+ },
+ {
+  "id": "d015497",
+  "t": "Pulitzer Prize",
+  "r": "prix Pulitzer",
+  "sid": 128,
+  "section": "Parole, langue et écriture › Édition de livres",
+  "jeu": "test"
+ },
+ {
+  "id": "x03925",
+  "t": "broken out",
+  "r": "couvert de boutons",
+  "sid": 799,
+  "section": "Les personnes › Tête, visage, teint et peau",
+  "jeu": "test"
+ },
+ {
+  "id": "s01056",
+  "t": "greedy algorithm",
+  "r": "algorithme glouton",
+  "sid": 506,
+  "section": "Algorithmes et structures de données › programmation dynamique et algorithmes gloutons",
+  "jeu": "test"
+ },
+ {
+  "id": "s03118",
+  "t": "revocation",
+  "r": "révocation",
+  "sid": 563,
+  "section": "Backend › authentification et autorisation",
+  "jeu": "test"
+ },
+ {
+  "id": "d003713",
+  "t": "tragus piercing",
+  "r": "piercing du tragus",
+  "sid": 231,
+  "section": "Apparence, vêtements et mode › Bijoux",
+  "jeu": "test"
+ },
+ {
+  "id": "x00768",
+  "t": "Jolly Roger",
+  "r": "pavillon noir",
+  "sid": 765,
+  "section": "Propriétés des choses › EMBLÈMES ET SYMBOLES COURANTS",
+  "jeu": "test"
+ },
+ {
+  "id": "d021086",
+  "t": "roadster",
+  "r": "roadster",
+  "sid": 435,
+  "section": "Voyages et transports › Automobiles",
+  "jeu": "test"
+ },
+ {
+  "id": "d006767",
+  "t": "acidulated water",
+  "r": "eau acidulée (eau citronnée)",
+  "sid": 197,
+  "section": "Fêtes, nourriture et boissons › Termes de cuisine",
+  "jeu": "test"
+ },
+ {
+  "id": "d018944",
+  "t": "shot rock",
+  "r": "≈ pierre la plus proche (pierre maîtresse)",
+  "sid": 253,
+  "section": "Sports et loisirs › Curling",
+  "jeu": "test"
+ },
+ {
+  "id": "d011382",
+  "t": "dictum",
+  "r": "≈ obiter dictum (dictum)",
+  "sid": 21,
+  "section": "Loi, crime et sanction › Droit pénal et responsabilité délictuelle",
+  "jeu": "test"
+ },
+ {
+  "id": "s02340",
+  "t": "session riding",
+  "r": "chevauchement de session",
+  "sid": 547,
+  "section": "Sécurité frontend et applicative › attaques côté navigateur (XSS, CSRF, clickjacking)",
+  "jeu": "test"
+ },
+ {
+  "id": "x05510",
+  "t": "recalcitrant",
+  "r": "récalcitrant",
+  "sid": 818,
+  "section": "Les personnes › Tempérament et comportement",
+  "jeu": "test"
+ },
+ {
+  "id": "b41055",
+  "t": "business idea",
+  "r": "idée d'affaires",
+  "sid": 538,
+  "section": "Design de produit › Cadre et canevas de base",
+  "jeu": "test"
+ },
+ {
+  "id": "s02292",
+  "t": "prefetch",
+  "r": "prélecture",
+  "sid": 528,
+  "section": "Frontend › performance web (chargement, rendu, cache)",
+  "jeu": "test"
+ },
+ {
+  "id": "d022000",
+  "t": "TDRS",
+  "r": "satellite de poursuite et de relais de données (TDRS)",
+  "sid": 448,
+  "section": "Voyages et transports › Navette spatiale › Sigles de la navette",
+  "jeu": "test"
+ },
+ {
+  "id": "d011239",
+  "t": "simile",
+  "r": "comparaison (figure de comparaison)",
+  "sid": 125,
+  "section": "Parole, langue et écriture › Mots à propos des mots",
+  "jeu": "test"
+ },
+ {
+  "id": "a19_3",
+  "t": "imbriqué, imbriquée",
+  "r": "interwoven",
+  "sid": 734,
+  "section": "La vie sociale › Liens et interactions",
+  "jeu": "test"
+ },
+ {
+  "id": "v9_2",
+  "t": "étayer",
+  "r": "to shore up",
+  "sid": 603,
+  "section": "La parole : dire, débattre, enseigner › Argumentation et controverse",
+  "jeu": "test"
+ },
+ {
+  "id": "p0259",
+  "t": "prioritize",
+  "r": "prioriser",
+  "sid": 536,
+  "section": "Design de produit › mesurer, prioriser et piloter",
+  "jeu": "test"
+ },
+ {
+  "id": "d007153",
+  "t": "bubble and squeak",
+  "r": "≈ bubble and squeak (poêlée anglaise de pommes de terre et de chou)",
+  "sid": 203,
+  "section": "Fêtes, nourriture et boissons › Plats du dîner",
+  "jeu": "test"
+ },
+ {
+  "id": "x00524",
+  "t": "amoeboid",
+  "r": "amiboïde",
+  "sid": 764,
+  "section": "Propriétés des choses › FORMES PARTICULIÈRES OU RESSEMBLANCES",
+  "jeu": "test"
+ },
+ {
+  "id": "d014824",
+  "t": "lineup",
+  "r": "séance d'identification (tapissage, parade d'identification)",
+  "sid": 24,
+  "section": "Loi, crime et sanction › Police et détectives",
+  "jeu": "test"
+ },
+ {
+  "id": "d013294",
+  "t": "nuclear exoatmospheric burst",
+  "r": "explosion nucléaire exo-atmosphérique (explosion nucléaire dans l'espace)",
+  "sid": 41,
+  "section": "Conflit, guerre et armes › Missiles, armes nucléaires et fusées",
+  "jeu": "test"
+ },
+ {
+  "id": "x01948",
+  "t": "deal",
+  "r": "bon nombre",
+  "sid": 776,
+  "section": "Propriétés des choses › Quantités imprécises",
+  "jeu": "test"
+ },
+ {
+  "id": "d019720",
+  "t": "mantel",
+  "r": "se rétablir (se hisser sur une vire)",
+  "sid": 263,
+  "section": "Sports et loisirs › Alpinisme",
+  "jeu": "test"
+ },
+ {
+  "id": "d013956",
+  "t": "concertina",
+  "r": "concertina",
+  "sid": 171,
+  "section": "Musique › Instruments à clavier",
+  "jeu": "test"
+ },
+ {
+  "id": "b30918",
+  "t": "weighted average cost of capital (WACC)",
+  "r": "coût moyen pondéré du capital (CMPC)",
+  "sid": 96,
+  "section": "Économie, argent et métiers › Évaluation",
+  "jeu": "test"
+ },
+ {
+  "id": "s01564",
+  "t": "debug build",
+  "r": "build de débogage",
+  "sid": 514,
+  "section": "Programmation et code › compilation, interprétation et exécution",
+  "jeu": "test"
+ },
+ {
+  "id": "x01144",
+  "t": "compacted",
+  "r": "compacté",
+  "sid": 769,
+  "section": "Propriétés des choses › Composition et consistance",
+  "jeu": "test"
+ },
+ {
+  "id": "d011437",
+  "t": "in invitum",
+  "r": "in invitum (contre le gré d'autrui)",
+  "sid": 21,
+  "section": "Loi, crime et sanction › Droit pénal et responsabilité délictuelle",
+  "jeu": "test"
+ },
+ {
+  "id": "d002235",
+  "t": "sfumato",
+  "r": "sfumato (estompé)",
+  "sid": 165,
+  "section": "Arts visuels › Termes d'art",
+  "jeu": "test"
+ },
+ {
+  "id": "d015859",
+  "t": "dive through",
+  "r": "≈ passage sous l'arche",
+  "sid": 182,
+  "section": "Spectacle, cinéma et médias › Square dance",
+  "jeu": "test"
+ },
+ {
+  "id": "d007899",
+  "t": "resectable",
+  "r": "résécable (opérable)",
+  "sid": 322,
+  "section": "Corps, santé et médecine › Cancer et tumeurs",
+  "jeu": "test"
+ },
+ {
+  "id": "x01459",
+  "t": "lined up",
+  "r": "en file",
+  "sid": 771,
+  "section": "Propriétés des choses › Ordre et relation",
+  "jeu": "test"
+ },
+ {
+  "id": "x01481",
+  "t": "off-kilter",
+  "r": "de guingois",
+  "sid": 771,
+  "section": "Propriétés des choses › Ordre et relation",
+  "jeu": "test"
+ },
+ {
+  "id": "d004912",
+  "t": "hotbed",
+  "r": "couche chaude",
+  "sid": 391,
+  "section": "Nature, terre et climat › Jardins et aménagement paysager",
+  "jeu": "test"
+ },
+ {
+  "id": "d003565",
+  "t": "daith piercing",
+  "r": "piercing daith",
+  "sid": 231,
+  "section": "Apparence, vêtements et mode › Bijoux",
+  "jeu": "test"
+ },
+ {
+  "id": "d020848",
+  "t": "table saw",
+  "r": "scie sur table",
+  "sid": 455,
+  "section": "Matière, forme, mesure et outils › Scies",
+  "jeu": "test"
+ },
+ {
+  "id": "d012941",
+  "t": "basilage",
+  "r": "≈ balisage (jalonnement)",
+  "sid": 36,
+  "section": "Conflit, guerre et armes › Armée de terre, forces terrestres et termes militaires généraux",
+  "jeu": "test"
+ },
+ {
+  "id": "d008673",
+  "t": "bassinet",
+  "r": "moïse (berceau portatif)",
+  "sid": 338,
+  "section": "Corps, santé et médecine › Nourrissons et bébés",
+  "jeu": "test"
+ },
+ {
+  "id": "x03143",
+  "t": "coronal mass ejection (CME)",
+  "r": "éjection de masse coronale (CME)",
+  "sid": 793,
+  "section": "Terre, ciel et animaux › Le système solaire",
+  "jeu": "test"
+ },
+ {
+  "id": "x01233",
+  "t": "permeated",
+  "r": "imprégné",
+  "sid": 769,
+  "section": "Propriétés des choses › Composition et consistance",
+  "jeu": "test"
+ },
+ {
+  "id": "b30808",
+  "t": "coefficient of variation",
+  "r": "coefficient de variation",
+  "sid": 92,
+  "section": "Économie, argent et métiers › Rendement et risque",
+  "jeu": "test"
+ },
+ {
+  "id": "s01594",
+  "t": "test case",
+  "r": "cas de test",
+  "sid": 515,
+  "section": "Programmation et code › tests",
+  "jeu": "test"
+ },
+ {
+  "id": "x05489",
+  "t": "fawning",
+  "r": "flatteur",
+  "sid": 818,
+  "section": "Les personnes › Tempérament et comportement",
+  "jeu": "test"
+ },
+ {
+  "id": "d006748",
+  "t": "Kona",
+  "r": "café de Kona",
+  "sid": 196,
+  "section": "Fêtes, nourriture et boissons › Café",
+  "jeu": "test"
+ },
+ {
+  "id": "d000764",
+  "t": "scours",
+  "r": "diarrhée (colibacillose)",
+  "sid": 373,
+  "section": "Animaux › Bétail",
+  "jeu": "test"
+ },
+ {
+  "id": "d011981",
+  "t": "supernatural",
+  "r": "surnaturel",
+  "sid": 316,
+  "section": "Croyances, religions et sacré › Magie et occultisme",
+  "jeu": "test"
+ },
+ {
+  "id": "s03924",
+  "t": "direct message",
+  "r": "message privé",
+  "sid": 583,
+  "section": "Communication logicielle › e-mail et messagerie",
+  "jeu": "test"
+ },
+ {
+  "id": "d007076",
+  "t": "drop cookie",
+  "r": "≈ biscuit à la cuillère déposée (cookie déposé à la cuillère)",
+  "sid": 200,
+  "section": "Fêtes, nourriture et boissons › Biscuits",
+  "jeu": "test"
+ },
+ {
+  "id": "d022718",
+  "t": "gauntlet, run the",
+  "r": "passer par les baguettes (subir une épreuve, essuyer un feu croisé)",
+  "sid": 126,
+  "section": "Parole, langue et écriture › Mots et expressions à connaître",
+  "jeu": "test"
+ },
+ {
+  "id": "x04282",
+  "t": "strolling",
+  "r": "se promener",
+  "sid": 808,
+  "section": "Les personnes › Démarche",
+  "jeu": "test"
+ },
+ {
+  "id": "s00944",
+  "t": "probe sequence",
+  "r": "séquence de sondage",
+  "sid": 504,
+  "section": "Algorithmes et structures de données › hachage et tables",
+  "jeu": "test"
+ },
+ {
+  "id": "d015604",
+  "t": "n.d.",
+  "r": "s.d. (sans date)",
+  "sid": 131,
+  "section": "Parole, langue et écriture › Abréviations des notes de bas de page",
+  "jeu": "test"
+ },
+ {
+  "id": "d004823",
+  "t": "woolly",
+  "r": "laineux (lanugineux)",
+  "sid": 389,
+  "section": "Nature, terre et climat › Fleurs et plantes",
+  "jeu": "test"
+ },
+ {
+  "id": "s02343",
+  "t": "clickjacking",
+  "r": "détournement de clic",
+  "sid": 547,
+  "section": "Sécurité frontend et applicative › attaques côté navigateur (XSS, CSRF, clickjacking)",
+  "jeu": "test"
+ },
+ {
+  "id": "d020550",
+  "t": "marathon",
+  "r": "marathon",
+  "sid": 277,
+  "section": "Sports et loisirs › Athlétisme",
+  "jeu": "test"
+ },
+ {
+  "id": "d012560",
+  "t": "eviscerate",
+  "r": "éviscérer (étriper)",
+  "sid": 356,
+  "section": "Corps, santé et médecine › Interventions chirurgicales et médicales et termes associés",
+  "jeu": "test"
+ },
+ {
+  "id": "d000919",
+  "t": "underwing",
+  "r": "catocale",
+  "sid": 379,
+  "section": "Animaux › Papillons de nuit et papillons de jour",
+  "jeu": "test"
+ },
+ {
+  "id": "d014711",
+  "t": "rigor mortis",
+  "r": "rigidité cadavérique (rigor mortis)",
+  "sid": 82,
+  "section": "Économie, argent et métiers › Services funéraires",
+  "jeu": "test"
+ },
+ {
+  "id": "d008163",
+  "t": "esotropia",
+  "r": "ésotropie (strabisme convergent)",
+  "sid": 326,
+  "section": "Corps, santé et médecine › Yeux",
+  "jeu": "test"
+ },
+ {
+  "id": "a97_6",
+  "t": "vaseux, vaseuse",
+  "r": "muddled",
+  "sid": 698,
+  "section": "L'esprit › Flou et incertain",
+  "jeu": "test"
+ },
+ {
+  "id": "x05176",
+  "t": "quirky",
+  "r": "fantasque",
+  "sid": 818,
+  "section": "Les personnes › Tempérament et comportement",
+  "jeu": "test"
+ },
+ {
+  "id": "d009354",
+  "t": "choreomania",
+  "r": "chorémanie (choréomanie)",
+  "sid": 346,
+  "section": "Corps, santé et médecine › Psychologie et psychiatrie",
+  "jeu": "test"
+ },
+ {
+  "id": "x04499",
+  "t": "out of action",
+  "r": "hors service",
+  "sid": 810,
+  "section": "Les personnes › États physiques et symptômes",
+  "jeu": "test"
+ },
+ {
+  "id": "d000478",
+  "t": "capriole",
+  "r": "cabriole",
+  "sid": 369,
+  "section": "Animaux › Chevaux",
+  "jeu": "test"
+ },
+ {
+  "id": "d022892",
+  "t": "maudlin",
+  "r": "larmoyant (sensiblerie, mièvre)",
+  "sid": 126,
+  "section": "Parole, langue et écriture › Mots et expressions à connaître",
+  "jeu": "test"
+ },
+ {
+  "id": "d006901",
+  "t": "à la périgourdine",
+  "r": "à la périgourdine",
+  "sid": 198,
+  "section": "Fêtes, nourriture et boissons › Termes de cuisine française",
+  "jeu": "test"
+ },
+ {
+  "id": "x03435",
+  "t": "asteroidal",
+  "r": "astéroïde",
+  "sid": 796,
+  "section": "Terre, ciel et animaux › Adjectifs désignant les animaux",
+  "jeu": "test"
+ },
+ {
+  "id": "d010395",
+  "t": "tripping",
+  "r": "en plein trip (sous acide)",
+  "sid": 118,
+  "section": "Parole, langue et écriture › Héroïne et LSD",
+  "jeu": "test"
+ },
+ {
+  "id": "s02411",
+  "t": "violation report",
+  "r": "rapport de violation",
+  "sid": 548,
+  "section": "Sécurité frontend et applicative › politiques du navigateur (CSP, CORS, same-origin)",
+  "jeu": "test"
+ },
+ {
+  "id": "s03336",
+  "t": "query cache",
+  "r": "cache de requêtes",
+  "sid": 569,
+  "section": "Conception de systèmes › cache",
+  "jeu": "test"
+ },
+ {
+  "id": "x00705",
+  "t": "scopuliform",
+  "r": "scopuliforme",
+  "sid": 764,
+  "section": "Propriétés des choses › FORMES PARTICULIÈRES OU RESSEMBLANCES",
+  "jeu": "test"
+ },
+ {
+  "id": "d013521",
+  "t": "shadower",
+  "r": "≈ navire de filature (unité de filature, pisteur)",
+  "sid": 43,
+  "section": "Conflit, guerre et armes › Marine et Marines",
+  "jeu": "test"
+ },
+ {
+  "id": "d019565",
+  "t": "Russian Moore",
+  "r": "≈ moore russe (pivots entre les arçons)",
+  "sid": 260,
+  "section": "Sports et loisirs › Gymnastique",
+  "jeu": "test"
+ },
+ {
+  "id": "d010909",
+  "t": "represent",
+  "r": "assurer (faire honneur)",
+  "sid": 122,
+  "section": "Parole, langue et écriture › Argot de rue et de rap",
+  "jeu": "test"
+ },
+ {
+  "id": "d007664",
+  "t": "bulb turning",
+  "r": "tournage en bulbe (pied à bulbe)",
+  "sid": 431,
+  "section": "Architecture, maison et mobilier › Éléments décoratifs et de construction",
+  "jeu": "test"
+ },
+ {
+  "id": "d021515",
+  "t": "jibe",
+  "r": "empanner (virer lof pour lof)",
+  "sid": 442,
+  "section": "Voyages et transports › Navigation à voile",
+  "jeu": "test"
+ },
+ {
+  "id": "x04752",
+  "t": "adorable",
+  "r": "adorable",
+  "sid": 813,
+  "section": "Les personnes › Attrait perçu",
+  "jeu": "test"
+ },
+ {
+  "id": "d020818",
+  "t": "end nippers",
+  "r": "tenaille",
+  "sid": 454,
+  "section": "Matière, forme, mesure et outils › Pinces",
+  "jeu": "test"
+ },
+ {
+  "id": "v10_6",
+  "t": "se draper",
+  "r": "to flaunt",
+  "sid": 630,
+  "section": "La conduite : règle, excès, maîtrise › Arrogance et égoïsme",
+  "jeu": "test"
+ },
+ {
+  "id": "d005854",
+  "t": "topiary",
+  "r": "topiaire (art topiaire)",
+  "sid": 403,
+  "section": "Nature, terre et climat › Arbres, forêts et jungles",
+  "jeu": "test"
+ },
+ {
+  "id": "s00956",
+  "t": "fingerprint",
+  "r": "empreinte digitale",
+  "sid": 504,
+  "section": "Algorithmes et structures de données › hachage et tables",
+  "jeu": "test"
+ },
+ {
+  "id": "s02349",
+  "t": "spear phishing",
+  "r": "harponnage",
+  "sid": 547,
+  "section": "Sécurité frontend et applicative › attaques côté navigateur (XSS, CSRF, clickjacking)",
+  "jeu": "test"
+ },
+ {
+  "id": "d014834",
+  "t": "minimization",
+  "r": "≈ minimisation (technique de minimisation)",
+  "sid": 24,
+  "section": "Loi, crime et sanction › Police et détectives",
+  "jeu": "test"
+ },
+ {
+  "id": "b30899",
+  "t": "capital gain",
+  "r": "plus-value",
+  "sid": 95,
+  "section": "Économie, argent et métiers › Actions",
+  "jeu": "test"
+ },
+ {
+  "id": "x00388",
+  "t": "subuliform",
+  "r": "subuliforme",
+  "sid": 764,
+  "section": "Propriétés des choses › FORMES PARTICULIÈRES OU RESSEMBLANCES",
+  "jeu": "test"
+ },
+ {
+  "id": "d022297",
+  "t": "aloof",
+  "r": "distant (réservé, à l'écart)",
+  "sid": 126,
+  "section": "Parole, langue et écriture › Mots et expressions à connaître",
+  "jeu": "test"
+ },
+ {
+  "id": "d011610",
+  "t": "probate",
+  "r": "≈ homologation du testament (validation du testament, vérification des testaments)",
+  "sid": 22,
+  "section": "Loi, crime et sanction › Droit des successions",
+  "jeu": "test"
+ },
+ {
+  "id": "d018251",
+  "t": "ER",
+  "r": "point mérité (course méritée, ER)",
+  "sid": 246,
+  "section": "Sports et loisirs › Baseball",
+  "jeu": "test"
+ },
+ {
+  "id": "d023174",
+  "t": "staunch",
+  "r": "fidèle (loyal, inébranlable)",
+  "sid": 126,
+  "section": "Parole, langue et écriture › Mots et expressions à connaître",
+  "jeu": "test"
+ },
+ {
+  "id": "s00399",
+  "t": "copper interconnect",
+  "r": "interconnexion en cuivre",
+  "sid": 497,
+  "section": "Matériel › puces, semi-conducteurs et fabrication",
+  "jeu": "test"
+ },
+ {
+  "id": "d003555",
+  "t": "crystalline",
+  "r": "cristallin (cristalliforme)",
+  "sid": 231,
+  "section": "Apparence, vêtements et mode › Bijoux",
+  "jeu": "test"
+ },
+ {
+  "id": "d004745",
+  "t": "savanna",
+  "r": "savane",
+  "sid": 388,
+  "section": "Nature, terre et climat › Champs, prairies et marais",
+  "jeu": "test"
+ },
+ {
+  "id": "d022811",
+  "t": "insipid",
+  "r": "insipide (fade, terne)",
+  "sid": 126,
+  "section": "Parole, langue et écriture › Mots et expressions à connaître",
+  "jeu": "test"
+ },
+ {
+  "id": "d002106",
+  "t": "electroplate",
+  "r": "plaquer par électrolyse (déposer par électrolyse)",
+  "sid": 165,
+  "section": "Arts visuels › Termes d'art",
+  "jeu": "test"
+ },
+ {
+  "id": "s02153",
+  "t": "border-radius",
+  "r": "arrondi de bordure",
+  "sid": 525,
+  "section": "Frontend › formes, typographie, couleurs et unités",
+  "jeu": "test"
+ },
+ {
+  "id": "d000260",
+  "t": "gloves",
+  "r": "gants (mitaines)",
+  "sid": 366,
+  "section": "Animaux › Chats",
+  "jeu": "test"
+ },
+ {
+  "id": "s03658",
+  "t": "connection teardown",
+  "r": "fermeture de connexion",
+  "sid": 577,
+  "section": "Internet et réseaux › TCP, UDP et ports",
+  "jeu": "test"
+ },
+ {
+  "id": "x05122",
+  "t": "cordial",
+  "r": "cordial",
+  "sid": 818,
+  "section": "Les personnes › Tempérament et comportement",
+  "jeu": "test"
+ },
+ {
+  "id": "d010997",
+  "t": "ad-lib",
+  "r": "improviser (ad libitum, parler au pied levé)",
+  "sid": 125,
+  "section": "Parole, langue et écriture › Mots à propos des mots",
+  "jeu": "test"
+ },
+ {
+  "id": "d016429",
+  "t": "casting file",
+  "r": "fichier de casting (book de comédiens)",
+  "sid": 188,
+  "section": "Spectacle, cinéma et médias › Télévision",
+  "jeu": "test"
+ },
+ {
+  "id": "d012970",
+  "t": "civilian internee camp",
+  "r": "camp d'internement de civils (camp d'internés civils)",
+  "sid": 36,
+  "section": "Conflit, guerre et armes › Armée de terre, forces terrestres et termes militaires généraux",
+  "jeu": "test"
+ },
+ {
+  "id": "d002613",
+  "t": "pilch",
+  "r": "pelisse de peau (pelisson)",
+  "sid": 214,
+  "section": "Apparence, vêtements et mode › Vêtements de l'Angleterre et de la France médiévales",
+  "jeu": "test"
+ },
+ {
+  "id": "d005123",
+  "t": "Pangaea",
+  "r": "Pangée",
+  "sid": 393,
+  "section": "Nature, terre et climat › Géologie et reliefs",
+  "jeu": "test"
+ },
+ {
+  "id": "s00909",
+  "t": "dictionary",
+  "r": "dictionnaire",
+  "sid": 504,
+  "section": "Algorithmes et structures de données › hachage et tables",
+  "jeu": "test"
+ },
+ {
+  "id": "b20596",
+  "t": "revolutionary socialism",
+  "r": "socialisme révolutionnaire",
+  "sid": 6,
+  "section": "Pouvoir, autorité et gouvernement › Socialisme",
+  "jeu": "test"
+ },
+ {
+  "id": "w138_1",
+  "t": "sanctity",
+  "r": "caractère sacré",
+  "sid": 321,
+  "section": "Croyances, religions et sacré › Sacré et profane",
+  "jeu": "test"
+ },
+ {
+  "id": "d017430",
+  "t": "termination shock",
+  "r": "onde de choc terminale (choc terminal)",
+  "sid": 466,
+  "section": "Sciences et technologies › Astronomie",
+  "jeu": "test"
+ },
+ {
+  "id": "v68_2",
+  "t": "accueillir",
+  "r": "to welcome",
+  "sid": 610,
+  "section": "Le lien : échanger, partager, se déplacer › Voyage et hébergement",
+  "jeu": "test"
+ },
+ {
+  "id": "s00565",
+  "t": "tight bound",
+  "r": "borne serrée",
+  "sid": 499,
+  "section": "Algorithmes et structures de données › complexité et notation asymptotique",
+  "jeu": "test"
+ },
+ {
+  "id": "v51_6",
+  "t": "négocier",
+  "r": "to negotiate",
+  "sid": 604,
+  "section": "La parole : dire, débattre, enseigner › Persuasion et négociation",
+  "jeu": "test"
+ },
+ {
+  "id": "d019511",
+  "t": "unplayable lie",
+  "r": "balle injouable (lie injouable)",
+  "sid": 259,
+  "section": "Sports et loisirs › Golf",
+  "jeu": "test"
+ },
+ {
+  "id": "b41257",
+  "t": "switching cost",
+  "r": "coût de changement",
+  "sid": 546,
+  "section": "Design de produit › Modèles types, avantages et marchés",
+  "jeu": "test"
+ },
+ {
+  "id": "d019041",
+  "t": "bobber",
+  "r": "bouchon (flotteur)",
+  "sid": 256,
+  "section": "Sports et loisirs › Pêche",
+  "jeu": "test"
+ },
+ {
+  "id": "d005109",
+  "t": "metamorphism",
+  "r": "métamorphisme",
+  "sid": 393,
+  "section": "Nature, terre et climat › Géologie et reliefs",
+  "jeu": "test"
+ },
+ {
+  "id": "s00728",
+  "t": "depth",
+  "r": "profondeur",
+  "sid": 501,
+  "section": "Algorithmes et structures de données › arbres",
+  "jeu": "test"
+ },
+ {
+  "id": "d001220",
+  "t": "hedgehog",
+  "r": "≈ hérisson (réseau de pieux et d'épines)",
+  "sid": 412,
+  "section": "Architecture, maison et mobilier › Châteaux et bâtiments médiévaux",
+  "jeu": "test"
+ },
+ {
+  "id": "x01323",
+  "t": "amplitudinous",
+  "r": "vaste en dimensions",
+  "sid": 770,
+  "section": "Propriétés des choses › Taille et étendue",
+  "jeu": "test"
+ },
+ {
+  "id": "s04027",
+  "t": "zip bomb",
+  "r": "bombe de décompression",
+  "sid": 585,
+  "section": "Communication logicielle › encodage, compression et sérialisation",
+  "jeu": "test"
+ },
+ {
+  "id": "d004566",
+  "t": "swashmarks",
+  "r": "≈ laisses de swash (traces de jet de rive)",
+  "sid": 382,
+  "section": "Nature, terre et climat › Plages et littoraux",
+  "jeu": "test"
+ },
+ {
+  "id": "d008735",
+  "t": "pleurisy",
+  "r": "pleurésie",
+  "sid": 339,
+  "section": "Corps, santé et médecine › Poumons et respiration",
+  "jeu": "test"
+ },
+ {
+  "id": "d006145",
+  "t": "Malaysia",
+  "r": "ringgit",
+  "sid": 78,
+  "section": "Économie, argent et métiers › Monnaies internationales",
+  "jeu": "test"
+ },
+ {
+  "id": "s01635",
+  "t": "reset",
+  "r": "réinitialiser",
+  "sid": 516,
+  "section": "Programmation et code › versionnage et collaboration (Git)",
+  "jeu": "test"
+ },
+ {
+  "id": "d015611",
+  "t": "pl.",
+  "r": "pl. (planche)",
+  "sid": 131,
+  "section": "Parole, langue et écriture › Abréviations des notes de bas de page",
+  "jeu": "test"
+ },
+ {
+  "id": "d003209",
+  "t": "matelassé",
+  "r": "matelassé (étoffe matelassée)",
+  "sid": 223,
+  "section": "Apparence, vêtements et mode › Tissus et motifs de tissus",
+  "jeu": "test"
+ },
+ {
+  "id": "d016623",
+  "t": "topic box",
+  "r": "≈ incrustation de sujet (vignette de titre, fenêtre de sujet)",
+  "sid": 188,
+  "section": "Spectacle, cinéma et médias › Télévision",
+  "jeu": "test"
+ },
+ {
+  "id": "d022206",
+  "t": "two-hand sword",
+  "r": "épée à deux mains (espadon)",
+  "sid": 56,
+  "section": "Conflit, guerre et armes › Épées",
+  "jeu": "test"
+ },
+ {
+  "id": "x04773",
+  "t": "not much to look at",
+  "r": "pas terrible à regarder",
+  "sid": 813,
+  "section": "Les personnes › Attrait perçu",
+  "jeu": "test"
+ },
+ {
+  "id": "d004404",
+  "t": "MEMS",
+  "r": "MEMS (microsystème électromécanique)",
+  "sid": 592,
+  "section": "Informatique générale et électronique › Termes d'électronique",
+  "jeu": "test"
+ },
+ {
+  "id": "d012203",
+  "t": "autoimmunity",
+  "r": "auto-immunité (autoimmunité)",
+  "sid": 354,
+  "section": "Corps, santé et médecine › Terminologie médicale et examens",
+  "jeu": "test"
+ },
+ {
+  "id": "s01539",
+  "t": "link time",
+  "r": "temps d'édition de liens",
+  "sid": 514,
+  "section": "Programmation et code › compilation, interprétation et exécution",
+  "jeu": "test"
+ },
+ {
+  "id": "b00133",
+  "t": "advance directive",
+  "r": "directives anticipées",
+  "sid": 150,
+  "section": "Culture générale : notions clés › Histoire, mémoire et mort",
+  "jeu": "test"
+ },
+ {
+  "id": "d022661",
+  "t": "exhaustive",
+  "r": "exhaustif (complet, approfondi)",
+  "sid": 126,
+  "section": "Parole, langue et écriture › Mots et expressions à connaître",
+  "jeu": "test"
+ },
+ {
+  "id": "d001570",
+  "t": "macellum",
+  "r": "macellum (marché couvert romain)",
+  "sid": 416,
+  "section": "Architecture, maison et mobilier › Architecture de la Grèce et de la Rome antiques",
+  "jeu": "test"
+ },
+ {
+  "id": "d002276",
+  "t": "angular liner",
+  "r": "≈ pinceau biseauté à filets (pinceau à filets oblique, pinceau biseauté)",
+  "sid": 166,
+  "section": "Arts visuels › Outils et matériaux d'art",
+  "jeu": "test"
+ },
+ {
+  "id": "x04383",
+  "t": "unctuous",
+  "r": "onctueuse",
+  "sid": 809,
+  "section": "Les personnes › Voix",
+  "jeu": "test"
+ },
+ {
+  "id": "a75_2",
+  "t": "éminent, éminente",
+  "r": "eminent",
+  "sid": 700,
+  "section": "L'esprit › Pertinence et distinction",
+  "jeu": "test"
+ },
+ {
+  "id": "d001641",
+  "t": "valetudinarium",
+  "r": "valetudinarium (infirmerie romaine)",
+  "sid": 416,
+  "section": "Architecture, maison et mobilier › Architecture de la Grèce et de la Rome antiques",
+  "jeu": "test"
+ },
+ {
+  "id": "s03036",
+  "t": "data lake",
+  "r": "lac de données",
+  "sid": 561,
+  "section": "Backend › bases NoSQL et stockage",
+  "jeu": "test"
+ },
+ {
+  "id": "d010094",
+  "t": "humanism",
+  "r": "humanisme",
+  "sid": 156,
+  "section": "Liens humains et société › Sociologie et culture",
+  "jeu": "test"
+ },
+ {
+  "id": "d010975",
+  "t": "lipogram",
+  "r": "lipogramme",
+  "sid": 124,
+  "section": "Parole, langue et écriture › Jeux de mots",
+  "jeu": "test"
+ },
+ {
+  "id": "d006657",
+  "t": "cocotini",
+  "r": "cocotini",
+  "sid": 195,
+  "section": "Fêtes, nourriture et boissons › Cocktails",
+  "jeu": "test"
+ },
+ {
+  "id": "d020402",
+  "t": "dwell",
+  "r": "≈ partir lentement (rater son départ)",
+  "sid": 276,
+  "section": "Sports et loisirs › Courses de pur-sang",
+  "jeu": "test"
+ },
+ {
+  "id": "s00554",
+  "t": "auxiliary space",
+  "r": "espace auxiliaire",
+  "sid": 499,
+  "section": "Algorithmes et structures de données › complexité et notation asymptotique",
+  "jeu": "test"
+ },
+ {
+  "id": "d007715",
+  "t": "haut relief",
+  "r": "haut-relief",
+  "sid": 431,
+  "section": "Architecture, maison et mobilier › Éléments décoratifs et de construction",
+  "jeu": "test"
+ },
+ {
+  "id": "d021123",
+  "t": "understeer",
+  "r": "sous-virage",
+  "sid": 435,
+  "section": "Voyages et transports › Automobiles",
+  "jeu": "test"
+ },
+ {
+  "id": "d006859",
+  "t": "à la bayonnaise",
+  "r": "à la bayonnaise",
+  "sid": 198,
+  "section": "Fêtes, nourriture et boissons › Termes de cuisine française",
+  "jeu": "test"
+ },
+ {
+  "id": "x00599",
+  "t": "uncinate",
+  "r": "unciné",
+  "sid": 764,
+  "section": "Propriétés des choses › FORMES PARTICULIÈRES OU RESSEMBLANCES",
+  "jeu": "test"
+ },
+ {
+  "id": "s00346",
+  "t": "cooling fin",
+  "r": "ailette",
+  "sid": 496,
+  "section": "Matériel › énergie, refroidissement et boîtiers",
+  "jeu": "test"
+ },
+ {
+  "id": "d003583",
+  "t": "estate jewelry",
+  "r": "bijoux d'occasion (bijoux anciens, bijoux de succession)",
+  "sid": 231,
+  "section": "Apparence, vêtements et mode › Bijoux",
+  "jeu": "test"
+ },
+ {
+  "id": "d014336",
+  "t": "crescent",
+  "r": "chapeau chinois (pavillon chinois, croissant turc)",
+  "sid": 175,
+  "section": "Musique › Instruments à percussion",
+  "jeu": "test"
+ },
+ {
+  "id": "s00278",
+  "t": "screen tearing",
+  "r": "déchirement d'image",
+  "sid": 495,
+  "section": "Matériel › périphériques d'entrée et de sortie",
+  "jeu": "test"
+ },
+ {
+  "id": "d009227",
+  "t": "diffusion of responsibility",
+  "r": "diffusion de la responsabilité",
+  "sid": 346,
+  "section": "Corps, santé et médecine › Psychologie et psychiatrie",
+  "jeu": "test"
+ },
+ {
+  "id": "d005632",
+  "t": "shale",
+  "r": "schiste argileux (argilite, shale)",
+  "sid": 400,
+  "section": "Nature, terre et climat › Roches et gemmes",
+  "jeu": "test"
+ },
+ {
+  "id": "d011677",
+  "t": "astral projection",
+  "r": "projection astrale (voyage astral, sortie hors du corps)",
+  "sid": 316,
+  "section": "Croyances, religions et sacré › Magie et occultisme",
+  "jeu": "test"
+ },
+ {
+  "id": "d011218",
+  "t": "platform rhetoric",
+  "r": "rhétorique de tribune",
+  "sid": 125,
+  "section": "Parole, langue et écriture › Mots à propos des mots",
+  "jeu": "test"
+ },
+ {
+  "id": "d022429",
+  "t": "catch-22",
+  "r": "≈ cercle vicieux (situation inextricable, piège sans issue)",
+  "sid": 126,
+  "section": "Parole, langue et écriture › Mots et expressions à connaître",
+  "jeu": "test"
+ },
+ {
+  "id": "d018870",
+  "t": "throw in the towel",
+  "r": "jeter l'éponge (jeter la serviette)",
+  "sid": 250,
+  "section": "Sports et loisirs › Boxe",
+  "jeu": "test"
+ },
+ {
+  "id": "d002254",
+  "t": "tondo",
+  "r": "tondo (tableau rond)",
+  "sid": 165,
+  "section": "Arts visuels › Termes d'art",
+  "jeu": "test"
+ },
+ {
+  "id": "v28_7",
+  "t": "paralyser",
+  "r": "to paralyze",
+  "sid": 652,
+  "section": "Affaiblir et détruire › Amoindrir et altérer",
+  "jeu": "test"
+ },
+ {
+  "id": "d019370",
+  "t": "bye",
+  "r": "≈ trous restants (trous non joués)",
+  "sid": 259,
+  "section": "Sports et loisirs › Golf",
+  "jeu": "test"
+ },
+ {
+  "id": "x03453",
+  "t": "odonatous",
+  "r": "d'odonate",
+  "sid": 796,
+  "section": "Terre, ciel et animaux › Adjectifs désignant les animaux",
+  "jeu": "test"
+ },
+ {
+  "id": "x04607",
+  "t": "strung out",
+  "r": "en manque",
+  "sid": 810,
+  "section": "Les personnes › États physiques et symptômes",
+  "jeu": "test"
+ },
+ {
+  "id": "d004160",
+  "t": "chat room",
+  "r": "salon de discussion (salon de clavardage, forum de chat)",
+  "sid": 590,
+  "section": "Informatique générale et électronique › Internet",
+  "jeu": "test"
+ },
+ {
+  "id": "d022258",
+  "t": "accost",
+  "r": "aborder (accoster, apostropher)",
+  "sid": 126,
+  "section": "Parole, langue et écriture › Mots et expressions à connaître",
+  "jeu": "test"
+ }
+]

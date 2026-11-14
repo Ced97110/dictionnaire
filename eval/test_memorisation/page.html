@@ -1,0 +1,487 @@
+<title>Séances de vocabulaire</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap">
+<style>
+/* Layout: one narrow reading column; each step is a single card-free panel with a thin progress rule on top. */
+:root {
+  --bg: #f6f7f4;
+  --surface: #ffffff;
+  --fg: #1f2421;
+  --muted: #5d665f;
+  --line: #d9ddd6;
+  --accent: #2f6b5a;
+  --accent-ink: #ffffff;
+  --good: #2e7d4f;
+  --bad: #a3412f;
+  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --sans: "Source Sans 3", -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #161a18; --surface: #1e2320; --fg: #e6e9e5; --muted: #a2aaa3; --line: #343b36;
+    --accent: #7cc0a8; --accent-ink: #0f1513; --good: #79c99a; --bad: #e38b78; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #161a18; --surface: #1e2320; --fg: #e6e9e5; --muted: #a2aaa3; --line: #343b36;
+  --accent: #7cc0a8; --accent-ink: #0f1513; --good: #79c99a; --bad: #e38b78; color-scheme: dark;
+}
+body {
+  background: var(--bg); color: var(--fg); font: 17px/1.55 var(--sans);
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 28px 48px;
+}
+main { max-width: 38rem; margin: 0 auto; display: grid; gap: 22px; }
+header { display: grid; gap: 4px; }
+.eyebrow { font-size: 13px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+h1, h2 { font-family: var(--serif); font-weight: 600; text-wrap: balance; margin: 0; }
+h1 { font-size: 30px; line-height: 1.2; }
+h2 { font-size: 24px; line-height: 1.25; }
+p { margin: 0; }
+.stack { display: grid; gap: 14px; }
+.muted { color: var(--muted); }
+.small { font-size: 14px; }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 22px; display: grid; gap: 16px; min-width: 0; }
+.bar { height: 4px; background: var(--line); border-radius: 2px; overflow: hidden; }
+.bar > i { display: block; height: 100%; background: var(--accent); width: 0; transition: width .2s linear; }
+.meta { display: flex; justify-content: space-between; gap: 12px; font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.word { font-family: var(--serif); font-size: 32px; line-height: 1.15; font-weight: 600; overflow-wrap: anywhere; }
+.trad { font-size: 18px; color: var(--muted); }
+.def { font-family: var(--serif); font-size: 19px; line-height: 1.5; }
+.cue { font-family: var(--serif); font-size: 20px; line-height: 1.5; border-left: 3px solid var(--accent); padding-left: 14px; }
+button, input { font: inherit; }
+.btn { appearance: none; border: 1px solid var(--accent); background: var(--accent); color: var(--accent-ink); border-radius: 5px; padding: 10px 18px; font-weight: 600; cursor: pointer; justify-self: start; }
+.btn.ghost { background: transparent; color: var(--accent); }
+.btn:disabled { opacity: .5; cursor: default; }
+.btn:focus-visible, .cat:focus-visible, input:focus-visible, .toggle:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.toggle { display: inline-flex; align-items: center; gap: 10px; border: 1px solid var(--line); border-radius: 5px; padding: 8px 12px; background: transparent; color: var(--fg); cursor: pointer; justify-self: start; }
+.toggle[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); font-weight: 600; }
+.toggle .box { width: 18px; height: 18px; border: 2px solid currentColor; border-radius: 3px; display: grid; place-items: center; font-size: 13px; line-height: 1; }
+.cats { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; }
+.cat { text-align: left; border: 1px solid var(--line); border-radius: 5px; padding: 8px 10px; background: transparent; color: var(--fg); cursor: pointer; display: grid; gap: 1px; }
+.cat b { font-weight: 600; }
+.cat span { font-size: 13px; color: var(--muted); line-height: 1.3; }
+.cat[aria-pressed="true"] { border-color: var(--accent); }
+.cat.ok { border-color: var(--good); }
+.cat.ko { border-color: var(--bad); }
+label { display: grid; gap: 6px; font-weight: 600; font-size: 15px; }
+input[type=text] { border: 1px solid var(--line); border-radius: 5px; padding: 10px 12px; background: var(--bg); color: var(--fg); width: 100%; box-sizing: border-box; font-weight: 400; }
+.verdict { font-weight: 600; }
+.verdict.ok { color: var(--good); }
+.verdict.ko { color: var(--bad); }
+.math { font-family: var(--serif); font-size: 30px; font-variant-numeric: tabular-nums; }
+textarea { width: 100%; box-sizing: border-box; min-height: 110px; font: 13px/1.4 ui-monospace, Menlo, monospace; border: 1px solid var(--line); border-radius: 5px; background: var(--bg); color: var(--fg); padding: 10px; overflow-wrap: anywhere; }
+.note { font-size: 14px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 12px; }
+table { border-collapse: collapse; width: 100%; font-size: 15px; font-variant-numeric: tabular-nums; }
+th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); }
+.tablewrap { overflow-x: auto; }
+@media (prefers-reduced-motion: reduce) { .bar > i { transition: none; } }
+</style>
+
+<main>
+  <header>
+    <div class="eyebrow">Dictionnaire de l'Invisible · étude de vocabulaire</div>
+    <h1>Séances de vocabulaire</h1>
+  </header>
+  <section id="vue" class="stack" aria-live="polite">
+    <div class="panel"><p class="muted">Chargement de votre séance…</p></div>
+  </section>
+  <section id="suivi" class="stack" hidden></section>
+</main>
+
+<script>
+"use strict";
+// ---- Material (from eval/test_memorisation/mots.csv, fixed seed) ----------
+const MOTS = [[1,"L1","yogashala","yogashala (salle de yoga)","Lieu où l'on pratique et enseigne le yoga.","Lieu où l'on pratique et enseigne le yoga.","lieu","lieu"],[2,"L2","lettering brush","pinceau à lettrer (pinceau de peintre en lettres)","Pinceau à poils longs et souples, utilisé pour tracer des lettres et des lignes fines.","… à poils longs et souples, utilisé pour tracer des … et des lignes fines.","substance","pinceau"],[3,"L3","amusia","amusie","Incapacité à reconnaître ou à produire la musique, malgré une ouïe normale.","Incapacité à reconnaître ou à produire la musique, malgré une ouïe normale.","qualité","trouble"],[4,"L1","taxi","rouler au sol (roulage)","Se déplacer lentement au sol avec un avion, avant le décollage ou après l'atterrissage.","Se déplacer lentement au sol avec un avion, avant le décollage ou après l'atterrissage.","action","manœuvre"],[5,"L2","correspondence","correspondance","Échange de lettres entre deux personnes, ou accord entre deux choses qui se répondent.","Échange de lettres entre deux personnes, ou accord entre deux choses qui se répondent.","relation","lien"],[6,"L3","cheval, pas de","pas de cheval","Pas où la jambe se lève et frappe le sol, comme le geste d'un cheval qui piaffe.","Pas où la jambe se lève et frappe le sol, comme le geste d'un … qui piaffe.","action","saut de ballet"],[7,"L1","crop","essorillage (coupe d'oreilles)","Action de couper une partie de l'oreille du chien pour qu'elle se dresse.","Action de … une partie de l'oreille du chien pour qu'elle se dresse.","action","opération"],[8,"L2","pedantry","pédanterie (pédantisme)","Habitude de montrer son savoir de façon exagérée et ennuyeuse.","Habitude de montrer son savoir de façon exagérée et ennuyeuse.","qualité","attitude"],[9,"L3","scouting report","rapport de dépistage (rapport de recruteur, fiche d'évaluation)","Un document qui décrit les forces et les faiblesses d'un joueur adverse ou d'un jeune espoir.","Un document qui décrit les forces et les faiblesses d'un joueur adverse ou d'un jeune espoir.","substance","document"],[10,"L1","bird’s nest soup","soupe de nid d'hirondelle (soupe aux nids d'oiseaux)","Soupe chinoise de luxe, faite de nids de salanganes, un oiseau, dans un bouillon clair.","… chinoise de luxe, faite de nids de salanganes, un oiseau, dans un bouillon clair.","substance","soupe"],[11,"L2","cosmic year","année cosmique (année galactique)","Temps que met le Soleil pour faire un tour de la Voie lactée, environ 225 millions d'années.","Temps que met le Soleil pour faire un tour de la Voie lactée, environ 225 millions d'….","temps","durée"],[12,"L3","relevance","pertinence","Caractère de ce qui a un rapport direct et utile avec le sujet dont on parle.","Caractère de ce qui a un rapport direct et utile avec le sujet dont on parle.","relation","lien"],[13,"L1","fortnight","quinzaine (deux semaines, quinze jours)","Période de deux semaines, soit quatorze jours.","Période de …, soit quatorze ….","temps","durée"],[14,"L2","hatch","écoutille (panneau de pont)","Ouverture dans le pont qui permet de descendre dans le bateau ou d'y charger quelque chose.","Ouverture dans le pont qui permet de descendre dans le bateau ou d'y charger quelque chose.","substance","partie de coque"],[15,"L3","atomic weight","poids atomique (masse atomique relative)","Masse moyenne d'un atome d'un élément, comparée au douzième d'un atome de carbone 12.","… moyenne d'un atome d'un élément, comparée au douzième d'un atome de carbone 12.","quantité","masse"],[16,"L1","haruspicy","haruspicine (extispicine)","Divination qui lit l'avenir dans les entrailles d'animaux sacrifiés.","Divination qui lit l'avenir dans les entrailles d'animaux sacrifiés.","action","divination"],[17,"L2","toleration","tolérance","Attitude qui accepte qu'autrui pense ou vive autrement, même lorsqu'on désapprouve ses idées ou ses pratiques.","Attitude qui accepte qu'autrui pense ou vive autrement, même lorsqu'on désapprouve ses idées ou ses pratiques.","qualité","attitude"],[18,"L3","mess","mess (réfectoire, cantine militaire)","Salle où les soldats prennent leurs repas ensemble.","Salle où les soldats prennent leurs repas ensemble.","lieu","lieu"],[19,"L1","mackinaw","≈ étoffe mackinaw (lainage épais à carreaux, drap de laine épais)","Drap de laine épais et chaud, souvent à gros carreaux, pour les vestes de bûcheron.","… et chaud, souvent à gros …, pour les vestes de bûcheron.","substance","tissu épais"],[20,"L2","dearth","pénurie","Manque important de quelque chose dont on a besoin.","Manque important de quelque chose dont on a besoin.","quantité","quantité"],[21,"L3","haptephobia","haptophobie (haptéphobie)","Peur excessive d'être touché.","Peur excessive d'être touché.","qualité","phobie"]]
+  .map(([n, liste, mot, trad, def, indice, cat, genre]) => ({ n, liste, mot, trad, def, indice, cat, genre }));
+
+const CATS = [
+  ["substance", "une chose qui existe par elle-même : personne, animal, objet, matière"],
+  ["quantité", "répond à « combien ? » : nombre, mesure, manque"],
+  ["qualité", "une manière d'être : état, trait de caractère, émotion, style"],
+  ["relation", "n'a de sens que par rapport à autre chose : lien, échange"],
+  ["lieu", "répond à « où ? » : endroit, zone"],
+  ["temps", "répond à « quand ? » : durée, période"],
+  ["position", "la façon dont un corps est disposé : couché, assis"],
+  ["possession", "ce qu'on a sur soi : être chaussé, être armé"],
+  ["action", "un faire : geste, procédé, opération"],
+  ["passion", "un subir : être blessé, être brûlé"],
+];
+const GROUPES = {
+  A: { L1: "relire", L2: "categorie", L3: "retrouver" },
+  B: { L2: "relire", L3: "categorie", L1: "retrouver" },
+  C: { L3: "relire", L1: "categorie", L2: "retrouver" },
+};
+const T_ETUDE = 15, T_PRATIQUE = 20, T_REPONSE = 14, T_CALCUL = 180;
+const HEURE = 3600e3;
+const FENETRES = { j1: [18, 48], j7: [6 * 24, 9 * 24] };
+const CLE_LOCALE = "seances-vocabulaire-v2";
+
+// ---- State ------------------------------------------------------------------
+let S = null;           // this reader's record
+let db = null, docRef = null, enLigne = false, enSeance = false;
+const vue = document.getElementById("vue");
+
+const melanger = (xs) => { const a = xs.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+const norm = (s) => (s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[’']/g, "'").replace(/\s+/g, " ").trim();
+const el = (tag, attrs = {}, ...kids) => {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (k === "class") e.className = v; else if (k.startsWith("on")) e.addEventListener(k.slice(2), v); else if (v !== false && v != null) e.setAttribute(k, v === true ? "" : v);
+  }
+  for (const k of kids.flat()) if (k != null) e.append(k instanceof Node ? k : document.createTextNode(String(k)));
+  return e;
+};
+const afficher = (...nodes) => { vue.replaceChildren(...nodes); const f = vue.querySelector("[autofocus]"); if (f) f.focus(); };
+const dateFr = (ms) => new Date(ms).toLocaleString("fr-FR", { weekday: "long", day: "numeric", month: "long", hour: "2-digit", minute: "2-digit" });
+
+function lireLocal() { try { const t = localStorage.getItem(CLE_LOCALE); return t ? JSON.parse(t) : null; } catch { return null; } }
+function ecrireLocal() { try { localStorage.setItem(CLE_LOCALE, JSON.stringify(S)); } catch { /* storage blocked: the code below still carries the answers */ } }
+
+let ecriture = Promise.resolve();
+function sauver() {
+  ecrireLocal();
+  if (!docRef || !enLigne) return Promise.resolve(false);
+  const copie = JSON.parse(JSON.stringify(S));
+  ecriture = ecriture.then(() => docRef.set(copie)).then(() => true, (e) => {
+    if (e && (e.code === "invalid_argument" || e.code === "not_granted" || e.code === "revoked")) enLigne = false;
+    return false;
+  });
+  return ecriture;
+}
+function codeReponses() {
+  try { return btoa(unescape(encodeURIComponent(JSON.stringify(S)))); } catch { return JSON.stringify(S); }
+}
+
+// ---- Timers -------------------------------------------------------------------
+let minuteur = null;
+function chrono(secondes, barre, texte, fin) {
+  clearInterval(minuteur);
+  const t0 = performance.now();
+  const tick = () => {
+    const ecoule = (performance.now() - t0) / 1000;
+    const reste = Math.max(0, secondes - ecoule);
+    if (barre) barre.style.width = `${Math.min(100, (ecoule / secondes) * 100)}%`;
+    if (texte) texte.textContent = `${Math.ceil(reste)} s`;
+    if (reste <= 0) { clearInterval(minuteur); fin(); }
+  };
+  tick();
+  minuteur = setInterval(tick, 200);
+  return () => (performance.now() - t0) / 1000;
+}
+function entete(etape, i, total) {
+  const barre = el("i");
+  const temps = el("span");
+  return { barre, temps, node: el("div", { class: "stack" },
+    el("div", { class: "meta" }, el("span", {}, `${etape} · ${i} sur ${total}`), temps),
+    el("div", { class: "bar", "aria-hidden": "true" }, barre)) };
+}
+
+// ---- Screens ------------------------------------------------------------------
+function accueil() {
+  afficher(el("div", { class: "panel" },
+    el("h2", {}, "Bienvenue"),
+    el("p", {}, "Vous allez découvrir 21 mots anglais rares, avec leur traduction et leur définition, puis faire quelques exercices courts avec eux."),
+    el("p", {}, "La séance d'aujourd'hui dure environ 25 minutes, sans pause possible une fois commencée. Deux séances de 5 minutes suivront : demain, puis dans une semaine. Vos réponses sont anonymes et servent à améliorer un dictionnaire."),
+    el("p", { class: "muted" }, "Installez-vous au calme, sans dictionnaire ni traducteur ouvert."),
+    el("button", { class: "btn", autofocus: true, onclick: demarrerJ0 }, "Commencer la séance")));
+}
+
+function demarrerJ0() {
+  enSeance = true;
+  const groupe = "ABC"[Math.floor(Math.random() * 3)];
+  S = {
+    version: 1, groupe, mode: enLigne ? "base" : "code",
+    j0: { debut: Date.now(), fin: null, ordreEtude: melanger(MOTS.map((m) => m.n)), ordrePratique: melanger(MOTS.map((m) => m.n)), connus: {}, calcul: { faits: 0, justes: 0 }, pratique: {} },
+  };
+  sauver();
+  etude(0);
+}
+
+function etude(i) {
+  const ordre = S.j0.ordreEtude;
+  if (i >= ordre.length) { sauver(); return consigneCalcul(); }
+  const m = MOTS.find((x) => x.n === ordre[i]);
+  const h = entete("Découverte", i + 1, ordre.length);
+  const connu = !!S.j0.connus[m.n];
+  const bouton = el("button", { class: "toggle", "aria-pressed": String(connu), onclick: () => {
+    S.j0.connus[m.n] = !S.j0.connus[m.n];
+    bouton.setAttribute("aria-pressed", String(S.j0.connus[m.n]));
+    bouton.querySelector(".box").textContent = S.j0.connus[m.n] ? "✓" : "";
+  } }, el("span", { class: "box", "aria-hidden": "true" }, connu ? "✓" : ""), "Je connaissais déjà ce mot");
+  S.j0.connus[m.n] = connu;
+  afficher(el("div", { class: "panel" }, h.node,
+    el("div", { class: "word", lang: "en" }, m.mot),
+    el("div", { class: "trad" }, m.trad),
+    el("p", { class: "def" }, m.def),
+    bouton,
+    el("p", { class: "small muted" }, "Le mot suivant s'affiche tout seul.")));
+  chrono(T_ETUDE, h.barre, h.temps, () => etude(i + 1));
+}
+
+function consigneCalcul() {
+  afficher(el("div", { class: "panel" },
+    el("h2", {}, "Pause calcul"),
+    el("p", {}, "Pendant 3 minutes, faites autant de petits calculs que possible. Tapez le résultat puis Entrée."),
+    el("button", { class: "btn", autofocus: true, onclick: calcul }, "Commencer les calculs")));
+}
+
+function calcul() {
+  const h = entete("Calcul", "—", "3 min");
+  h.node.querySelector(".meta span").textContent = "Calcul mental";
+  const q = el("div", { class: "math" });
+  const champ = el("input", { type: "text", inputmode: "numeric", id: "calcul", autocomplete: "off", "aria-label": "Résultat" });
+  let attendu = 0;
+  const nouveau = () => {
+    const a = 12 + Math.floor(Math.random() * 78), b = 3 + Math.floor(Math.random() * 7);
+    const mult = Math.random() < 0.4;
+    attendu = mult ? a * b : a + b * 7;
+    q.textContent = mult ? `${a} × ${b}` : `${a} + ${b * 7}`;
+    champ.value = "";
+  };
+  const form = el("form", { class: "stack", onsubmit: (e) => {
+    e.preventDefault();
+    if (!champ.value.trim()) return;
+    S.j0.calcul.faits++;
+    if (Number(champ.value.replace(/\s/g, "")) === attendu) S.j0.calcul.justes++;
+    nouveau(); champ.focus();
+  } }, q, champ, el("button", { class: "btn ghost", type: "submit" }, "Valider"));
+  afficher(el("div", { class: "panel" }, h.node, form));
+  nouveau(); champ.focus();
+  chrono(T_CALCUL, h.barre, h.temps, consignePratique);
+}
+
+function consignePratique() {
+  afficher(el("div", { class: "panel" },
+    el("h2", {}, "Exercices"),
+    el("p", {}, "Vous allez revoir les 21 mots, chacun pendant 20 secondes. Selon le mot, on vous demandera :"),
+    el("ul", {},
+      el("li", {}, "de simplement relire le mot ;"),
+      el("li", {}, "de choisir à quelle grande catégorie il appartient ;"),
+      el("li", {}, "ou de retrouver le mot anglais à partir de sa définition.")),
+    el("p", { class: "muted" }, "La bonne réponse s'affiche ensuite. Le mot suivant arrive tout seul."),
+    el("button", { class: "btn", autofocus: true, onclick: () => pratique(0) }, "Commencer les exercices")));
+}
+
+function conditionDe(m) { return GROUPES[S.groupe][m.liste]; }
+
+function pratique(i) {
+  const ordre = S.j0.ordrePratique;
+  if (i >= ordre.length) return finJ0();
+  const m = MOTS.find((x) => x.n === ordre[i]);
+  const cond = conditionDe(m);
+  const h = entete("Exercices", i + 1, ordre.length);
+  const rec = { cond };
+  S.j0.pratique[m.n] = rec;
+  const suivant = () => pratique(i + 1);
+  const solution = () => el("div", { class: "stack" },
+    el("div", { class: "word", lang: "en" }, m.mot),
+    el("div", { class: "trad" }, m.trad));
+
+  if (cond === "relire") {
+    afficher(el("div", { class: "panel" }, h.node, el("p", { class: "eyebrow" }, "Relisez"), solution(), el("p", { class: "def" }, m.def)));
+    chrono(T_PRATIQUE, h.barre, h.temps, suivant);
+    return;
+  }
+
+  const zone = el("div", { class: "stack" });
+  let revele = false;
+  let tempsEcoule = () => 0;
+  const reveler = () => {
+    if (revele) return; revele = true;
+    if (cond === "categorie") {
+      const juste = rec.choix === m.cat;
+      rec.juste = juste;
+      for (const b of zone.querySelectorAll(".cat")) {
+        b.disabled = true;
+        if (b.dataset.cat === m.cat) b.classList.add("ok"); else if (b.dataset.cat === rec.choix) b.classList.add("ko");
+      }
+      zone.append(el("p", { class: `verdict ${rec.choix ? (juste ? "ok" : "ko") : ""}` },
+        rec.choix ? (juste ? "Juste." : `Pas tout à fait : c'est « ${m.cat} ».`) : `Temps écoulé : c'est « ${m.cat} ».`),
+        el("p", { class: "muted" }, `Ce mot désigne : ${m.genre}.`), solution());
+    } else {
+      const champ = zone.querySelector("input");
+      champ.disabled = true;
+      zone.querySelector("button[type=submit]").disabled = true;
+      rec.saisie = champ.value;
+      rec.juste = norm(champ.value) === norm(m.mot);
+      zone.append(el("p", { class: `verdict ${rec.juste ? "ok" : "ko"}` }, rec.juste ? "Juste." : "La réponse était :"), solution(), el("p", { class: "def" }, m.def));
+    }
+    rec.t = Math.round(tempsEcoule() * 10) / 10;
+  };
+
+  if (cond === "categorie") {
+    zone.append(el("p", { class: "eyebrow" }, "À quelle catégorie appartient ce mot ?"),
+      el("div", { class: "word", lang: "en" }, m.mot),
+      el("p", { class: "def" }, m.def),
+      el("div", { class: "cats", role: "group", "aria-label": "Catégories" },
+        CATS.map(([c, d]) => el("button", { class: "cat", "data-cat": c, "aria-pressed": "false", onclick: (e) => {
+          if (revele) return;
+          rec.choix = c; e.currentTarget.setAttribute("aria-pressed", "true"); reveler();
+        } }, el("b", {}, c), el("span", {}, d)))));
+  } else {
+    const champ = el("input", { type: "text", id: "retrouver", autocomplete: "off", autocapitalize: "off", spellcheck: "false", lang: "en", "aria-label": "Mot anglais" });
+    zone.append(el("p", { class: "eyebrow" }, "Quel est le mot anglais ?"),
+      el("p", { class: "cue" }, m.indice),
+      el("form", { class: "stack", onsubmit: (e) => { e.preventDefault(); reveler(); } },
+        champ, el("button", { class: "btn ghost", type: "submit" }, "Valider")));
+    setTimeout(() => champ.focus(), 0);
+  }
+  afficher(el("div", { class: "panel" }, h.node, zone));
+  const t0 = performance.now();
+  tempsEcoule = () => (performance.now() - t0) / 1000;
+  const garde = setTimeout(reveler, T_REPONSE * 1000);
+  chrono(T_PRATIQUE, h.barre, h.temps, () => { clearTimeout(garde); reveler(); suivant(); });
+}
+
+async function finJ0() {
+  enSeance = false;
+  S.j0.fin = Date.now();
+  const ok = await sauver();
+  afficher(el("div", { class: "panel" },
+    el("h2", {}, "Séance terminée, merci"),
+    el("p", {}, `Revenez sur cette page demain, entre le ${dateFr(S.j0.fin + FENETRES.j1[0] * HEURE)} et le ${dateFr(S.j0.fin + FENETRES.j1[1] * HEURE)}, pour une séance de 5 minutes.`),
+    el("p", { class: "muted" }, "Essayez de ne pas chercher ces mots d'ici là."),
+    blocEnvoi(ok, "J0")));
+}
+
+function blocEnvoi(ok, seance) {
+  if (ok) return el("p", { class: "note" }, "Vos réponses sont enregistrées.");
+  const zone = el("textarea", { readonly: true, id: `code-${seance}`, "aria-label": "Code de réponses" });
+  zone.value = codeReponses();
+  const etat = el("span", { class: "small muted", role: "status" });
+  return el("div", { class: "stack note" },
+    el("p", {}, `Vos réponses n'ont pas pu être enregistrées automatiquement. Copiez ce code et envoyez-le à la personne qui vous a transmis ce lien (séance ${seance}).`),
+    zone,
+    el("div", { class: "row" }, el("button", { class: "btn ghost", onclick: async () => {
+      try { await navigator.clipboard.writeText(zone.value); etat.textContent = "Code copié."; }
+      catch { zone.focus(); zone.select(); etat.textContent = "Sélectionné : copiez-le avec Ctrl+C ou ⌘C."; }
+    } }, "Copier le code"), etat),
+    el("p", { class: "small" }, "Gardez cette page dans le même navigateur : elle se souvient de votre séance pour demain."));
+}
+
+function rappel(seance) {
+  enSeance = true;
+  const enCours = S[seance] || (S[seance] = { debut: Date.now(), ordre: melanger(MOTS.map((m) => m.n)), reponses: {} });
+  const ordre = enCours.ordre;
+  const h0 = (enCours.debut - S.j0.fin) / HEURE;
+  enCours.heuresApresJ0 = Math.round(h0 * 10) / 10;
+  const etape = (i) => {
+    if (i >= ordre.length) return finRappel(seance);
+    const m = MOTS.find((x) => x.n === ordre[i]);
+    const anglais = el("input", { type: "text", id: `en-${seance}`, autocomplete: "off", autocapitalize: "off", spellcheck: "false", lang: "en" });
+    const francais = el("input", { type: "text", id: `fr-${seance}`, autocomplete: "off", spellcheck: "false" });
+    const h = entete(seance === "j1" ? "Séance du lendemain" : "Séance d'une semaine", i + 1, ordre.length);
+    h.temps.textContent = "";
+    h.barre.style.width = `${(i / ordre.length) * 100}%`;
+    afficher(el("div", { class: "panel" }, h.node,
+      el("p", { class: "eyebrow" }, "De quel mot s'agit-il ?"),
+      el("p", { class: "cue" }, m.indice),
+      el("form", { class: "stack", onsubmit: (e) => {
+        e.preventDefault();
+        enCours.reponses[m.n] = { anglais: anglais.value, francais: francais.value };
+        etape(i + 1);
+      } },
+        el("label", {}, "Le mot anglais", anglais),
+        el("label", {}, "Sa traduction en français", francais),
+        el("p", { class: "small muted" }, "Laissez vide si vous ne savez pas."),
+        el("button", { class: "btn", type: "submit" }, i + 1 < ordre.length ? "Suivant" : "Terminer"))));
+    anglais.focus();
+  };
+  sauver();
+  etape(Object.keys(enCours.reponses).length);
+}
+
+async function finRappel(seance) {
+  enSeance = false;
+  S[seance].fin = Date.now();
+  const ok = await sauver();
+  const suite = seance === "j1"
+    ? el("p", {}, `Dernière séance : revenez entre le ${dateFr(S.j0.fin + FENETRES.j7[0] * HEURE)} et le ${dateFr(S.j0.fin + FENETRES.j7[1] * HEURE)}.`)
+    : el("p", {}, "C'était la dernière séance. Merci beaucoup pour votre participation.");
+  afficher(el("div", { class: "panel" }, el("h2", {}, "Séance terminée, merci"), suite, blocEnvoi(ok, seance.toUpperCase())));
+}
+
+function attente(texte) {
+  afficher(el("div", { class: "panel" }, el("h2", {}, "Pas encore"), el("p", {}, texte),
+    el("p", { class: "muted" }, "Gardez ce lien : revenez sur cette page à ce moment-là.")));
+}
+
+function aiguiller() {
+  if (!S || !S.j0) return accueil();
+  if (!S.j0.fin) {
+    // An interrupted day-0 session cannot resume: the timing would be broken.
+    return afficher(el("div", { class: "panel" },
+      el("h2", {}, "Séance interrompue"),
+      el("p", {}, "Votre première séance n'a pas été terminée. Elle ne peut pas reprendre au milieu, car les durées font partie de l'étude."),
+      el("p", { class: "muted" }, "Si vous le souhaitez, recommencez depuis le début : vos réponses précédentes seront remplacées."),
+      el("button", { class: "btn", onclick: demarrerJ0 }, "Recommencer la séance")));
+  }
+  const h = (Date.now() - S.j0.fin) / HEURE;
+  if (!(S.j1 && S.j1.fin)) {
+    if (h < FENETRES.j1[0]) return attente(`Votre prochaine séance ouvre le ${dateFr(S.j0.fin + FENETRES.j1[0] * HEURE)}.`);
+    if (h <= FENETRES.j7[0]) return ouvrir("j1", h > FENETRES.j1[1]);
+  }
+  if (!(S.j7 && S.j7.fin)) {
+    if (h < FENETRES.j7[0]) return attente(`Votre dernière séance ouvre le ${dateFr(S.j0.fin + FENETRES.j7[0] * HEURE)}.`);
+    return ouvrir("j7", h > FENETRES.j7[1]);
+  }
+  afficher(el("div", { class: "panel" }, el("h2", {}, "Toutes les séances sont faites"), el("p", {}, "Merci pour votre participation."), blocEnvoi(enLigne, "complet")));
+}
+
+function ouvrir(seance, tard) {
+  afficher(el("div", { class: "panel" },
+    el("h2", {}, seance === "j1" ? "Séance du lendemain" : "Séance d'une semaine"),
+    el("p", {}, "Pour chaque définition, écrivez le mot anglais que vous avez appris, puis sa traduction. Environ 5 minutes."),
+    tard ? el("p", { class: "muted" }, "La séance est un peu en retard sur le calendrier prévu ; vous pouvez la faire quand même.") : null,
+    el("button", { class: "btn", autofocus: true, onclick: () => { if (tard) (S[seance] = S[seance] || { debut: Date.now(), ordre: melanger(MOTS.map((m) => m.n)), reponses: {} }).tard = true; rappel(seance); } }, "Commencer")));
+}
+
+// ---- Organizer view (owner only, needs db) ---------------------------------------
+function suivi(snap) {
+  const zone = document.getElementById("suivi");
+  const lignes = snap.docs.map((d) => d.data()).filter(Boolean);
+  const compte = (f) => lignes.filter(f).length;
+  const parGroupe = (g) => compte((x) => x.groupe === g);
+  zone.hidden = false;
+  zone.replaceChildren(el("div", { class: "panel" },
+    el("p", { class: "eyebrow" }, "Suivi de l'organisateur · visible par vous seul"),
+    el("div", { class: "tablewrap" }, el("table", {},
+      el("thead", {}, el("tr", {}, el("th", {}, ""), el("th", {}, "Groupe A"), el("th", {}, "Groupe B"), el("th", {}, "Groupe C"), el("th", {}, "Total"))),
+      el("tbody", {},
+        [["Inscrits", () => true], ["J0 terminé", (x) => x.j0 && x.j0.fin], ["J1 terminé", (x) => x.j1 && x.j1.fin], ["J7 terminé", (x) => x.j7 && x.j7.fin]]
+          .map(([nom, f]) => el("tr", {}, el("td", {}, nom), ...["A", "B", "C"].map((g) => el("td", {}, compte((x) => x.groupe === g && f(x)))), el("td", {}, compte(f))))))),
+    el("p", { class: "small muted" }, `Objectif : environ 35 lecteurs ayant terminé J7, répartis à peu près également (groupes : ${parGroupe("A")} / ${parGroupe("B")} / ${parGroupe("C")} inscrits). Les lecteurs qui n'ont pas pu enregistrer vous envoient un code.`)));
+}
+
+// ---- Boot -------------------------------------------------------------------------
+async function demarrer() {
+  S = lireLocal();
+  aiguiller();
+  try {
+    db = window.claude ? await window.claude.use("db") : null;
+    const user = window.claude ? await window.claude.use("user") : null;
+    const uid = user ? await user.id() : null;
+    if (db && uid) {
+      docRef = db.collection("reponses").doc(uid);
+      const peut = await user.can("data.write");
+      const snap = await Promise.race([docRef.get(), new Promise((_, rej) => setTimeout(() => rej({ code: "timeout" }), 10000))]);
+      enLigne = peut !== false;
+      const distant = snap.exists ? snap.data() : null;
+      const local = S;
+      if (!enSeance) {
+        if (distant && (!local || (local.j0 && distant.j0 && distant.j0.debut >= local.j0.debut))) S = JSON.parse(JSON.stringify(distant));
+        aiguiller();
+      }
+      if (S && enLigne && !distant) sauver();
+      if (await user.isOwner()) {
+        db.collection("reponses").onSnapshot(suivi, () => {});
+      }
+    }
+  } catch { /* no store reachable: the page keeps working locally and hands out a code */ }
+}
+demarrer();
+</script>

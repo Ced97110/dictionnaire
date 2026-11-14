@@ -1,0 +1,201 @@
+n,id,mot,traduction,categorie_modele,source,genre,section
+1,d018479,slump,"passe à vide (mauvaise passe, creux)",temps,genre sûr,période,Sports et loisirs › Baseball
+2,d010012,NREM,"sommeil non paradoxal (sommeil lent, NREM)",temps,type de question,phase du sommeil,"Corps, santé et médecine › Sommeil"
+3,d014130,baroque,baroque,indéterminé,aucune,style musical,Musique › Termes musicaux
+4,d018701,grandma’s teeth,≈ dents de grand-mère,position,genre discutable,split,Sports et loisirs › Bowling
+5,x02571,rockery,rocaille,lieu,type de question,massif planté,Structures et espaces › Structures et espaces extérieurs
+6,d011936,psychic detective,détective médium (détective extralucide),indéterminé,aucune,enquêteur,"Croyances, religions et sacré › Magie et occultisme"
+7,d007424,astringent,astringent (âpre),qualité,type de question,goût du thé,"Fêtes, nourriture et boissons › Thé"
+8,s01559,interpret,interpréter,action,type de question,opération d'exécution,"Programmation et code › compilation, interprétation et exécution"
+9,d012900,Stratotanker,Stratotanker,hors catégorie (mot sur le langage),genre discutable,surnom,"Conflit, guerre et armes › Armée de l'air et avions"
+10,d010018,Pickwickian syndrome,syndrome de Pickwick (syndrome obésité-hypoventilation),qualité,genre sûr,trouble du sommeil,"Corps, santé et médecine › Sommeil"
+11,s01247,integer,entier,indéterminé,aucune,type de données,"Programmation et code › types, variables et valeurs"
+12,b41095,emotional gain,gain émotionnel,quantité,genre discutable,gain,"Design de produit › Profil client : tâches, douleurs et gains"
+13,b41073,functional pain,douleur fonctionnelle,passion,genre discutable,douleur,"Design de produit › Profil client : tâches, douleurs et gains"
+14,x03361,pithecan,pithécien,relation,genre discutable,relation à un mammifère,"Terre, ciel et animaux › Adjectifs désignant les animaux"
+15,d013447,conn,"conduite du navire (commandement de la manœuvre, poste de manœuvre)",lieu,genre discutable,direction,"Conflit, guerre et armes › Marine et Marines"
+16,d004127,THX,"merci (THX, mrc)",hors catégorie (mot sur le langage),genre sûr,abréviation de messagerie,Informatique générale et électronique › Abréviations de messagerie
+17,x01428,corresponding,correspondant,relation,genre sûr,lien entre choses,Propriétés des choses › Ordre et relation
+18,x05421,cut to the quick,blessé au vif,qualité,type de question,blessure d'amour-propre,Les personnes › Tempérament et comportement
+19,d001299,tallage,taille (taille seigneuriale),indéterminé,aucune,redevance,"Architecture, maison et mobilier › Villages médiévaux"
+20,x03312,rhinoceroid,rhinocéroïde,qualité,genre sûr,ressemblance avec un mammifère,"Terre, ciel et animaux › Adjectifs désignant les animaux"
+21,d010996,ad infinitum,"ad infinitum (à l'infini, sans fin)",hors catégorie (mot sur le langage),genre discutable,locution latine,"Parole, langue et écriture › Mots à propos des mots"
+22,d006189,Saint Kitts and Nevis,dollar des Caraïbes orientales,substance,genre discutable,pays,"Économie, argent et métiers › Monnaies internationales"
+23,v6_5,contaminer,to contaminate,indéterminé,aucune,altérer,Le corps et la vie › Maux et traitements
+24,d004798,photosynthesis,photosynthèse,action,genre discutable,processus,"Nature, terre et climat › Fleurs et plantes"
+25,w69_3,interlude,intermède,temps,genre sûr,période,Relations logiques et temps › Temps et chronologie
+26,d013992,appassionato,appassionato (passionné),qualité,genre sûr,indication de caractère,Musique › Indications musicales
+27,s02168,%,pourcentage,quantité,genre sûr,unité de longueur,"Frontend › formes, typographie, couleurs et unités"
+28,d018681,double pinochle,≈ double pinochle (grandes oreilles),position,genre discutable,split,Sports et loisirs › Bowling
+29,s01994,derived state,état dérivé,action,type de question,valeur calculée,"Frontend › code frontend (DOM, événements, état, frameworks)"
+30,d022108,"bullet, wad-cutter",balle wadcutter (balle à tête plate cylindrique),indéterminé,aucune,balle,"Conflit, guerre et armes › Armes à feu et balles"
+31,d010859,down with,être pote avec (être d'accord),hors catégorie (mot sur le langage),genre discutable,expression,"Parole, langue et écriture › Argot de rue et de rap"
+32,d009462,pediculophobia,pédiculophobie,qualité,genre sûr,phobie,"Corps, santé et médecine › Psychologie et psychiatrie"
+33,d001854,clausura,clôture monastique,lieu,type de question,règle,"Architecture, maison et mobilier › Édifices religieux"
+34,d000814,Texas longhorn,longhorn du Texas (Texas Longhorn),indéterminé,aucune,race bovine américaine,Animaux › Races bovines à viande
+35,x05324,stagy,théâtral,action,type de question,manière théâtrale,Les personnes › Tempérament et comportement
+36,x03342,murid,muridé,relation,genre discutable,relation à un mammifère,"Terre, ciel et animaux › Adjectifs désignant les animaux"
+37,d015218,accord,accord (entente),relation,genre discutable,accord,"Pouvoir, autorité et gouvernement › Relations internationales"
+38,d015630,binder line,≈ titre fédérateur (titre de liaison),substance,genre discutable,titre de presse,"Parole, langue et écriture › Types de titres de presse"
+39,d008131,otalgia,otalgie (mal d'oreille),passion,genre discutable,douleur,"Corps, santé et médecine › Oreilles"
+40,a71_5,"écrasant, écrasante",overwhelming,relation,genre discutable,pouvoir,La vie sociale › Pouvoir et contrôle
+41,x03807,zaftig,plantureuse,substance,type de question,formes du corps féminin,"Les personnes › Silhouettes, carrures et tailles"
+42,x00395,trochiform,trochiforme,substance,type de question,forme conique,Propriétés des choses › FORMES PARTICULIÈRES OU RESSEMBLANCES
+43,x01168,frail,frêle,qualité,type de question,matière cassante,Propriétés des choses › Composition et consistance
+44,d000124,pod,groupe de phoques,quantité,genre discutable,groupe d'animaux,Animaux › Groupes d'animaux
+45,s01540,ahead-of-time,en amont,temps,type de question,mode,"Programmation et code › compilation, interprétation et exécution"
+46,w124_5,nadir,nadir,lieu,genre discutable,point,"Naître, croître, réussir › Extrêmes et sommets"
+47,x01927,drizzle,bruine,quantité,type de question,pluie,Propriétés des choses › Quantités imprécises
+48,d016483,electronic character generator,"générateur de caractères (générateur de titres, titreuse électronique)",substance,genre sûr,appareil,"Spectacle, cinéma et médias › Télévision"
+49,d000258,furball,boule de poils (trichobézoard),quantité,genre sûr,masse,Animaux › Chats
+50,d017491,kinetics,cinétique chimique (cinétique),indéterminé,aucune,branche de la chimie,Sciences et technologies › Chimie
+51,d004658,stratus,stratus,substance,genre sûr,nuage,"Nature, terre et climat › Nuages"
+52,d015016,groundswell,vague de soutien (lame de fond),indéterminé,aucune,mouvement d'opinion,"Pouvoir, autorité et gouvernement › Politique et économie"
+53,d011249,synecdoche,synecdoque,hors catégorie (mot sur le langage),genre sûr,figure de style,"Parole, langue et écriture › Mots à propos des mots"
+54,d012926,anticrop operation,≈ opération anticultures (guerre anti-végétale),action,genre sûr,opération,"Conflit, guerre et armes › Armée de terre, forces terrestres et termes militaires généraux"
+55,d018679,dodo,≈ dodo (boule lestée illégalement),substance,type de question,boule,Sports et loisirs › Bowling
+56,d018202,NHRA,NHRA,indéterminé,aucune,organisation de course,Sports et loisirs › Course automobile
+57,x01426,correlational,de corrélation,relation,genre sûr,lien entre choses,Propriétés des choses › Ordre et relation
+58,x03572,cavernicolous,cavernicole,lieu,genre sûr,milieu de vie,"Terre, ciel et animaux › Termes de zoologie"
+59,d004711,microearthquake,microséisme (micro-séisme),indéterminé,aucune,séisme,"Nature, terre et climat › Séismes"
+60,w44_6,reciprocity,réciprocité,relation,genre sûr,lien,Liens humains et société › Liens et interactions
+61,s01655,downstream,aval,lieu,genre discutable,direction,Programmation et code › versionnage et collaboration (Git)
+62,d020890,therm,therm,quantité,type de question,unité de physique,"Matière, forme, mesure et outils › Poids et mesures"
+63,d010994,ad hominem,ad hominem (argument contre la personne),hors catégorie (mot sur le langage),type de question,sophisme,"Parole, langue et écriture › Mots à propos des mots"
+64,b20597,evolutionary socialism,socialisme évolutionniste,qualité,genre discutable,courant,"Pouvoir, autorité et gouvernement › Socialisme"
+65,d022720,genie out of the bottle,"on ne peut pas revenir en arrière (boîte de Pandore ouverte, le mal est fait)",hors catégorie (mot sur le langage),genre discutable,expression,"Parole, langue et écriture › Mots et expressions à connaître"
+66,a90_1,"subtil, subtile",subtle,hors catégorie (mot sur le langage),type de question,manière de dire,L'expression et le degré › Subtil et indirect
+67,d010430,dime bag,≈ sachet de dix dollars (pochon),quantité,type de question,quantité de cannabis,"Parole, langue et écriture › Marijuana"
+68,d022372,beat a dead horse,"≈ s'acharner sur un sujet clos (enfoncer une porte ouverte, ressasser)",hors catégorie (mot sur le langage),genre discutable,expression,"Parole, langue et écriture › Mots et expressions à connaître"
+69,x04770,illfavored,de mauvaise mine,action,type de question,laideur légère,Les personnes › Attrait perçu
+70,b30858,yield to maturity,rendement à l'échéance,quantité,type de question,rendement,"Économie, argent et métiers › Obligations"
+71,d018741,picket fence,≈ palissade (quatre cavaliers),position,genre discutable,split,Sports et loisirs › Bowling
+72,d018893,bailer,écope (puisette),substance,type de question,accessoire de canoë,Sports et loisirs › Canoë
+73,s00015,instruction decoder,décodeur d'instructions,substance,type de question,partie du processeur,Matériel › processeur et mémoire
+74,d021379,anchorage,mouillage (ancrage),action,type de question,lieu de mouillage,Voyages et transports › Navigation à voile
+75,d013671,hi Jackson,≈ salut mon vieux (salut camarade),hors catégorie (mot sur le langage),type de question,salutation,"Conflit, guerre et armes › Armée de terre"
+76,d001700,matha,matha (monastère hindou),lieu,type de question,édifice religieux indien,"Architecture, maison et mobilier › Architecture indienne"
+77,d018442,pop-up,"chandelle (ballon, pop-up)",action,genre discutable,balle frappée,Sports et loisirs › Baseball
+78,d009355,necromania,nécromanie,qualité,genre sûr,manie,"Corps, santé et médecine › Psychologie et psychiatrie"
+79,b10434,current account deficit,déficit courant,qualité,type de question,solde,"Économie, argent et métiers › Balance des paiements et ajustement"
+80,d017973,cosmic year,année cosmique (année galactique),temps,genre sûr,durée,Sciences et technologies › Espace
+81,d009869,pathologic fracture,fracture pathologique,passion,genre discutable,fracture,"Corps, santé et médecine › Maladies, troubles et fractures des os"
+82,d006172,Norway,couronne norvégienne (couronne),substance,genre discutable,pays,"Économie, argent et métiers › Monnaies internationales"
+83,b30948,open interest,position ouverte,quantité,genre sûr,nombre,"Économie, argent et métiers › Produits dérivés"
+84,d011395,expungement of records,effacement du casier (radiation du casier judiciaire),indéterminé,aucune,procédure,"Loi, crime et sanction › Droit pénal et responsabilité délictuelle"
+85,s03660,connection reset,réinitialisation de connexion,temps,type de question,événement de connexion,"Internet et réseaux › TCP, UDP et ports"
+86,d001510,caupona,"≈ auberge romaine (caupona, taverne)",lieu,type de question,établissement romain,"Architecture, maison et mobilier › Architecture de la Grèce et de la Rome antiques"
+87,b30767,equities,actions,indéterminé,aucune,titres de propriété,"Économie, argent et métiers › Classes d'actifs"
+88,d003661,mourning jewelry,bijou de deuil (bijoux de deuil),substance,genre sûr,bijou,"Apparence, vêtements et mode › Bijoux"
+89,d009383,manic episode,épisode maniaque (accès maniaque),temps,genre sûr,période,"Corps, santé et médecine › Psychologie et psychiatrie"
+90,d015516,Stoker Award,prix Bram Stoker (Stoker Award),indéterminé,aucune,prix littéraire,"Parole, langue et écriture › Édition de livres"
+91,d011071,comprobatio,≈ comprobatio (flatterie persuasive),hors catégorie (mot sur le langage),type de question,figure de pensée,"Parole, langue et écriture › Mots à propos des mots"
+92,d020060,collecting,"contrôle du ballon (prise de balle, réception)",action,type de question,contrôle de balle,Sports et loisirs › Football
+93,p0042,data-informed,éclairé par les données,indéterminé,aucune,démarche de décision,Design de produit › comprendre les utilisateurs (recherche)
+94,d006421,securities,valeurs mobilières (titres),indéterminé,aucune,produit financier,"Économie, argent et métiers › Termes de bourse, obligations et matières premières"
+95,d015799,coupé,coupé,action,type de question,pas,"Spectacle, cinéma et médias › Danse jazz"
+96,s02348,frame busting,anti-encadrement,indéterminé,aucune,contre-mesure,"Sécurité frontend et applicative › attaques côté navigateur (XSS, CSRF, clickjacking)"
+97,b30898,payment date,date de paiement,indéterminé,aucune,date,"Économie, argent et métiers › Actions"
+98,d006943,chef de cuisine,chef de cuisine (chef cuisinier),hors catégorie (mot sur le langage),type de question,cuisinier,"Fêtes, nourriture et boissons › Termes de cuisine française"
+99,b10397,over-the-counter market,marché de gré à gré,lieu,genre discutable,marché,"Économie, argent et métiers › Marchés des changes et finance internationale"
+100,x01368,rolled back,a été ramené,passion,genre discutable,baisse,Propriétés des choses › Taille et étendue
+101,d000284,spaying,stérilisation (ovariectomie),action,genre sûr,opération,Animaux › Chats
+102,d014725,A.P.B.,avis de recherche général (bulletin de recherche),hors catégorie (mot sur le langage),genre discutable,message,"Loi, crime et sanction › Police et détectives"
+103,d014901,watch,"tour de service (quart, vacation)",temps,genre sûr,période,"Loi, crime et sanction › Police et détectives"
+104,d004232,hot spot,"point d'accès wifi (borne wifi, hotspot)",lieu,genre sûr,lieu,Informatique générale et électronique › Internet
+105,x04911,nidorous,de graillon,qualité,genre sûr,mauvaise odeur,Les personnes › Impressions sensorielles : odorat
+106,s04091,office hours,permanence,temps,type de question,temps d'aide,"Communication logicielle › communication en équipe logicielle (agile, tickets, revues)"
+107,a55_7,"bénin, bénigne",benign,qualité,genre discutable,maladie,Le monde physique et le corps › Maladie et état
+108,d021675,graveyard watch,quart de nuit (quart de minuit à quatre heures),temps,type de question,quart,Voyages et transports › Termes de marine à voile des XVIIIe et XIXe siècles
+109,d014581,harrow,herse,substance,type de question,outil agricole,"Économie, argent et métiers › Agriculture"
+110,s00687,empty,vide,qualité,type de question,état,"Algorithmes et structures de données › tableaux, listes, piles et files"
+111,d021978,HSI,indicateur de situation horizontale (HSI),hors catégorie (mot sur le langage),type de question,indicateur de bord,Voyages et transports › Navette spatiale › Sigles de la navette
+112,d010903,phat,"énorme (génial, riche)",hors catégorie (mot sur le langage),genre sûr,expression de louange,"Parole, langue et écriture › Argot de rue et de rap"
+113,d010376,DOA,héro (héroïne),substance,genre sûr,surnom d'héroïne,"Parole, langue et écriture › Héroïne et LSD"
+114,d015611,pl.,pl. (planche),hors catégorie (mot sur le langage),genre sûr,abréviation,"Parole, langue et écriture › Abréviations des notes de bas de page"
+115,d000813,Tarentaise,Tarentaise (tarine),indéterminé,aucune,race bovine à viande continentale,Animaux › Races bovines à viande
+116,x03626,anthropophagous,anthropophage,qualité,genre discutable,régime carné,"Terre, ciel et animaux › Termes de zoologie"
+117,a73_2,"défensif, défensive",defensive,action,genre discutable,protection,La vie sociale › Protection et évitement
+118,d000063,skulk,groupe de renards,quantité,genre discutable,groupe d'animaux,Animaux › Groupes d'animaux
+119,d012192,radiology,radiologie,qualité,genre discutable,spécialité médicale,"Corps, santé et médecine › Disciplines et spécialités médicales"
+120,d006898,à la neige,à la neige,substance,genre discutable,garniture « à la … »,"Fêtes, nourriture et boissons › Termes de cuisine française"
+121,s02557,encryption in transit,chiffrement en transit,indéterminé,aucune,mode de chiffrement,Sécurité frontend et applicative › chiffrement et certificats
+122,d004861,common name,nom vernaculaire,temps,type de question,nom de plante,"Nature, terre et climat › Jardins et aménagement paysager"
+123,d020435,head of the stretch,≈ entrée de la ligne droite (début de la ligne d'arrivée),lieu,genre sûr,partie de piste,Sports et loisirs › Courses de pur-sang
+124,d000090,cub,léopardeau,substance,genre sûr,petit,Animaux › Groupes d'animaux
+125,x03582,stercoricolous,stercoricole,lieu,genre sûr,milieu de vie,"Terre, ciel et animaux › Termes de zoologie"
+126,d009854,comminuted fracture,fracture comminutive (fracture multifragmentaire),passion,genre discutable,fracture,"Corps, santé et médecine › Maladies, troubles et fractures des os"
+127,b00016,inalienable rights,droits inaliénables,relation,genre discutable,droits,Culture générale : notions clés › L'individu et ses droits
+128,x01421,associated,associé,relation,genre sûr,lien entre choses,Propriétés des choses › Ordre et relation
+129,d020303,point,point (marque),quantité,type de question,unité de score,Sports et loisirs › Tennis
+130,d019759,hypotenuse shot,≈ tir en hypoténuse (frappe en diagonale basse),action,genre sûr,coup de racquetball,Sports et loisirs › Racquetball
+131,a95_4,"écoulé, écoulée",elapsed,temps,type de question,moment dans la succession,Le monde physique et le corps › Temps et succession
+132,d010885,haten’,dénigrer (rabaisser),hors catégorie (mot sur le langage),type de question,verbe,"Parole, langue et écriture › Argot de rue et de rap"
+133,d004102,CYA,"à plus (CYA, salut)",hors catégorie (mot sur le langage),genre sûr,abréviation de messagerie,Informatique générale et électronique › Abréviations de messagerie
+134,d022259,Achilles’ heel,talon d'Achille (point faible),lieu,genre discutable,point,"Parole, langue et écriture › Mots et expressions à connaître"
+135,d009975,chronotherapy,chronothérapie (luminothérapie),action,genre sûr,traitement,"Corps, santé et médecine › Sommeil"
+136,d004494,Rayleigh scattering,diffusion de Rayleigh (diffusion Rayleigh),indéterminé,aucune,diffusion de la lumière,"Nature, terre et climat › Atmosphère et ciel"
+137,w143_7,multitude,multitude,quantité,genre sûr,quantité,"Matière, forme, mesure et outils › Taille et quantité"
+138,x03019,summery,estival (léger),indéterminé,aucune,temps de saison,"Terre, ciel et animaux › Météo et forces de la nature"
+139,w44_4,affiliation,affiliation,relation,genre sûr,lien,Liens humains et société › Liens et interactions
+140,d020722,ashram,ashram,lieu,genre sûr,lieu,Sports et loisirs › Yoga
+141,x03603,paludicolous,paludicole,lieu,type de question,habitant des zones humides,"Terre, ciel et animaux › Termes de zoologie"
+142,d011649,aleuromancy,aleuromancie,action,genre sûr,divination,"Croyances, religions et sacré › Magie et occultisme"
+143,b41147,customer relationship,relation client,relation,genre sûr,lien,Design de produit › Blocs du modèle d'affaires
+144,x01503,bottommost,le plus bas,lieu,type de question,position basse,Propriétés des choses › Position
+145,d011239,simile,comparaison (figure de comparaison),hors catégorie (mot sur le langage),genre sûr,figure de style,"Parole, langue et écriture › Mots à propos des mots"
+146,d020879,parsec,parsec,quantité,genre sûr,unité de longueur,"Matière, forme, mesure et outils › Poids et mesures"
+147,d018474,sinking fastball,balle rapide plongeante (balle rapide qui plonge),action,genre sûr,lancer de baseball,Sports et loisirs › Baseball
+148,d014950,cloture,clôture des débats (clôture),indéterminé,aucune,procédure,"Pouvoir, autorité et gouvernement › Politique et économie"
+149,s02504,template injection,injection de gabarit,action,genre sûr,attaque par injection,"Sécurité frontend et applicative › validation, échappement et injection"
+150,d009659,G-spot (Grafenberg spot),point G (zone de Gräfenberg),lieu,genre sûr,zone,Liens humains et société › Sexualité
+151,d001757,wickiup,wickiup (hutte en dôme),lieu,type de question,habitation amérindienne,"Architecture, maison et mobilier › Architecture amérindienne"
+152,x00411,lyriform,lyriforme,substance,type de question,forme d'instrument,Propriétés des choses › FORMES PARTICULIÈRES OU RESSEMBLANCES
+153,d010891,hood,quartier (cité),lieu,genre sûr,lieu,"Parole, langue et écriture › Argot de rue et de rap"
+154,x01987,alit,éclairé,action,genre discutable,émission de lumière,Propriétés des choses › Lumière
+155,s02720,RTO,objectif de temps de reprise,quantité,type de question,mesure de durée,Sûreté et fiabilité › sauvegarde et reprise
+156,d011263,weasel word,"≈ mot ambigu (mot fuyant, terme évasif)",hors catégorie (mot sur le langage),genre sûr,mot,"Parole, langue et écriture › Mots à propos des mots"
+157,b41054,value chain,chaîne de valeur,hors catégorie (mot sur le langage),type de question,suite,Design de produit › Cadre et canevas de base
+158,s01107,Z-algorithm,algorithme Z,action,type de question,algorithme de chaînes,Algorithmes et structures de données › chaînes de caractères et motifs
+159,s03019,one-to-many,un à plusieurs,indéterminé,aucune,type de relation,Backend › bases de données relationnelles et SQL
+160,d015620,suppl.,supplément (suppl.),hors catégorie (mot sur le langage),genre sûr,abréviation,"Parole, langue et écriture › Abréviations des notes de bas de page"
+161,d022849,latent,"latent (dormant, sous-jacent)",qualité,type de question,adjectif,"Parole, langue et écriture › Mots et expressions à connaître"
+162,d022457,clairvoyant,"voyant (clairvoyant, médium)",qualité,type de question,adjectif,"Parole, langue et écriture › Mots et expressions à connaître"
+163,a53_6,"ancestral, ancestrale",ancestral,temps,type de question,époque ancienne,Le monde physique et le corps › Histoire et nostalgie
+164,d020113,offside trap,piège du hors-jeu (piège à hors-jeu),action,type de question,tactique défensive,Sports et loisirs › Football
+165,x01322,stupendous,stupéfiant,quantité,type de question,taille colossale,Propriétés des choses › Taille et étendue
+166,b20685,first wave,première vague,temps,genre sûr,période,"Pouvoir, autorité et gouvernement › Féminisme"
+167,d019837,ramp,"rampe (tremplin, plan incliné)",lieu,type de question,structure de skate,Sports et loisirs › Skateboard
+168,x01427,interlinked,imbriqué,relation,genre sûr,lien entre choses,Propriétés des choses › Ordre et relation
+169,d018556,penalty situation,situation de bonus (pénalité d'équipe),indéterminé,aucune,situation de jeu,Sports et loisirs › Basket-ball
+170,d022851,laud,"louer (faire l'éloge de, encenser)",indéterminé,aucune,verbe,"Parole, langue et écriture › Mots et expressions à connaître"
+171,d018696,four horsemen,≈ quatre cavaliers (picket fence),position,genre discutable,split,Sports et loisirs › Bowling
+172,d010535,greenies,amphétamine (speed),substance,genre sûr,surnom d'amphétamine,"Parole, langue et écriture › Autres termes de la drogue"
+173,d013562,draft,tirant d'eau,action,genre discutable,mesure,"Conflit, guerre et armes › Sous-marins"
+174,w78_4,placidity,placidité,qualité,genre sûr,calme,Émotions agréables › Sang-froid et amabilité
+175,x05277,unsatisfied,insatisfait,qualité,type de question,insatisfaction,Les personnes › Tempérament et comportement
+176,s02176,ex,hauteur d'x,quantité,genre sûr,unité de longueur,"Frontend › formes, typographie, couleurs et unités"
+177,x03928,black and blue,couvert de bleus,qualité,type de question,couleur anormale de la peau,"Les personnes › Tête, visage, teint et peau"
+178,d012146,pulmonary medicine,pneumologie (médecine pulmonaire),qualité,genre discutable,spécialité médicale,"Corps, santé et médecine › Disciplines et spécialités médicales"
+179,x02762,swallowhole,perte,lieu,type de question,trou dans le sol,"Terre, ciel et animaux › Terrain et paysage"
+180,d009727,threesome,"plan à trois (partie à trois, trio)",action,genre sûr,rapport sexuel,Liens humains et société › Sexualité
+181,d014214,incidental music,"musique de scène (musique de film, musique d'accompagnement)",indéterminé,aucune,musique,Musique › Termes musicaux
+182,d005701,internal wave,onde interne (vague interne),indéterminé,aucune,vague,"Nature, terre et climat › Mers et océans"
+183,d008868,bursitis,bursite,passion,genre discutable,inflammation,"Corps, santé et médecine › Maladies et troubles musculaires"
+184,d022341,articulate,"éloquent (qui s'exprime avec aisance, clair)",hors catégorie (mot sur le langage),type de question,adjectif,"Parole, langue et écriture › Mots et expressions à connaître"
+185,w143_1,plethora,pléthore,quantité,genre sûr,quantité,"Matière, forme, mesure et outils › Taille et quantité"
+186,w124_1,zenith,zénith,lieu,genre discutable,point,"Naître, croître, réussir › Extrêmes et sommets"
+187,w54_1,banquet,banquet,indéterminé,aucune,repas,"Fêtes, nourriture et boissons › Nourriture et boissons"
+188,d006883,à la grecque,à la grecque,substance,genre discutable,garniture « à la … »,"Fêtes, nourriture et boissons › Termes de cuisine française"
+189,x02122,Chinese red,rouge chinois,qualité,genre sûr,nuance de rouge,Propriétés des choses › Couleurs
+190,d017403,site,site archéologique (gisement),lieu,genre sûr,lieu,Sciences et technologies › Anthropologie et archéologie
+191,d016562,people meter,"audimètre individuel (people meter, audimat)",substance,genre sûr,appareil,"Spectacle, cinéma et médias › Télévision"
+192,d018776,Woolworth,≈ Woolworth (split cinq-dix),position,genre discutable,split,Sports et loisirs › Bowling
+193,d000087,leap,groupe de léopards,quantité,genre discutable,groupe d'animaux,Animaux › Groupes d'animaux
+194,s02370,inject,injecter,indéterminé,aucune,verbe d'attaque,"Sécurité frontend et applicative › attaques côté navigateur (XSS, CSRF, clickjacking)"
+195,d013307,stellar guidance,guidage stellaire (guidage astral),substance,type de question,guidage,"Conflit, guerre et armes › Missiles, armes nucléaires et fusées"
+196,d008037,trimester,trimestre (trimestre de grossesse),temps,genre sûr,période,"Corps, santé et médecine › Conception, grossesse et accouchement"
+197,d015826,plié-relevé position,position plié-relevé,position,genre discutable,position,"Spectacle, cinéma et médias › Danse jazz"
+198,s00803,frontier,frontière,quantité,genre discutable,ensemble,Algorithmes et structures de données › graphes et parcours
+199,s00135,format,formater,quantité,type de question,opération sur disque,Matériel › stockage
+200,x01988,lit,allumé,action,genre discutable,émission de lumière,Propriétés des choses › Lumière
