@@ -4,3 +4,9 @@ out/
 next-env.d.ts
 *.tsbuildinfo
 .DS_Store
+
+# Secrets locaux
+.env*.local
+.env
+scripts/.cache/
+test-results/

@@ -1,9 +1,9 @@
 /* Logique de la page : recherche, parcours guidé, thèmes, questions, fiches. */
 (function(){
-const $=s=>document.querySelector(s),out=$('#out');let IDX=[],FRONT=null,QT={};const TH={},BYID={},VOLOF={},THNAME={};
+const $=s=>document.querySelector(s),out=$('#out');let NB=0,FRONT=null,QT={};const TH={},BYID={},VOLOF={},THNAME={};
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const norm=s=>String(s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');
-async function getTh(k){if(!TH[k]){const r=await fetch('/data/t'+k+'.json');TH[k]=await r.json();idx(TH[k],k)}return TH[k]}
+async function getTh(k){if(!TH[k]){const r=await fetch('/api/theme/'+k);TH[k]=await r.json();idx(TH[k],k)}return TH[k]}
 function idx(t,k){t.fiches.forEach(f=>f.w.forEach(w=>BYID[w.i]={e:w,f,t,k}));t.secs.forEach(s=>s.n.forEach(n=>n.e.forEach(e=>{if(e.i)BYID[e.i]={e,n,s,t,k}})))}
 const pair=(fr,en,cls='')=>(fr?`<p class="${cls}">${esc(fr)}</p>`:'')+(en?`<p class="en" lang="en">${esc(en)}</p>`:'');
 const chip=t=>{const q=QT[t];return q?`<span class="chip" style="--qc:${q[4]}">${esc(q[0])}</span>`:''};
@@ -43,14 +43,13 @@ function porHTML(x,k){const L=[],pg=PGEN[k];
  const g=x.n||x.f;if(g&&g.q)L.push(['Question',g.q[0],g.d?.[0]]);
  if(x.n&&x.n.k)for(const [q,a] of kPath(x.n.k,x.e.i)||[])L.push(['Différence',a,q]);
  return `<div class="lab">Le chemin du mot · From genus to word</div><p class="porline">`+L.map(([b,t])=>`<span>${esc(t)}</span>`).join(' › ')+` › <b>${esc(x.e.t)}</b></p><details class="pordet"><summary>Voir ce qui distingue chaque étape</summary><ol class="por">`+L.map(([b,t,d])=>`<li><b>${esc(b)}</b>${esc(t)}${d?`<br><span class="sd">${esc(d)}</span>`:''}</li>`).join('')+`<li><b>Le mot</b>${esc(x.e.t)}</li></ol></details>`}
-let MQ='',DEFS=null;
+let MQ='',MSN=0;
 const STOP=new Set('les des une un le la de du et en au aux qui que quoi pour par sur dans avec sans ou est sont son sa ses ce cette ces the of and a an to in on for with by or is are that which who what from as at be it its into not ne pas'.split(' '));
 const toks=s=>norm(s).replace(/[^a-z0-9 ]/g,' ').split(/\s+/).filter(w=>w.length>2&&!STOP.has(w)).map(w=>w.slice(0,5));
 async function msearch(){const q=$('#wzq').value.trim();MQ=q;const r=$('#mres');if(!q){r.innerHTML='';return}
- if(!DEFS){r.innerHTML='<p class="st">Chargement des définitions…</p>';const L=await Promise.all([0,1,2,3].map(k=>fetch('/data/defs_'+k+'.json').then(x=>x.json())));DEFS=L.flat().map(d=>[d,' '+norm(d[2]+' '+d[3]+' '+d[4]+' '+d[5]).replace(/[^a-z0-9 ]/g,' ')+' '])}
- const T=[...new Set(toks(q))];if(!T.length){r.innerHTML='';return}
- const res=[];for(const [d,txt] of DEFS){let sc=0;for(const t of T)if(txt.includes(' '+t))sc++;if(sc)res.push([sc,d])}
- const need=Math.max(1,Math.ceil(T.length*0.4));const top=res.filter(x=>x[0]>=need).sort((a,b)=>b[0]-a[0]||a[1][5].length-b[1][5].length).slice(0,15);
+ if(!toks(q).length){r.innerHTML='';return}
+ const n=++MSN;let top;try{const d=await fetch('/api/recherche?sens='+encodeURIComponent(q)).then(x=>{if(!x.ok)throw new Error(x.status);return x.json()});top=d.resultats.map(x=>[0,x])}catch{if(n===MSN)r.innerHTML='<p class="st">La recherche a échoué. Réessayez.</p>';return}
+ if(n!==MSN||!document.contains(r))return;
  r.innerHTML=top.length?`<p class="st">${top.length} mots proches de ce sens :</p>`+top.map(([sc,d])=>`<button class="wz-word" data-id="${d[0]}">${esc(d[2])}<small>${esc(d[3])}</small><small>${esc(d[4]||d[5])}</small></button>`).join(''):'<p class="st">Aucun mot trouvé. Essayez d\'autres mots, ou descendez l\'arbre ci-dessous.</p>'}
 let WP=[];const WAUTO=new Set();
 function wzCut(c){let n=c-1;while(n>0&&WAUTO.has(n))n--;return Math.max(n,0)}
@@ -94,16 +93,22 @@ async function wiz(){last=wiz;const P=WP,crumbs=[];let h='',pre='',opts='',step=
 let last=null,timer;
 function backBtn(){return `<button class="back" id="bk">← Retour</button>`}
 function wireBack(prev){const b=$('#bk');if(b)b.onclick=()=>(prev||search)()}
-async function show(id){const prev=last;const r=IDX.find(x=>x[2]===id);if(!r){out.innerHTML='<p class="st">Entrée introuvable.</p>';return}
+async function show(id){const prev=last;out.innerHTML='<p class="st">Ouverture…</p>';const r=await fetch('/api/mot/'+encodeURIComponent(id)).then(x=>x.ok?x.json():null).catch(()=>null);if(!r){out.innerHTML='<p class="st">Entrée introuvable.</p>';return}
  out.innerHTML='<p class="st">Ouverture…</p>';await getTh(r[3]);const x=BYID[id];
  let ctx=`<p class="path">${esc(THNAME[r[3]]?.[1]||'')} › ${esc(x.t.fr)}${x.s?' › '+esc(x.s.fr):' › '+esc(x.f.fr)} <span class="vol">${esc(VOLOF[r[3]])}</span></p>`;
  const grp=x.n||x.f;ctx+=qhead(grp)+(x.n?keyBlock(x.n,'w-'+id):'');
  const sib=(x.n?x.n.e:x.f.w).filter(e=>e!==x.e).map(e=>`<span class="lk" tabindex="0" data-id="${e.i||e.ref}">${esc(e.t)}</span>`).join(' · ');if(sib)ctx+=`<p class="path">Mots voisins : ${sib}</p>`;
  out.innerHTML=backBtn()+`<div class="card">${entryHTML(x.e,porHTML(x,r[3]))}${ctx}</div><p class="st"><span class="lk" tabindex="0" data-th="${r[3]}">Voir tout le thème « ${esc(x.t.fr)} »</span></p>`;
  const me=()=>show(id);wireBack(prev);last=me;window.scrollTo(0,0)}
-function search(){last=search;const v=norm($('#q').value.trim());if(!v){out.innerHTML=`<p class="st">${IDX.length.toLocaleString('fr')} mots et expressions dans les 8 volumes (5 tomes, Verbes, Adjectifs, Descriptions). Tapez un mot anglais (ex. <i>jenny</i>) ou français (ex. <i>ânesse</i>).</p>`;return}
- const a=[],b=[],c=[];for(const r of IDX){const t=norm(r[0]),f=norm(r[1]);if(t===v||f===v)a.push(r);else if(t.startsWith(v)||f.startsWith(v))b.push(r);else if(v.length>2&&(t.includes(v)||f.includes(v)||norm(r[4]).includes(v)))c.push(r);if(a.length+b.length>300)break}
- let res=a.concat(b,c);if(!res.length){const T=v.split(/\s+/).filter(w=>w.length>2);if(T.length>1)for(const r of IDX){const h=norm(r[0]+' '+r[1]+' '+r[4]);if(T.every(t=>h.includes(t))){res.push(r);if(res.length>150)break}}}res=res.slice(0,150);out.innerHTML=(res.length?`<p class="st">${res.length} résultat${res.length>1?'s':''}</p>`:`<p class="st">Aucun mot ne porte ce nom. Si vous cherchez par le sens, utilisez l'onglet « Je connais le sens ».</p>`)+`<ul class="res">`+res.map(r=>`<li tabindex="0" data-id="${r[2]}"><b>${esc(r[0])}</b><span class="t">${esc(r[1])}</span><span class="p">${esc(r[4])}</span><span class="vol">${esc(VOLOF[r[3]])}</span></li>`).join('')+'</ul>'}
+let SN=0;
+const resLi=r=>`<li tabindex="0" data-id="${r[2]}"><b>${esc(r[0])}</b><span class="t">${esc(r[1])}</span><span class="p">${esc(r[4])}</span><span class="vol">${esc(VOLOF[r[3]])}</span></li>`;
+const moreBtn=(shown,tot)=>shown<tot?`<button class="back" id="more">Résultats suivants (${shown} sur ${tot})</button>`:'';
+async function search(page=0){last=search;const raw=$('#q').value.trim(),v=norm(raw);if(!v){out.innerHTML=`<p class="st">${NB.toLocaleString('fr')} mots et expressions dans les 8 volumes (5 tomes, Verbes, Adjectifs, Descriptions). Tapez un mot anglais (ex. <i>jenny</i>) ou français (ex. <i>ânesse</i>).</p>`;return}
+ const n=++SN;let d;try{d=await fetch('/api/recherche?q='+encodeURIComponent(raw)+'&page='+page).then(x=>{if(!x.ok)throw new Error(x.status);return x.json()})}catch{if(n===SN)out.innerHTML='<p class="st">La recherche a échoué. Réessayez.</p>';return}
+ if(n!==SN||last!==search)return;const res=d.resultats,tot=d.total,shown=page*20+res.length;
+ if(page>0){const ul=out.querySelector('ul.res');if(ul)ul.insertAdjacentHTML('beforeend',res.map(resLi).join(''));$('#more')?.remove()}
+ else out.innerHTML=(tot?`<p class="st">${tot} résultat${tot>1?'s':''}</p>`:`<p class="st">Aucun mot ne porte ce nom. Si vous cherchez par le sens, utilisez l'onglet « Je connais le sens ».</p>`)+`<ul class="res">`+res.map(resLi).join('')+'</ul>';
+ out.insertAdjacentHTML('beforeend',moreBtn(shown,tot));const m=$('#more');if(m)m.onclick=()=>search(page+1)}
 function browse(){last=browse;out.innerHTML=FRONT.parts.map(p=>`<details class="pt"><summary><span class="pn">${esc(p.fr)}</span> <span class="vol">${esc(p.vol)}</span><span class="en" lang="en">${esc(p.en)}</span></summary>`+p.themes.map(t=>`<span class="thl lk" tabindex="0" data-th="${t[2]}">${esc(t[0])}<small>${esc(t[1])} · ${t[3]?t[3]+' fiches · ':''}${t[4]} questions</small></span>`).join('')+`</details>`).join('')}
 async function theme(k,anchor){const prev=last;out.innerHTML='<p class="st">Chargement du thème…</p>';const t=await getTh(k);
  let h=backBtn()+`<p class="path">${esc(THNAME[k][1])} <span class="vol">${esc(VOLOF[k])}</span></p><h2 class="hd">${esc(t.fr)}</h2><p class="en" lang="en">${esc(t.en)}</p>`+(t.d?`<div class="box"><p>${esc(t.d[0])}</p><p class="en" lang="en">${esc(t.d[1])}</p></div>`:'');
@@ -128,6 +133,7 @@ out.addEventListener('click',ev=>{const wz=ev.target.closest('[data-wz],[data-wz
   if(kb.dataset.kb!==undefined)w.stack.push(+kb.dataset.kb);else if(kb.dataset.kback)w.stack.pop();else w.stack=[];kRender(id);return}
  const t=ev.target.closest('[data-id],[data-th]');if(!t)return;if(t.dataset.th)theme(t.dataset.th,t.dataset.a);else show(t.dataset.id)});
 out.addEventListener('keydown',ev=>{const d=ev.target.dataset;if(ev.key==='Enter'&&(d.id||d.th||d.kback||d.kreset||d.wzback))ev.target.click()});
-Promise.all([fetch('/data/index.json').then(r=>r.json()),fetch('/data/front.json').then(r=>r.json())]).then(([i,f])=>{IDX=i;FRONT=f;QT=f.qtypes;
+fetch('/api/demarrage').then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(({front:f,nb})=>{NB=nb;FRONT=f;QT=f.qtypes;
  f.parts.forEach(p=>p.themes.forEach(t=>{VOLOF[t[2]]=p.vol;THNAME[t[2]]=[p.num,p.fr];PGEN[t[2]]=p.gen}));tab('tWiz')}).catch(()=>{out.innerHTML='<p class="st">Le chargement des données a échoué. Rechargez la page.</p>'});
+window.dicoShow=show;
 })();

@@ -1,0 +1,12 @@
+{
+ "source": "tests/juge-sonnet.mts — Claude Sonnet (claude-sonnet-5-5), à l'aveugle, 2026-11-14 ; 10 cas témoins jugés corrects",
+ "bon_mot": [
+  {"mot": "reliés", "affiche": "relié", "correct": false, "raison": "Dans cette phrase, « reliés » est le participe passé passif du verbe « relier » (« peuvent être reliés »), donc le lemme correct est l'infinitif « relier » et non le participe « relié »."},
+  {"mot": "glisse", "affiche": "glisser", "correct": true, "raison": "Dans cette phrase, « glisse » est la 3e personne du singulier du présent de l'indicatif du verbe « glisser » (sujet « la boule »), donc le lemme « glisser » est bien le verbe correct."},
+  {"mot": "Poils", "affiche": "poil", "correct": true, "raison": "« Poils » est le nom masculin pluriel dont le lemme est « poil » (ici les poils des favoris/pattes), donc l'entrée « poil » correspond bien à la forme de base et à la bonne nature."}
+ ],
+ "mots_outils": [
+  {"mot": "creux", "outil": false, "raison": "« creux » est un mot plein : adjectif coordonné à « aigu » et qui, comme dans « sonner creux », complète le verbe « sonne » en fonction adverbiale."},
+  {"mot": "épaisse", "outil": false, "raison": "« épaisse » est un adjectif qualificatif épithète qui qualifie le nom « semelle » (avec lequel il s'accorde au féminin singulier), donc c'est un mot plein."}
+ ]
+}

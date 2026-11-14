@@ -1,0 +1,11457 @@
+[
+ {
+  "id": "d018688",
+  "langue": "fr",
+  "texte": "Une piste sèche, où la boule glisse vite et accroche peu.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 3,
+    "texte": "Une",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 4,
+    "f": 9,
+    "texte": "piste",
+    "lemme": "pist",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 10,
+    "f": 15,
+    "texte": "sèche",
+    "lemme": "sec",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 17,
+    "f": 19,
+    "texte": "où",
+    "lemme": "où",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 20,
+    "f": 22,
+    "texte": "la",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 23,
+    "f": 28,
+    "texte": "boule",
+    "lemme": "boul",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 29,
+    "f": 35,
+    "texte": "glisse",
+    "lemme": "glisse",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 41,
+    "f": 43,
+    "texte": "et",
+    "lemme": "et",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 44,
+    "f": 52,
+    "texte": "accroche",
+    "lemme": "accroch",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d014863",
+  "langue": "fr",
+  "texte": "Description du caractère, des habitudes et des motivations probables d'un criminel inconnu.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 11,
+    "texte": "Description",
+    "lemme": "description",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 12,
+    "f": 14,
+    "texte": "du",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 15,
+    "f": 24,
+    "texte": "caractère",
+    "lemme": "caractère",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 26,
+    "f": 29,
+    "texte": "des",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 30,
+    "f": 39,
+    "texte": "habitudes",
+    "lemme": "habitude",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 40,
+    "f": 42,
+    "texte": "et",
+    "lemme": "et",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 43,
+    "f": 46,
+    "texte": "des",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 47,
+    "f": 58,
+    "texte": "motivations",
+    "lemme": "motivation",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 59,
+    "f": 68,
+    "texte": "probables",
+    "lemme": "probable",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 69,
+    "f": 71,
+    "texte": "d'",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 71,
+    "f": 73,
+    "texte": "un",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 74,
+    "f": 82,
+    "texte": "criminel",
+    "lemme": "criminel",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 83,
+    "f": 90,
+    "texte": "inconnu",
+    "lemme": "inconnu",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d016411",
+  "langue": "fr",
+  "texte": "Perdre le signal du satellite, ce qui coupe l'émission.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 6,
+    "texte": "Perdre",
+    "lemme": "perdre",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 7,
+    "f": 9,
+    "texte": "le",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 10,
+    "f": 16,
+    "texte": "signal",
+    "lemme": "signal",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 17,
+    "f": 19,
+    "texte": "du",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 31,
+    "f": 33,
+    "texte": "ce",
+    "lemme": "ce",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 34,
+    "f": 37,
+    "texte": "qui",
+    "lemme": "qui",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 38,
+    "f": 43,
+    "texte": "coupe",
+    "lemme": "coupe",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 44,
+    "f": 46,
+    "texte": "l'",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 46,
+    "f": 54,
+    "texte": "émission",
+    "lemme": "émission",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d004008",
+  "langue": "fr",
+  "texte": "Partie de l'ordinateur qui garde les données et les programmes pour s'en servir.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 6,
+    "texte": "Partie",
+    "lemme": "partie",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 7,
+    "f": 9,
+    "texte": "de",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 10,
+    "f": 12,
+    "texte": "l'",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 12,
+    "f": 22,
+    "texte": "ordinateur",
+    "lemme": "ordinateur",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 23,
+    "f": 26,
+    "texte": "qui",
+    "lemme": "qui",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 27,
+    "f": 32,
+    "texte": "garde",
+    "lemme": "garde",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 33,
+    "f": 36,
+    "texte": "les",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 37,
+    "f": 44,
+    "texte": "données",
+    "lemme": "donnée",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 45,
+    "f": 47,
+    "texte": "et",
+    "lemme": "et",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 48,
+    "f": 51,
+    "texte": "les",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 52,
+    "f": 62,
+    "texte": "programmes",
+    "lemme": "programme",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 63,
+    "f": 67,
+    "texte": "pour",
+    "lemme": "pour",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 68,
+    "f": 70,
+    "texte": "s'",
+    "lemme": "se",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 70,
+    "f": 72,
+    "texte": "en",
+    "lemme": "en",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 73,
+    "f": 79,
+    "texte": "servir",
+    "lemme": "servir",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "b20735",
+  "langue": "fr",
+  "texte": "Courant politique qui veut fonder l'organisation de la société et de l'État sur des principes islamiques.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 7,
+    "texte": "Courant",
+    "lemme": "courant",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 8,
+    "f": 17,
+    "texte": "politique",
+    "lemme": "politique",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 18,
+    "f": 21,
+    "texte": "qui",
+    "lemme": "qui",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 22,
+    "f": 26,
+    "texte": "veut",
+    "lemme": "vouloir",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 27,
+    "f": 33,
+    "texte": "fonder",
+    "lemme": "fonder",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 34,
+    "f": 36,
+    "texte": "l'",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 36,
+    "f": 48,
+    "texte": "organisation",
+    "lemme": "organisation",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 49,
+    "f": 51,
+    "texte": "de",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 52,
+    "f": 54,
+    "texte": "la",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 55,
+    "f": 62,
+    "texte": "société",
+    "lemme": "société",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 63,
+    "f": 65,
+    "texte": "et",
+    "lemme": "et",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 66,
+    "f": 68,
+    "texte": "de",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 69,
+    "f": 71,
+    "texte": "l'",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 71,
+    "f": 75,
+    "texte": "État",
+    "lemme": "état",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 76,
+    "f": 79,
+    "texte": "sur",
+    "lemme": "sur",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 80,
+    "f": 83,
+    "texte": "des",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 84,
+    "f": 93,
+    "texte": "principes",
+    "lemme": "principe",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 94,
+    "f": 104,
+    "texte": "islamiques",
+    "lemme": "islamique",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "x01357",
+  "langue": "fr",
+  "texte": "Augmenter vite et fortement.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 9,
+    "texte": "Augmenter",
+    "lemme": "augmenter",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 15,
+    "f": 17,
+    "texte": "et",
+    "lemme": "et",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d010280",
+  "langue": "fr",
+  "texte": "Poils qui descendent le long des joues devant les oreilles.",
+  "mots": [
+   {
+    "d": 6,
+    "f": 9,
+    "texte": "qui",
+    "lemme": "qui",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 10,
+    "f": 20,
+    "texte": "descendent",
+    "lemme": "descendre",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 21,
+    "f": 23,
+    "texte": "le",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 24,
+    "f": 28,
+    "texte": "long",
+    "lemme": "long",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 29,
+    "f": 32,
+    "texte": "des",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 33,
+    "f": 38,
+    "texte": "joues",
+    "lemme": "joue",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 39,
+    "f": 45,
+    "texte": "devant",
+    "lemme": "devant",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 46,
+    "f": 49,
+    "texte": "les",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 50,
+    "f": 58,
+    "texte": "oreilles",
+    "lemme": "oreille",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "x05121",
+  "langue": "fr",
+  "texte": "Qui travaille avec ses collègues dans un esprit d'équipe et de respect.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 3,
+    "texte": "Qui",
+    "lemme": "qui",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 4,
+    "f": 13,
+    "texte": "travaille",
+    "lemme": "travailler",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 14,
+    "f": 18,
+    "texte": "avec",
+    "lemme": "avec",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 19,
+    "f": 22,
+    "texte": "ses",
+    "lemme": "son",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 23,
+    "f": 32,
+    "texte": "collègues",
+    "lemme": "collègue",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 33,
+    "f": 37,
+    "texte": "dans",
+    "lemme": "dans",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 38,
+    "f": 40,
+    "texte": "un",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 41,
+    "f": 47,
+    "texte": "esprit",
+    "lemme": "esprit",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 48,
+    "f": 50,
+    "texte": "d'",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 50,
+    "f": 56,
+    "texte": "équipe",
+    "lemme": "équipe",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 57,
+    "f": 59,
+    "texte": "et",
+    "lemme": "et",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 60,
+    "f": 62,
+    "texte": "de",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 63,
+    "f": 70,
+    "texte": "respect",
+    "lemme": "respect",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d016503",
+  "langue": "fr",
+  "texte": "Longue perche qui tient un micro au-dessus de la scène, hors du cadre.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 6,
+    "texte": "Longue",
+    "lemme": "long",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 14,
+    "f": 17,
+    "texte": "qui",
+    "lemme": "qui",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 18,
+    "f": 23,
+    "texte": "tient",
+    "lemme": "tenir",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 24,
+    "f": 26,
+    "texte": "un",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 27,
+    "f": 32,
+    "texte": "micro",
+    "lemme": "micro",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 43,
+    "f": 45,
+    "texte": "de",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 46,
+    "f": 48,
+    "texte": "la",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 49,
+    "f": 54,
+    "texte": "scène",
+    "lemme": "scène",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 56,
+    "f": 60,
+    "texte": "hors",
+    "lemme": "hors",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 61,
+    "f": 63,
+    "texte": "du",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 64,
+    "f": 69,
+    "texte": "cadre",
+    "lemme": "cadre",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d015598",
+  "langue": "fr",
+  "texte": "Une abréviation qui précise ou reformule ce qu'on vient de dire.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 3,
+    "texte": "Une",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 4,
+    "f": 15,
+    "texte": "abréviation",
+    "lemme": "abréviation",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 16,
+    "f": 19,
+    "texte": "qui",
+    "lemme": "qui",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 20,
+    "f": 27,
+    "texte": "précise",
+    "lemme": "préciser",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 28,
+    "f": 30,
+    "texte": "ou",
+    "lemme": "ou",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 31,
+    "f": 40,
+    "texte": "reformule",
+    "lemme": "reformul",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 41,
+    "f": 43,
+    "texte": "ce",
+    "lemme": "ce",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 44,
+    "f": 47,
+    "texte": "qu'",
+    "lemme": "que",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 47,
+    "f": 49,
+    "texte": "on",
+    "lemme": "on",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 50,
+    "f": 55,
+    "texte": "vient",
+    "lemme": "venir",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 56,
+    "f": 58,
+    "texte": "de",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 59,
+    "f": 63,
+    "texte": "dire",
+    "lemme": "dire",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d006409",
+  "langue": "fr",
+  "texte": "Un prix qu'un titre atteint difficilement à la hausse parce que beaucoup de vendeurs s'y présentent.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 2,
+    "texte": "Un",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 3,
+    "f": 7,
+    "texte": "prix",
+    "lemme": "prix",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 8,
+    "f": 11,
+    "texte": "qu'",
+    "lemme": "que",
+    "nature": "SCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 11,
+    "f": 13,
+    "texte": "un",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 14,
+    "f": 19,
+    "texte": "titre",
+    "lemme": "titre",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 20,
+    "f": 27,
+    "texte": "atteint",
+    "lemme": "atteindre",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 42,
+    "f": 43,
+    "texte": "à",
+    "lemme": "à",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 44,
+    "f": 46,
+    "texte": "la",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 47,
+    "f": 53,
+    "texte": "hausse",
+    "lemme": "hausse",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 54,
+    "f": 59,
+    "texte": "parce",
+    "lemme": "parce",
+    "nature": "SCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 60,
+    "f": 63,
+    "texte": "que",
+    "lemme": "que",
+    "nature": "SCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 73,
+    "f": 75,
+    "texte": "de",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 76,
+    "f": 84,
+    "texte": "vendeurs",
+    "lemme": "vendeur",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 85,
+    "f": 87,
+    "texte": "s'",
+    "lemme": "se",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 87,
+    "f": 88,
+    "texte": "y",
+    "lemme": "y",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 89,
+    "f": 99,
+    "texte": "présentent",
+    "lemme": "présenter",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "p0238",
+  "langue": "fr",
+  "texte": "Zone d'un écran où l'utilisateur tape ou saisit une information, comme un nom ou un mot de passe.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 4,
+    "texte": "Zone",
+    "lemme": "zone",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 5,
+    "f": 7,
+    "texte": "d'",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 7,
+    "f": 9,
+    "texte": "un",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 10,
+    "f": 15,
+    "texte": "écran",
+    "lemme": "écran",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 16,
+    "f": 18,
+    "texte": "où",
+    "lemme": "où",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 19,
+    "f": 21,
+    "texte": "l'",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 21,
+    "f": 32,
+    "texte": "utilisateur",
+    "lemme": "utilisateur",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 33,
+    "f": 37,
+    "texte": "tape",
+    "lemme": "tap",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 38,
+    "f": 40,
+    "texte": "ou",
+    "lemme": "ou",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 41,
+    "f": 47,
+    "texte": "saisit",
+    "lemme": "saisir",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 48,
+    "f": 51,
+    "texte": "une",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 52,
+    "f": 63,
+    "texte": "information",
+    "lemme": "information",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 65,
+    "f": 70,
+    "texte": "comme",
+    "lemme": "comme",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 71,
+    "f": 73,
+    "texte": "un",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 74,
+    "f": 77,
+    "texte": "nom",
+    "lemme": "nom",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 78,
+    "f": 80,
+    "texte": "ou",
+    "lemme": "ou",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 81,
+    "f": 83,
+    "texte": "un",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 84,
+    "f": 87,
+    "texte": "mot",
+    "lemme": "mot",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 88,
+    "f": 90,
+    "texte": "de",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 91,
+    "f": 96,
+    "texte": "passe",
+    "lemme": "passer",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   }
+  ]
+ },
+ {
+  "id": "d014598",
+  "langue": "fr",
+  "texte": "Une charrue dont la pièce courbe retourne la terre en bandes.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 3,
+    "texte": "Une",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 4,
+    "f": 11,
+    "texte": "charrue",
+    "lemme": "charrue",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 12,
+    "f": 16,
+    "texte": "dont",
+    "lemme": "dont",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 17,
+    "f": 19,
+    "texte": "la",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 20,
+    "f": 25,
+    "texte": "pièce",
+    "lemme": "pièce",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 26,
+    "f": 32,
+    "texte": "courbe",
+    "lemme": "courbe",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 33,
+    "f": 41,
+    "texte": "retourne",
+    "lemme": "retourne",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 42,
+    "f": 44,
+    "texte": "la",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 45,
+    "f": 50,
+    "texte": "terre",
+    "lemme": "terre",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 51,
+    "f": 53,
+    "texte": "en",
+    "lemme": "en",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 54,
+    "f": 60,
+    "texte": "bandes",
+    "lemme": "bande",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   }
+  ]
+ },
+ {
+  "id": "d002371",
+  "langue": "fr",
+  "texte": "Objectif à très grand angle qui donne une image circulaire et très déformée.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 8,
+    "texte": "Objectif",
+    "lemme": "objectif",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 9,
+    "f": 10,
+    "texte": "à",
+    "lemme": "à",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 16,
+    "f": 21,
+    "texte": "grand",
+    "lemme": "grand",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 28,
+    "f": 31,
+    "texte": "qui",
+    "lemme": "qui",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 32,
+    "f": 37,
+    "texte": "donne",
+    "lemme": "donne",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 38,
+    "f": 41,
+    "texte": "une",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 42,
+    "f": 47,
+    "texte": "image",
+    "lemme": "image",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 48,
+    "f": 58,
+    "texte": "circulaire",
+    "lemme": "circulaire",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 59,
+    "f": 61,
+    "texte": "et",
+    "lemme": "et",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 67,
+    "f": 75,
+    "texte": "déformée",
+    "lemme": "déformer",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d001808",
+  "langue": "fr",
+  "texte": "Une petite niche ou armoire murale où l'on garde les vases sacrés.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 3,
+    "texte": "Une",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 4,
+    "f": 10,
+    "texte": "petite",
+    "lemme": "petit",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 11,
+    "f": 16,
+    "texte": "niche",
+    "lemme": "niche",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 17,
+    "f": 19,
+    "texte": "ou",
+    "lemme": "ou",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 20,
+    "f": 27,
+    "texte": "armoire",
+    "lemme": "armoire",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 28,
+    "f": 34,
+    "texte": "murale",
+    "lemme": "mural",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 35,
+    "f": 37,
+    "texte": "où",
+    "lemme": "où",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 38,
+    "f": 40,
+    "texte": "l'",
+    "lemme": "le",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 40,
+    "f": 42,
+    "texte": "on",
+    "lemme": "on",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 43,
+    "f": 48,
+    "texte": "garde",
+    "lemme": "garde",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 49,
+    "f": 52,
+    "texte": "les",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 53,
+    "f": 58,
+    "texte": "vases",
+    "lemme": "vase",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 59,
+    "f": 65,
+    "texte": "sacrés",
+    "lemme": "sacrer",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d013279",
+  "langue": "fr",
+  "texte": "Immense incendie qui crée ses propres vents violents en aspirant l'air alentour.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 7,
+    "texte": "Immense",
+    "lemme": "immense",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 8,
+    "f": 16,
+    "texte": "incendie",
+    "lemme": "incendie",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 17,
+    "f": 20,
+    "texte": "qui",
+    "lemme": "qui",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 21,
+    "f": 25,
+    "texte": "crée",
+    "lemme": "créer",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 26,
+    "f": 29,
+    "texte": "ses",
+    "lemme": "son",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 30,
+    "f": 37,
+    "texte": "propres",
+    "lemme": "propre",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 38,
+    "f": 43,
+    "texte": "vents",
+    "lemme": "vent",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 44,
+    "f": 52,
+    "texte": "violents",
+    "lemme": "violent",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 53,
+    "f": 55,
+    "texte": "en",
+    "lemme": "en",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 56,
+    "f": 64,
+    "texte": "aspirant",
+    "lemme": "aspirer",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 65,
+    "f": 67,
+    "texte": "l'",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 67,
+    "f": 70,
+    "texte": "air",
+    "lemme": "air",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 71,
+    "f": 79,
+    "texte": "alentour",
+    "lemme": "alentour",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d001590",
+  "langue": "fr",
+  "texte": "Un mur bâti avec de grands blocs de pierre taillés en rectangle.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 2,
+    "texte": "Un",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 3,
+    "f": 6,
+    "texte": "mur",
+    "lemme": "mur",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 7,
+    "f": 11,
+    "texte": "bâti",
+    "lemme": "bâti",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 12,
+    "f": 16,
+    "texte": "avec",
+    "lemme": "avec",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 17,
+    "f": 19,
+    "texte": "de",
+    "lemme": "de",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 20,
+    "f": 26,
+    "texte": "grands",
+    "lemme": "grand",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 27,
+    "f": 32,
+    "texte": "blocs",
+    "lemme": "bloc",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 33,
+    "f": 35,
+    "texte": "de",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 36,
+    "f": 42,
+    "texte": "pierre",
+    "lemme": "pierre",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 43,
+    "f": 50,
+    "texte": "taillés",
+    "lemme": "tailler",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 51,
+    "f": 53,
+    "texte": "en",
+    "lemme": "en",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 54,
+    "f": 63,
+    "texte": "rectangle",
+    "lemme": "rectangle",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "x04097",
+  "langue": "fr",
+  "texte": "Très blond, presque blanc, comme l'étoupe.",
+  "mots": [
+   {
+    "d": 5,
+    "f": 10,
+    "texte": "blond",
+    "lemme": "blond",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 20,
+    "f": 25,
+    "texte": "blanc",
+    "lemme": "blanc",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 27,
+    "f": 32,
+    "texte": "comme",
+    "lemme": "comme",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 33,
+    "f": 35,
+    "texte": "l'",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 35,
+    "f": 41,
+    "texte": "étoupe",
+    "lemme": "étoupe",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d011509",
+  "langue": "fr",
+  "texte": "Défendre une cause devant un tribunal ; répondre aux charges en se disant coupable ou non.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 8,
+    "texte": "Défendre",
+    "lemme": "défendre",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 9,
+    "f": 12,
+    "texte": "une",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 13,
+    "f": 18,
+    "texte": "cause",
+    "lemme": "cause",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 19,
+    "f": 25,
+    "texte": "devant",
+    "lemme": "devant",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 26,
+    "f": 28,
+    "texte": "un",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 29,
+    "f": 37,
+    "texte": "tribunal",
+    "lemme": "tribunal",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 40,
+    "f": 48,
+    "texte": "répondre",
+    "lemme": "répondre",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 49,
+    "f": 52,
+    "texte": "aux",
+    "lemme": "à",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 53,
+    "f": 60,
+    "texte": "charges",
+    "lemme": "charge",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 61,
+    "f": 63,
+    "texte": "en",
+    "lemme": "en",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 64,
+    "f": 66,
+    "texte": "se",
+    "lemme": "se",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 67,
+    "f": 73,
+    "texte": "disant",
+    "lemme": "dire",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 74,
+    "f": 82,
+    "texte": "coupable",
+    "lemme": "coupable",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 83,
+    "f": 85,
+    "texte": "ou",
+    "lemme": "ou",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d001765",
+  "langue": "fr",
+  "texte": "Une coupole en forme d'oignon, typique des églises russes.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 3,
+    "texte": "Une",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 4,
+    "f": 11,
+    "texte": "coupole",
+    "lemme": "coupole",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 12,
+    "f": 14,
+    "texte": "en",
+    "lemme": "en",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 15,
+    "f": 20,
+    "texte": "forme",
+    "lemme": "forme",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 21,
+    "f": 23,
+    "texte": "d'",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 23,
+    "f": 29,
+    "texte": "oignon",
+    "lemme": "oignon",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 31,
+    "f": 38,
+    "texte": "typique",
+    "lemme": "typique",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 39,
+    "f": 42,
+    "texte": "des",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 43,
+    "f": 50,
+    "texte": "églises",
+    "lemme": "église",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 51,
+    "f": 57,
+    "texte": "russes",
+    "lemme": "russe",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "x04400",
+  "langue": "fr",
+  "texte": "Qui sonne aigu et creux, comme une boîte en métal.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 3,
+    "texte": "Qui",
+    "lemme": "qui",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 4,
+    "f": 9,
+    "texte": "sonne",
+    "lemme": "sonner",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 10,
+    "f": 14,
+    "texte": "aigu",
+    "lemme": "aigu",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 15,
+    "f": 17,
+    "texte": "et",
+    "lemme": "et",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 18,
+    "f": 23,
+    "texte": "creux",
+    "lemme": "creux",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 25,
+    "f": 30,
+    "texte": "comme",
+    "lemme": "comme",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 31,
+    "f": 34,
+    "texte": "une",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 35,
+    "f": 40,
+    "texte": "boîte",
+    "lemme": "boîte",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 41,
+    "f": 43,
+    "texte": "en",
+    "lemme": "en",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 44,
+    "f": 49,
+    "texte": "métal",
+    "lemme": "métal",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "a19_1",
+  "langue": "fr",
+  "texte": "Uni par des liens forts.",
+  "mots": [
+   {
+    "d": 4,
+    "f": 7,
+    "texte": "par",
+    "lemme": "par",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 8,
+    "f": 11,
+    "texte": "des",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 12,
+    "f": 17,
+    "texte": "liens",
+    "lemme": "lien",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 18,
+    "f": 23,
+    "texte": "forts",
+    "lemme": "fort",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   }
+  ]
+ },
+ {
+  "id": "d000078",
+  "langue": "fr",
+  "texte": "Jeune cheval mâle.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 5,
+    "texte": "Jeune",
+    "lemme": "jeune",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 6,
+    "f": 12,
+    "texte": "cheval",
+    "lemme": "cheval",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d006200",
+  "langue": "fr",
+  "texte": "Une cité-État insulaire d'Asie du Sud-Est, dont la monnaie est le dollar de Singapour.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 3,
+    "texte": "Une",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 4,
+    "f": 8,
+    "texte": "cité",
+    "lemme": "cité",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 8,
+    "f": 9,
+    "texte": "-",
+    "lemme": "-",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 9,
+    "f": 13,
+    "texte": "État",
+    "lemme": "état",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 14,
+    "f": 23,
+    "texte": "insulaire",
+    "lemme": "insulaire",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 24,
+    "f": 26,
+    "texte": "d'",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 31,
+    "f": 33,
+    "texte": "du",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 34,
+    "f": 41,
+    "texte": "Sud-Est",
+    "lemme": "sud-est",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 43,
+    "f": 47,
+    "texte": "dont",
+    "lemme": "dont",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 48,
+    "f": 50,
+    "texte": "la",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 51,
+    "f": 58,
+    "texte": "monnaie",
+    "lemme": "monnaie",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 59,
+    "f": 62,
+    "texte": "est",
+    "lemme": "être",
+    "nature": "AUX",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 63,
+    "f": 65,
+    "texte": "le",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 66,
+    "f": 72,
+    "texte": "dollar",
+    "lemme": "dollar",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 73,
+    "f": 75,
+    "texte": "de",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "x03317",
+  "langue": "fr",
+  "texte": "Qui concerne les lamantins.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 3,
+    "texte": "Qui",
+    "lemme": "qui",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 4,
+    "f": 12,
+    "texte": "concerne",
+    "lemme": "concerner",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 13,
+    "f": 16,
+    "texte": "les",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 17,
+    "f": 26,
+    "texte": "lamantins",
+    "lemme": "lamantin",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "b41189",
+  "langue": "fr",
+  "texte": "Un prix précis choisi pour une offre, comme 9,99 dollars au lieu de 10.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 2,
+    "texte": "Un",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 3,
+    "f": 7,
+    "texte": "prix",
+    "lemme": "prix",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 8,
+    "f": 14,
+    "texte": "précis",
+    "lemme": "précis",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 15,
+    "f": 21,
+    "texte": "choisi",
+    "lemme": "choisir",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 22,
+    "f": 26,
+    "texte": "pour",
+    "lemme": "pour",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 27,
+    "f": 30,
+    "texte": "une",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 31,
+    "f": 36,
+    "texte": "offre",
+    "lemme": "offre",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 38,
+    "f": 43,
+    "texte": "comme",
+    "lemme": "comme",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 49,
+    "f": 56,
+    "texte": "dollars",
+    "lemme": "dollar",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 57,
+    "f": 59,
+    "texte": "au",
+    "lemme": "au",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 60,
+    "f": 64,
+    "texte": "lieu",
+    "lemme": "lieu",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 65,
+    "f": 67,
+    "texte": "de",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 68,
+    "f": 70,
+    "texte": "10",
+    "lemme": "10",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d017724",
+  "langue": "fr",
+  "texte": "Non-métal jaune, cassant, qui brûle avec une flamme bleue et une odeur piquante.",
+  "mots": [
+   {
+    "d": 10,
+    "f": 15,
+    "texte": "jaune",
+    "lemme": "jaune",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 17,
+    "f": 24,
+    "texte": "cassant",
+    "lemme": "casser",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 26,
+    "f": 29,
+    "texte": "qui",
+    "lemme": "qui",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 30,
+    "f": 35,
+    "texte": "brûle",
+    "lemme": "brûler",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 36,
+    "f": 40,
+    "texte": "avec",
+    "lemme": "avec",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 41,
+    "f": 44,
+    "texte": "une",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 45,
+    "f": 51,
+    "texte": "flamme",
+    "lemme": "flamme",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 52,
+    "f": 57,
+    "texte": "bleue",
+    "lemme": "bleu",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 58,
+    "f": 60,
+    "texte": "et",
+    "lemme": "et",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 61,
+    "f": 64,
+    "texte": "une",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 65,
+    "f": 70,
+    "texte": "odeur",
+    "lemme": "odeur",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 71,
+    "f": 79,
+    "texte": "piquante",
+    "lemme": "piquant",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   }
+  ]
+ },
+ {
+  "id": "d005189",
+  "langue": "fr",
+  "texte": "Vallée latérale dont le fond est bien plus haut que celui de la vallée principale.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 6,
+    "texte": "Vallée",
+    "lemme": "vallée",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 7,
+    "f": 15,
+    "texte": "latérale",
+    "lemme": "latéral",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 16,
+    "f": 20,
+    "texte": "dont",
+    "lemme": "dont",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 21,
+    "f": 23,
+    "texte": "le",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 24,
+    "f": 28,
+    "texte": "fond",
+    "lemme": "fond",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 29,
+    "f": 32,
+    "texte": "est",
+    "lemme": "être",
+    "nature": "AUX",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 43,
+    "f": 47,
+    "texte": "haut",
+    "lemme": "haut",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 48,
+    "f": 51,
+    "texte": "que",
+    "lemme": "que",
+    "nature": "SCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 52,
+    "f": 57,
+    "texte": "celui",
+    "lemme": "celui",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 58,
+    "f": 60,
+    "texte": "de",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 61,
+    "f": 63,
+    "texte": "la",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 64,
+    "f": 70,
+    "texte": "vallée",
+    "lemme": "vallée",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 71,
+    "f": 81,
+    "texte": "principale",
+    "lemme": "principal",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d006535",
+  "langue": "fr",
+  "texte": "Bière belge acide, fermentée de façon spontanée par des levures de l'air.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 5,
+    "texte": "Bière",
+    "lemme": "bière",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 6,
+    "f": 11,
+    "texte": "belge",
+    "lemme": "belge",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 12,
+    "f": 17,
+    "texte": "acide",
+    "lemme": "acide",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 19,
+    "f": 28,
+    "texte": "fermentée",
+    "lemme": "fermentée",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 29,
+    "f": 31,
+    "texte": "de",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 32,
+    "f": 37,
+    "texte": "façon",
+    "lemme": "façon",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 38,
+    "f": 47,
+    "texte": "spontanée",
+    "lemme": "spontaner",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 48,
+    "f": 51,
+    "texte": "par",
+    "lemme": "par",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 52,
+    "f": 55,
+    "texte": "des",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 56,
+    "f": 63,
+    "texte": "levures",
+    "lemme": "levure",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 64,
+    "f": 66,
+    "texte": "de",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 67,
+    "f": 69,
+    "texte": "l'",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 69,
+    "f": 72,
+    "texte": "air",
+    "lemme": "air",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   }
+  ]
+ },
+ {
+  "id": "d003678",
+  "langue": "fr",
+  "texte": "Un bijou suspendu à une chaîne ou à un cordon que l'on porte autour du cou.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 2,
+    "texte": "Un",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 3,
+    "f": 8,
+    "texte": "bijou",
+    "lemme": "bijou",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 9,
+    "f": 17,
+    "texte": "suspendu",
+    "lemme": "suspendre",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 18,
+    "f": 19,
+    "texte": "à",
+    "lemme": "à",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 20,
+    "f": 23,
+    "texte": "une",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 24,
+    "f": 30,
+    "texte": "chaîne",
+    "lemme": "chaîne",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 31,
+    "f": 33,
+    "texte": "ou",
+    "lemme": "ou",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 34,
+    "f": 35,
+    "texte": "à",
+    "lemme": "à",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 36,
+    "f": 38,
+    "texte": "un",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 39,
+    "f": 45,
+    "texte": "cordon",
+    "lemme": "cordon",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 46,
+    "f": 49,
+    "texte": "que",
+    "lemme": "que",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 50,
+    "f": 52,
+    "texte": "l'",
+    "lemme": "le",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 52,
+    "f": 54,
+    "texte": "on",
+    "lemme": "on",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 55,
+    "f": 60,
+    "texte": "porte",
+    "lemme": "porte",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 68,
+    "f": 70,
+    "texte": "du",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 71,
+    "f": 74,
+    "texte": "cou",
+    "lemme": "cou",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d010626",
+  "langue": "fr",
+  "texte": "Emploi de deux négations dans la même phrase, ce qui peut changer le sens ou être jugé fautif.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 6,
+    "texte": "Emploi",
+    "lemme": "emploi",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 7,
+    "f": 9,
+    "texte": "de",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 15,
+    "f": 24,
+    "texte": "négations",
+    "lemme": "négation",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 25,
+    "f": 29,
+    "texte": "dans",
+    "lemme": "dans",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 30,
+    "f": 32,
+    "texte": "la",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 33,
+    "f": 37,
+    "texte": "même",
+    "lemme": "même",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 38,
+    "f": 44,
+    "texte": "phrase",
+    "lemme": "phras",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 46,
+    "f": 48,
+    "texte": "ce",
+    "lemme": "ce",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 49,
+    "f": 52,
+    "texte": "qui",
+    "lemme": "qui",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 53,
+    "f": 57,
+    "texte": "peut",
+    "lemme": "pouvoir",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 58,
+    "f": 65,
+    "texte": "changer",
+    "lemme": "changer",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 66,
+    "f": 68,
+    "texte": "le",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 69,
+    "f": 73,
+    "texte": "sens",
+    "lemme": "sens",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 74,
+    "f": 76,
+    "texte": "ou",
+    "lemme": "ou",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 77,
+    "f": 81,
+    "texte": "être",
+    "lemme": "être",
+    "nature": "AUX",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 82,
+    "f": 86,
+    "texte": "jugé",
+    "lemme": "juger",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 87,
+    "f": 93,
+    "texte": "fautif",
+    "lemme": "fautif",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   }
+  ]
+ },
+ {
+  "id": "s01145",
+  "langue": "fr",
+  "texte": "Caractère ou suite de caractères qui marque la limite entre deux éléments consécutifs d'un texte ou d'un format.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 9,
+    "texte": "Caractère",
+    "lemme": "caractère",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 10,
+    "f": 12,
+    "texte": "ou",
+    "lemme": "ou",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 13,
+    "f": 18,
+    "texte": "suite",
+    "lemme": "suite",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 19,
+    "f": 21,
+    "texte": "de",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 22,
+    "f": 32,
+    "texte": "caractères",
+    "lemme": "caractère",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 33,
+    "f": 36,
+    "texte": "qui",
+    "lemme": "qui",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 37,
+    "f": 43,
+    "texte": "marque",
+    "lemme": "marque",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 44,
+    "f": 46,
+    "texte": "la",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 47,
+    "f": 53,
+    "texte": "limite",
+    "lemme": "limite",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 54,
+    "f": 59,
+    "texte": "entre",
+    "lemme": "entrer",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 65,
+    "f": 73,
+    "texte": "éléments",
+    "lemme": "élément",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 74,
+    "f": 85,
+    "texte": "consécutifs",
+    "lemme": "consécutif",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 86,
+    "f": 88,
+    "texte": "d'",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 88,
+    "f": 90,
+    "texte": "un",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 91,
+    "f": 96,
+    "texte": "texte",
+    "lemme": "texte",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 97,
+    "f": 99,
+    "texte": "ou",
+    "lemme": "ou",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 100,
+    "f": 102,
+    "texte": "d'",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 102,
+    "f": 104,
+    "texte": "un",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 105,
+    "f": 111,
+    "texte": "format",
+    "lemme": "format",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   }
+  ]
+ },
+ {
+  "id": "x02925",
+  "langue": "fr",
+  "texte": "Qui se situe sous la ligne des marées basses, jusqu'à environ 200 mètres.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 3,
+    "texte": "Qui",
+    "lemme": "qui",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 4,
+    "f": 6,
+    "texte": "se",
+    "lemme": "se",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 7,
+    "f": 12,
+    "texte": "situe",
+    "lemme": "situer",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 13,
+    "f": 17,
+    "texte": "sous",
+    "lemme": "sou",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 18,
+    "f": 20,
+    "texte": "la",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 21,
+    "f": 26,
+    "texte": "ligne",
+    "lemme": "ligne",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 27,
+    "f": 30,
+    "texte": "des",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 31,
+    "f": 37,
+    "texte": "marées",
+    "lemme": "marée",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 38,
+    "f": 44,
+    "texte": "basses",
+    "lemme": "bas",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 46,
+    "f": 52,
+    "texte": "jusqu'",
+    "lemme": "jusque",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 52,
+    "f": 53,
+    "texte": "à",
+    "lemme": "à",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 66,
+    "f": 72,
+    "texte": "mètres",
+    "lemme": "mètre",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "b41162",
+  "langue": "fr",
+  "texte": "Le montant dépensé pour produire, acheter ou faire fonctionner quelque chose.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 2,
+    "texte": "Le",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 3,
+    "f": 10,
+    "texte": "montant",
+    "lemme": "montant",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 11,
+    "f": 18,
+    "texte": "dépensé",
+    "lemme": "dépenser",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 19,
+    "f": 23,
+    "texte": "pour",
+    "lemme": "pour",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 24,
+    "f": 32,
+    "texte": "produire",
+    "lemme": "produire",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 34,
+    "f": 41,
+    "texte": "acheter",
+    "lemme": "acheter",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 42,
+    "f": 44,
+    "texte": "ou",
+    "lemme": "ou",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 45,
+    "f": 50,
+    "texte": "faire",
+    "lemme": "faire",
+    "nature": "AUX",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 51,
+    "f": 62,
+    "texte": "fonctionner",
+    "lemme": "fonctionner",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 63,
+    "f": 70,
+    "texte": "quelque",
+    "lemme": "quelque",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 71,
+    "f": 76,
+    "texte": "chose",
+    "lemme": "chose",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d000719",
+  "langue": "fr",
+  "texte": "Mâle adulte de la chèvre, du lapin ou du cerf.",
+  "mots": [
+   {
+    "d": 5,
+    "f": 11,
+    "texte": "adulte",
+    "lemme": "adulte",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 12,
+    "f": 14,
+    "texte": "de",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 15,
+    "f": 17,
+    "texte": "la",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 18,
+    "f": 24,
+    "texte": "chèvre",
+    "lemme": "chèvre",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 26,
+    "f": 28,
+    "texte": "du",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 29,
+    "f": 34,
+    "texte": "lapin",
+    "lemme": "lapin",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 35,
+    "f": 37,
+    "texte": "ou",
+    "lemme": "ou",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 38,
+    "f": 40,
+    "texte": "du",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 41,
+    "f": 45,
+    "texte": "cerf",
+    "lemme": "cerf",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   }
+  ]
+ },
+ {
+  "id": "b41232",
+  "langue": "fr",
+  "texte": "Une séance où l'on produit le plus d'idées possible, sans les juger tout de suite.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 3,
+    "texte": "Une",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 4,
+    "f": 10,
+    "texte": "séance",
+    "lemme": "séance",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 11,
+    "f": 13,
+    "texte": "où",
+    "lemme": "où",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 14,
+    "f": 16,
+    "texte": "l'",
+    "lemme": "le",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 16,
+    "f": 18,
+    "texte": "on",
+    "lemme": "on",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 19,
+    "f": 26,
+    "texte": "produit",
+    "lemme": "produire",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 27,
+    "f": 29,
+    "texte": "le",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 35,
+    "f": 37,
+    "texte": "d'",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 37,
+    "f": 42,
+    "texte": "idées",
+    "lemme": "idée",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 43,
+    "f": 51,
+    "texte": "possible",
+    "lemme": "possible",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 53,
+    "f": 57,
+    "texte": "sans",
+    "lemme": "sans",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 58,
+    "f": 61,
+    "texte": "les",
+    "lemme": "le",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 62,
+    "f": 67,
+    "texte": "juger",
+    "lemme": "juger",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 73,
+    "f": 75,
+    "texte": "de",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 76,
+    "f": 81,
+    "texte": "suite",
+    "lemme": "suite",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   }
+  ]
+ },
+ {
+  "id": "d021131",
+  "langue": "fr",
+  "texte": "Un service de location de voitures à l'heure, où l'on réserve et ouvre la voiture avec une carte ou une application.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 2,
+    "texte": "Un",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 3,
+    "f": 10,
+    "texte": "service",
+    "lemme": "service",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 11,
+    "f": 13,
+    "texte": "de",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 14,
+    "f": 22,
+    "texte": "location",
+    "lemme": "location",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 23,
+    "f": 25,
+    "texte": "de",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 26,
+    "f": 34,
+    "texte": "voitures",
+    "lemme": "voiture",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 35,
+    "f": 36,
+    "texte": "à",
+    "lemme": "à",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 37,
+    "f": 39,
+    "texte": "l'",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 39,
+    "f": 44,
+    "texte": "heure",
+    "lemme": "heure",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 46,
+    "f": 48,
+    "texte": "où",
+    "lemme": "où",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 49,
+    "f": 51,
+    "texte": "l'",
+    "lemme": "le",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 51,
+    "f": 53,
+    "texte": "on",
+    "lemme": "on",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 54,
+    "f": 61,
+    "texte": "réserve",
+    "lemme": "réserv",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 62,
+    "f": 64,
+    "texte": "et",
+    "lemme": "et",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 65,
+    "f": 70,
+    "texte": "ouvre",
+    "lemme": "ouvrir",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 71,
+    "f": 73,
+    "texte": "la",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 74,
+    "f": 81,
+    "texte": "voiture",
+    "lemme": "voiture",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 82,
+    "f": 86,
+    "texte": "avec",
+    "lemme": "avec",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 87,
+    "f": 90,
+    "texte": "une",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 91,
+    "f": 96,
+    "texte": "carte",
+    "lemme": "carte",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 97,
+    "f": 99,
+    "texte": "ou",
+    "lemme": "ou",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 100,
+    "f": 103,
+    "texte": "une",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 104,
+    "f": 115,
+    "texte": "application",
+    "lemme": "application",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   }
+  ]
+ },
+ {
+  "id": "d006364",
+  "langue": "fr",
+  "texte": "Groupe d'environ cinquante grandes actions très recherchées dans les années 1970.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 6,
+    "texte": "Groupe",
+    "lemme": "groupe",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 7,
+    "f": 9,
+    "texte": "d'",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 27,
+    "f": 34,
+    "texte": "grandes",
+    "lemme": "grand",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 35,
+    "f": 42,
+    "texte": "actions",
+    "lemme": "action",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 48,
+    "f": 59,
+    "texte": "recherchées",
+    "lemme": "rechercher",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 60,
+    "f": 64,
+    "texte": "dans",
+    "lemme": "dans",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 65,
+    "f": 68,
+    "texte": "les",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 69,
+    "f": 75,
+    "texte": "années",
+    "lemme": "année",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "x05281",
+  "langue": "fr",
+  "texte": "Qui pense que les choses vont mal tourner.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 3,
+    "texte": "Qui",
+    "lemme": "qui",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 4,
+    "f": 9,
+    "texte": "pense",
+    "lemme": "penser",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 10,
+    "f": 13,
+    "texte": "que",
+    "lemme": "que",
+    "nature": "SCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 14,
+    "f": 17,
+    "texte": "les",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 18,
+    "f": 24,
+    "texte": "choses",
+    "lemme": "chose",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 25,
+    "f": 29,
+    "texte": "vont",
+    "lemme": "aller",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 34,
+    "f": 41,
+    "texte": "tourner",
+    "lemme": "tourner",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "x00160",
+  "langue": "fr",
+  "texte": "Plein et arrondi, souvent en parlant d'un corps ou d'une voix.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 5,
+    "texte": "Plein",
+    "lemme": "plein",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 6,
+    "f": 8,
+    "texte": "et",
+    "lemme": "et",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 9,
+    "f": 16,
+    "texte": "arrondi",
+    "lemme": "arrondi",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 26,
+    "f": 28,
+    "texte": "en",
+    "lemme": "en",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 29,
+    "f": 36,
+    "texte": "parlant",
+    "lemme": "parler",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 37,
+    "f": 39,
+    "texte": "d'",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 39,
+    "f": 41,
+    "texte": "un",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 42,
+    "f": 47,
+    "texte": "corps",
+    "lemme": "corps",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 48,
+    "f": 50,
+    "texte": "ou",
+    "lemme": "ou",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 51,
+    "f": 53,
+    "texte": "d'",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 53,
+    "f": 56,
+    "texte": "une",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 57,
+    "f": 61,
+    "texte": "voix",
+    "lemme": "voix",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "s03764",
+  "langue": "fr",
+  "texte": "Le produit bande passante-délai est la quantité de données qui peut être en transit sur un lien à un instant donné.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 2,
+    "texte": "Le",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 3,
+    "f": 10,
+    "texte": "produit",
+    "lemme": "produit",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 11,
+    "f": 16,
+    "texte": "bande",
+    "lemme": "band",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 17,
+    "f": 25,
+    "texte": "passante",
+    "lemme": "passant",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 25,
+    "f": 26,
+    "texte": "-",
+    "lemme": "-",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 26,
+    "f": 31,
+    "texte": "délai",
+    "lemme": "délai",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 32,
+    "f": 35,
+    "texte": "est",
+    "lemme": "être",
+    "nature": "AUX",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 36,
+    "f": 38,
+    "texte": "la",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 39,
+    "f": 47,
+    "texte": "quantité",
+    "lemme": "quantité",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 48,
+    "f": 50,
+    "texte": "de",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 51,
+    "f": 58,
+    "texte": "données",
+    "lemme": "donnée",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 59,
+    "f": 62,
+    "texte": "qui",
+    "lemme": "qui",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 63,
+    "f": 67,
+    "texte": "peut",
+    "lemme": "pouvoir",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 68,
+    "f": 72,
+    "texte": "être",
+    "lemme": "être",
+    "nature": "AUX",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 73,
+    "f": 75,
+    "texte": "en",
+    "lemme": "en",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 76,
+    "f": 83,
+    "texte": "transit",
+    "lemme": "transit",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 84,
+    "f": 87,
+    "texte": "sur",
+    "lemme": "sur",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 88,
+    "f": 90,
+    "texte": "un",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 91,
+    "f": 95,
+    "texte": "lien",
+    "lemme": "lien",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 96,
+    "f": 97,
+    "texte": "à",
+    "lemme": "à",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 98,
+    "f": 100,
+    "texte": "un",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 101,
+    "f": 108,
+    "texte": "instant",
+    "lemme": "instant",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 109,
+    "f": 114,
+    "texte": "donné",
+    "lemme": "donner",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "s00773",
+  "langue": "fr",
+  "texte": "Un multigraphe est un graphe où deux sommets peuvent être reliés par plusieurs arêtes distinctes.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 2,
+    "texte": "Un",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 3,
+    "f": 14,
+    "texte": "multigraphe",
+    "lemme": "multigraphe",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 15,
+    "f": 18,
+    "texte": "est",
+    "lemme": "être",
+    "nature": "AUX",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 19,
+    "f": 21,
+    "texte": "un",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 22,
+    "f": 28,
+    "texte": "graphe",
+    "lemme": "graphe",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 29,
+    "f": 31,
+    "texte": "où",
+    "lemme": "où",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 37,
+    "f": 44,
+    "texte": "sommets",
+    "lemme": "sommet",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 45,
+    "f": 52,
+    "texte": "peuvent",
+    "lemme": "pouvoir",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 53,
+    "f": 57,
+    "texte": "être",
+    "lemme": "être",
+    "nature": "AUX",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 58,
+    "f": 64,
+    "texte": "reliés",
+    "lemme": "relier",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 65,
+    "f": 68,
+    "texte": "par",
+    "lemme": "par",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 69,
+    "f": 78,
+    "texte": "plusieurs",
+    "lemme": "plusieurs",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 79,
+    "f": 85,
+    "texte": "arêtes",
+    "lemme": "arête",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 86,
+    "f": 96,
+    "texte": "distinctes",
+    "lemme": "distinct",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "x01913",
+  "langue": "fr",
+  "texte": "Un morceau compact, sans forme précise.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 2,
+    "texte": "Un",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 3,
+    "f": 10,
+    "texte": "morceau",
+    "lemme": "morceau",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 11,
+    "f": 18,
+    "texte": "compact",
+    "lemme": "compact",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 20,
+    "f": 24,
+    "texte": "sans",
+    "lemme": "sans",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 25,
+    "f": 30,
+    "texte": "forme",
+    "lemme": "forme",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 31,
+    "f": 38,
+    "texte": "précise",
+    "lemme": "préciser",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "b00163",
+  "langue": "fr",
+  "texte": "Établissement qui accueille les jeunes enfants pour leurs premières années de scolarité obligatoire.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 13,
+    "texte": "Établissement",
+    "lemme": "établissement",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 14,
+    "f": 17,
+    "texte": "qui",
+    "lemme": "qui",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 18,
+    "f": 27,
+    "texte": "accueille",
+    "lemme": "accueillir",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 28,
+    "f": 31,
+    "texte": "les",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 32,
+    "f": 38,
+    "texte": "jeunes",
+    "lemme": "jeune",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 39,
+    "f": 46,
+    "texte": "enfants",
+    "lemme": "enfant",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 47,
+    "f": 51,
+    "texte": "pour",
+    "lemme": "pour",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 52,
+    "f": 57,
+    "texte": "leurs",
+    "lemme": "leur",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 58,
+    "f": 67,
+    "texte": "premières",
+    "lemme": "premier",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 68,
+    "f": 74,
+    "texte": "années",
+    "lemme": "année",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 75,
+    "f": 77,
+    "texte": "de",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 78,
+    "f": 87,
+    "texte": "scolarité",
+    "lemme": "scolarité",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 88,
+    "f": 99,
+    "texte": "obligatoire",
+    "lemme": "obligatoire",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   }
+  ]
+ },
+ {
+  "id": "d005476",
+  "langue": "fr",
+  "texte": "Pierre qui mêle le violet de l'améthyste et le jaune de la citrine dans un même cristal.",
+  "mots": [
+   {
+    "d": 7,
+    "f": 10,
+    "texte": "qui",
+    "lemme": "qui",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 11,
+    "f": 15,
+    "texte": "mêle",
+    "lemme": "mêler",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 16,
+    "f": 18,
+    "texte": "le",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 19,
+    "f": 25,
+    "texte": "violet",
+    "lemme": "violet",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 26,
+    "f": 28,
+    "texte": "de",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 29,
+    "f": 31,
+    "texte": "l'",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 31,
+    "f": 40,
+    "texte": "améthyste",
+    "lemme": "améthyste",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 41,
+    "f": 43,
+    "texte": "et",
+    "lemme": "et",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 44,
+    "f": 46,
+    "texte": "le",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 47,
+    "f": 52,
+    "texte": "jaune",
+    "lemme": "jaune",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 53,
+    "f": 55,
+    "texte": "de",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 56,
+    "f": 58,
+    "texte": "la",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 59,
+    "f": 66,
+    "texte": "citrine",
+    "lemme": "citrine",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 67,
+    "f": 71,
+    "texte": "dans",
+    "lemme": "dans",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 72,
+    "f": 74,
+    "texte": "un",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 75,
+    "f": 79,
+    "texte": "même",
+    "lemme": "même",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 80,
+    "f": 87,
+    "texte": "cristal",
+    "lemme": "cristal",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   }
+  ]
+ },
+ {
+  "id": "d004620",
+  "langue": "fr",
+  "texte": "Animal qui vit uniquement dans les grottes et ne peut pas vivre ailleurs.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 6,
+    "texte": "Animal",
+    "lemme": "animal",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 7,
+    "f": 10,
+    "texte": "qui",
+    "lemme": "qui",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 11,
+    "f": 14,
+    "texte": "vit",
+    "lemme": "voir",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 26,
+    "f": 30,
+    "texte": "dans",
+    "lemme": "dans",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 31,
+    "f": 34,
+    "texte": "les",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 35,
+    "f": 42,
+    "texte": "grottes",
+    "lemme": "grotte",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 43,
+    "f": 45,
+    "texte": "et",
+    "lemme": "et",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 49,
+    "f": 53,
+    "texte": "peut",
+    "lemme": "pouvoir",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 58,
+    "f": 63,
+    "texte": "vivre",
+    "lemme": "vivre",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d013006",
+  "langue": "fr",
+  "texte": "Pièce fixée au bout d'une arme à feu qui réduit la lueur du tir.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 5,
+    "texte": "Pièce",
+    "lemme": "pièce",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 12,
+    "f": 14,
+    "texte": "au",
+    "lemme": "au",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 15,
+    "f": 19,
+    "texte": "bout",
+    "lemme": "bout",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 20,
+    "f": 22,
+    "texte": "d'",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 22,
+    "f": 25,
+    "texte": "une",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 26,
+    "f": 30,
+    "texte": "arme",
+    "lemme": "arme",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 31,
+    "f": 32,
+    "texte": "à",
+    "lemme": "à",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 33,
+    "f": 36,
+    "texte": "feu",
+    "lemme": "feu",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 37,
+    "f": 40,
+    "texte": "qui",
+    "lemme": "qui",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 41,
+    "f": 47,
+    "texte": "réduit",
+    "lemme": "réduire",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 48,
+    "f": 50,
+    "texte": "la",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 51,
+    "f": 56,
+    "texte": "lueur",
+    "lemme": "lueur",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 57,
+    "f": 59,
+    "texte": "du",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 60,
+    "f": 63,
+    "texte": "tir",
+    "lemme": "tir",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d015167",
+  "langue": "fr",
+  "texte": "Vote où l'électeur écrit lui-même le nom d'un candidat absent de la liste imprimée.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 4,
+    "texte": "Vote",
+    "lemme": "vote",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 5,
+    "f": 7,
+    "texte": "où",
+    "lemme": "où",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 8,
+    "f": 10,
+    "texte": "l'",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 10,
+    "f": 18,
+    "texte": "électeur",
+    "lemme": "électeur",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 19,
+    "f": 24,
+    "texte": "écrit",
+    "lemme": "écrire",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 25,
+    "f": 33,
+    "texte": "lui-même",
+    "lemme": "lui-même",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 34,
+    "f": 36,
+    "texte": "le",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 37,
+    "f": 40,
+    "texte": "nom",
+    "lemme": "nom",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 41,
+    "f": 43,
+    "texte": "d'",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 43,
+    "f": 45,
+    "texte": "un",
+    "lemme": "un",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 46,
+    "f": 54,
+    "texte": "candidat",
+    "lemme": "candidat",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 55,
+    "f": 61,
+    "texte": "absent",
+    "lemme": "abser",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 62,
+    "f": 64,
+    "texte": "de",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 65,
+    "f": 67,
+    "texte": "la",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 68,
+    "f": 73,
+    "texte": "liste",
+    "lemme": "liste",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 74,
+    "f": 82,
+    "texte": "imprimée",
+    "lemme": "imprimé",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d003091",
+  "langue": "fr",
+  "texte": "Robe longue, à manches longues et à petit motif, qui rappelle celle des pionnières.",
+  "mots": [
+   {
+    "d": 5,
+    "f": 11,
+    "texte": "longue",
+    "lemme": "long",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 13,
+    "f": 14,
+    "texte": "à",
+    "lemme": "à",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 15,
+    "f": 22,
+    "texte": "manches",
+    "lemme": "manche",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 23,
+    "f": 30,
+    "texte": "longues",
+    "lemme": "long",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 31,
+    "f": 33,
+    "texte": "et",
+    "lemme": "et",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 34,
+    "f": 35,
+    "texte": "à",
+    "lemme": "à",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 36,
+    "f": 41,
+    "texte": "petit",
+    "lemme": "petit",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 42,
+    "f": 47,
+    "texte": "motif",
+    "lemme": "motif",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 49,
+    "f": 52,
+    "texte": "qui",
+    "lemme": "qui",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 53,
+    "f": 61,
+    "texte": "rappelle",
+    "lemme": "rappeler",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 62,
+    "f": 67,
+    "texte": "celle",
+    "lemme": "celui",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 68,
+    "f": 71,
+    "texte": "des",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 72,
+    "f": 82,
+    "texte": "pionnières",
+    "lemme": "pionnier",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d003406",
+  "langue": "fr",
+  "texte": "Chaussures dont la semelle épaisse monte du talon jusqu'à l'avant, en forme de coin.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 10,
+    "texte": "Chaussures",
+    "lemme": "chaussure",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 11,
+    "f": 15,
+    "texte": "dont",
+    "lemme": "dont",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 16,
+    "f": 18,
+    "texte": "la",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 19,
+    "f": 26,
+    "texte": "semelle",
+    "lemme": "semell",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 27,
+    "f": 34,
+    "texte": "épaisse",
+    "lemme": "épais",
+    "nature": "AUX",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 35,
+    "f": 40,
+    "texte": "monte",
+    "lemme": "mont",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 41,
+    "f": 43,
+    "texte": "du",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 44,
+    "f": 49,
+    "texte": "talon",
+    "lemme": "talon",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 50,
+    "f": 56,
+    "texte": "jusqu'",
+    "lemme": "jusque",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 56,
+    "f": 57,
+    "texte": "à",
+    "lemme": "à",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 58,
+    "f": 60,
+    "texte": "l'",
+    "lemme": "le",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 60,
+    "f": 65,
+    "texte": "avant",
+    "lemme": "aver",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 67,
+    "f": 69,
+    "texte": "en",
+    "lemme": "en",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 70,
+    "f": 75,
+    "texte": "forme",
+    "lemme": "forme",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 76,
+    "f": 78,
+    "texte": "de",
+    "lemme": "de",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 79,
+    "f": 83,
+    "texte": "coin",
+    "lemme": "coin",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d015999",
+  "langue": "en",
+  "texte": "To create in a studio the small sounds of a film, such as footsteps or a slamming door.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 2,
+    "texte": "To",
+    "lemme": "to",
+    "nature": "PART",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 3,
+    "f": 9,
+    "texte": "create",
+    "lemme": "create",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 10,
+    "f": 12,
+    "texte": "in",
+    "lemme": "in",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 13,
+    "f": 14,
+    "texte": "a",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 15,
+    "f": 21,
+    "texte": "studio",
+    "lemme": "studio",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 22,
+    "f": 25,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 26,
+    "f": 31,
+    "texte": "small",
+    "lemme": "small",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 32,
+    "f": 38,
+    "texte": "sounds",
+    "lemme": "sound",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 39,
+    "f": 41,
+    "texte": "of",
+    "lemme": "of",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 42,
+    "f": 43,
+    "texte": "a",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 44,
+    "f": 48,
+    "texte": "film",
+    "lemme": "film",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 50,
+    "f": 54,
+    "texte": "such",
+    "lemme": "such",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 55,
+    "f": 57,
+    "texte": "as",
+    "lemme": "as",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 58,
+    "f": 67,
+    "texte": "footsteps",
+    "lemme": "footstep",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 68,
+    "f": 70,
+    "texte": "or",
+    "lemme": "or",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 71,
+    "f": 72,
+    "texte": "a",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 73,
+    "f": 81,
+    "texte": "slamming",
+    "lemme": "slamming",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 82,
+    "f": 86,
+    "texte": "door",
+    "lemme": "door",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d011171",
+  "langue": "en",
+  "texte": "Positive forms of a word that have vanished while their opposite still exists, like \"gruntled\".",
+  "mots": [
+   {
+    "d": 0,
+    "f": 8,
+    "texte": "Positive",
+    "lemme": "positive",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 9,
+    "f": 14,
+    "texte": "forms",
+    "lemme": "form",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 15,
+    "f": 17,
+    "texte": "of",
+    "lemme": "of",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 18,
+    "f": 19,
+    "texte": "a",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 20,
+    "f": 24,
+    "texte": "word",
+    "lemme": "word",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 25,
+    "f": 29,
+    "texte": "that",
+    "lemme": "that",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 30,
+    "f": 34,
+    "texte": "have",
+    "lemme": "have",
+    "nature": "AUX",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 35,
+    "f": 43,
+    "texte": "vanished",
+    "lemme": "vanish",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 44,
+    "f": 49,
+    "texte": "while",
+    "lemme": "while",
+    "nature": "SCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 50,
+    "f": 55,
+    "texte": "their",
+    "lemme": "their",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 56,
+    "f": 64,
+    "texte": "opposite",
+    "lemme": "opposite",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 71,
+    "f": 77,
+    "texte": "exists",
+    "lemme": "exist",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 79,
+    "f": 83,
+    "texte": "like",
+    "lemme": "like",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 85,
+    "f": 93,
+    "texte": "gruntled",
+    "lemme": "gruntled",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "x02421",
+  "langue": "en",
+  "texte": "The lower edge of a roof that overhangs the wall.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 3,
+    "texte": "The",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 4,
+    "f": 9,
+    "texte": "lower",
+    "lemme": "low",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 10,
+    "f": 14,
+    "texte": "edge",
+    "lemme": "edge",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 15,
+    "f": 17,
+    "texte": "of",
+    "lemme": "of",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 18,
+    "f": 19,
+    "texte": "a",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 20,
+    "f": 24,
+    "texte": "roof",
+    "lemme": "roof",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 25,
+    "f": 29,
+    "texte": "that",
+    "lemme": "that",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 30,
+    "f": 39,
+    "texte": "overhangs",
+    "lemme": "overhang",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 40,
+    "f": 43,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 44,
+    "f": 48,
+    "texte": "wall",
+    "lemme": "wall",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   }
+  ]
+ },
+ {
+  "id": "s01258",
+  "langue": "en",
+  "texte": "A list is an ordered sequence of values, reached by position, to which elements can be added or removed.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 1,
+    "texte": "A",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 2,
+    "f": 6,
+    "texte": "list",
+    "lemme": "list",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 7,
+    "f": 9,
+    "texte": "is",
+    "lemme": "be",
+    "nature": "AUX",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 10,
+    "f": 12,
+    "texte": "an",
+    "lemme": "an",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 13,
+    "f": 20,
+    "texte": "ordered",
+    "lemme": "order",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 21,
+    "f": 29,
+    "texte": "sequence",
+    "lemme": "sequence",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 30,
+    "f": 32,
+    "texte": "of",
+    "lemme": "of",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 33,
+    "f": 39,
+    "texte": "values",
+    "lemme": "value",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 41,
+    "f": 48,
+    "texte": "reached",
+    "lemme": "reach",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 49,
+    "f": 51,
+    "texte": "by",
+    "lemme": "by",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 52,
+    "f": 60,
+    "texte": "position",
+    "lemme": "position",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 62,
+    "f": 64,
+    "texte": "to",
+    "lemme": "to",
+    "nature": "PART",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 65,
+    "f": 70,
+    "texte": "which",
+    "lemme": "which",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 71,
+    "f": 79,
+    "texte": "elements",
+    "lemme": "element",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 80,
+    "f": 83,
+    "texte": "can",
+    "lemme": "can",
+    "nature": "AUX",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 84,
+    "f": 86,
+    "texte": "be",
+    "lemme": "be",
+    "nature": "AUX",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 87,
+    "f": 92,
+    "texte": "added",
+    "lemme": "add",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 93,
+    "f": 95,
+    "texte": "or",
+    "lemme": "or",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 96,
+    "f": 103,
+    "texte": "removed",
+    "lemme": "remove",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d007191",
+  "langue": "en",
+  "texte": "Dried beans stewed Mexican style, often mashed and served as a side.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 5,
+    "texte": "Dried",
+    "lemme": "dry",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 6,
+    "f": 11,
+    "texte": "beans",
+    "lemme": "bean",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 12,
+    "f": 18,
+    "texte": "stewed",
+    "lemme": "stew",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 19,
+    "f": 26,
+    "texte": "Mexican",
+    "lemme": "mexican",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 27,
+    "f": 32,
+    "texte": "style",
+    "lemme": "style",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 40,
+    "f": 46,
+    "texte": "mashed",
+    "lemme": "mash",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 47,
+    "f": 50,
+    "texte": "and",
+    "lemme": "and",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 51,
+    "f": 57,
+    "texte": "served",
+    "lemme": "serve",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 58,
+    "f": 60,
+    "texte": "as",
+    "lemme": "as",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 61,
+    "f": 62,
+    "texte": "a",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 63,
+    "f": 67,
+    "texte": "side",
+    "lemme": "side",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   }
+  ]
+ },
+ {
+  "id": "x04979",
+  "langue": "en",
+  "texte": "Belonging to adult age.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 9,
+    "texte": "Belonging",
+    "lemme": "belong",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 10,
+    "f": 12,
+    "texte": "to",
+    "lemme": "to",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 13,
+    "f": 18,
+    "texte": "adult",
+    "lemme": "adult",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 19,
+    "f": 22,
+    "texte": "age",
+    "lemme": "age",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d011902",
+  "langue": "en",
+  "texte": "Divination that reads the future in wine, its color or reflections.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 10,
+    "texte": "Divination",
+    "lemme": "divination",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 11,
+    "f": 15,
+    "texte": "that",
+    "lemme": "that",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 16,
+    "f": 21,
+    "texte": "reads",
+    "lemme": "read",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 22,
+    "f": 25,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 26,
+    "f": 32,
+    "texte": "future",
+    "lemme": "future",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 33,
+    "f": 35,
+    "texte": "in",
+    "lemme": "in",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 36,
+    "f": 40,
+    "texte": "wine",
+    "lemme": "wine",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 42,
+    "f": 45,
+    "texte": "its",
+    "lemme": "its",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 46,
+    "f": 51,
+    "texte": "color",
+    "lemme": "color",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 52,
+    "f": 54,
+    "texte": "or",
+    "lemme": "or",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 55,
+    "f": 66,
+    "texte": "reflections",
+    "lemme": "reflection",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "s02203",
+  "langue": "en",
+  "texte": "A mobile device whose screen folds, which changes the size and shape of the display area.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 1,
+    "texte": "A",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 2,
+    "f": 8,
+    "texte": "mobile",
+    "lemme": "mobile",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 9,
+    "f": 15,
+    "texte": "device",
+    "lemme": "device",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 16,
+    "f": 21,
+    "texte": "whose",
+    "lemme": "whose",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 22,
+    "f": 28,
+    "texte": "screen",
+    "lemme": "screen",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 29,
+    "f": 34,
+    "texte": "folds",
+    "lemme": "fold",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 36,
+    "f": 41,
+    "texte": "which",
+    "lemme": "which",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 42,
+    "f": 49,
+    "texte": "changes",
+    "lemme": "change",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 50,
+    "f": 53,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 54,
+    "f": 58,
+    "texte": "size",
+    "lemme": "size",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 59,
+    "f": 62,
+    "texte": "and",
+    "lemme": "and",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 63,
+    "f": 68,
+    "texte": "shape",
+    "lemme": "shape",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 69,
+    "f": 71,
+    "texte": "of",
+    "lemme": "of",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 72,
+    "f": 75,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 76,
+    "f": 83,
+    "texte": "display",
+    "lemme": "display",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 84,
+    "f": 88,
+    "texte": "area",
+    "lemme": "area",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   }
+  ]
+ },
+ {
+  "id": "d021547",
+  "langue": "en",
+  "texte": "A line that pulls the foot of the sail toward the boom's end to flatten it.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 1,
+    "texte": "A",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 2,
+    "f": 6,
+    "texte": "line",
+    "lemme": "line",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 7,
+    "f": 11,
+    "texte": "that",
+    "lemme": "that",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 12,
+    "f": 17,
+    "texte": "pulls",
+    "lemme": "pull",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 18,
+    "f": 21,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 22,
+    "f": 26,
+    "texte": "foot",
+    "lemme": "foot",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 27,
+    "f": 29,
+    "texte": "of",
+    "lemme": "of",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 30,
+    "f": 33,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 34,
+    "f": 38,
+    "texte": "sail",
+    "lemme": "sail",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 39,
+    "f": 45,
+    "texte": "toward",
+    "lemme": "toward",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 46,
+    "f": 49,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 50,
+    "f": 54,
+    "texte": "boom",
+    "lemme": "boom",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 54,
+    "f": 56,
+    "texte": "'s",
+    "lemme": "'s",
+    "nature": "PART",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 57,
+    "f": 60,
+    "texte": "end",
+    "lemme": "end",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 61,
+    "f": 63,
+    "texte": "to",
+    "lemme": "to",
+    "nature": "PART",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 64,
+    "f": 71,
+    "texte": "flatten",
+    "lemme": "flatten",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 72,
+    "f": 74,
+    "texte": "it",
+    "lemme": "it",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d009038",
+  "langue": "en",
+  "texte": "A nerve that exits the spine at the sacrum and goes to the pelvis and leg.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 1,
+    "texte": "A",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 2,
+    "f": 7,
+    "texte": "nerve",
+    "lemme": "nerve",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 8,
+    "f": 12,
+    "texte": "that",
+    "lemme": "that",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 13,
+    "f": 18,
+    "texte": "exits",
+    "lemme": "exit",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 19,
+    "f": 22,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 23,
+    "f": 28,
+    "texte": "spine",
+    "lemme": "spine",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 29,
+    "f": 31,
+    "texte": "at",
+    "lemme": "at",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 32,
+    "f": 35,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 36,
+    "f": 42,
+    "texte": "sacrum",
+    "lemme": "sacrum",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 43,
+    "f": 46,
+    "texte": "and",
+    "lemme": "and",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 47,
+    "f": 51,
+    "texte": "goes",
+    "lemme": "go",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 52,
+    "f": 54,
+    "texte": "to",
+    "lemme": "to",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 55,
+    "f": 58,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 66,
+    "f": 69,
+    "texte": "and",
+    "lemme": "and",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "w104_4",
+  "langue": "en",
+  "texte": "Great misfortune or deep sadness.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 5,
+    "texte": "Great",
+    "lemme": "great",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 6,
+    "f": 16,
+    "texte": "misfortune",
+    "lemme": "misfortune",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 17,
+    "f": 19,
+    "texte": "or",
+    "lemme": "or",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 20,
+    "f": 24,
+    "texte": "deep",
+    "lemme": "deep",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 25,
+    "f": 32,
+    "texte": "sadness",
+    "lemme": "sadness",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "s03838",
+  "langue": "en",
+  "texte": "Association is the step where a device asks an access point to accept it and receives a connection identifier to exchange data.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 11,
+    "texte": "Association",
+    "lemme": "association",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 12,
+    "f": 14,
+    "texte": "is",
+    "lemme": "be",
+    "nature": "AUX",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 15,
+    "f": 18,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 19,
+    "f": 23,
+    "texte": "step",
+    "lemme": "step",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 24,
+    "f": 29,
+    "texte": "where",
+    "lemme": "where",
+    "nature": "SCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 30,
+    "f": 31,
+    "texte": "a",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 32,
+    "f": 38,
+    "texte": "device",
+    "lemme": "device",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 39,
+    "f": 43,
+    "texte": "asks",
+    "lemme": "ask",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 44,
+    "f": 46,
+    "texte": "an",
+    "lemme": "an",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 47,
+    "f": 53,
+    "texte": "access",
+    "lemme": "access",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 54,
+    "f": 59,
+    "texte": "point",
+    "lemme": "point",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 60,
+    "f": 62,
+    "texte": "to",
+    "lemme": "to",
+    "nature": "PART",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 63,
+    "f": 69,
+    "texte": "accept",
+    "lemme": "accept",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 70,
+    "f": 72,
+    "texte": "it",
+    "lemme": "it",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 73,
+    "f": 76,
+    "texte": "and",
+    "lemme": "and",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 77,
+    "f": 85,
+    "texte": "receives",
+    "lemme": "receive",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 86,
+    "f": 87,
+    "texte": "a",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 88,
+    "f": 98,
+    "texte": "connection",
+    "lemme": "connection",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 99,
+    "f": 109,
+    "texte": "identifier",
+    "lemme": "identifier",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 110,
+    "f": 112,
+    "texte": "to",
+    "lemme": "to",
+    "nature": "PART",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 113,
+    "f": 121,
+    "texte": "exchange",
+    "lemme": "exchange",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 122,
+    "f": 126,
+    "texte": "data",
+    "lemme": "datum",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   }
+  ]
+ },
+ {
+  "id": "d020761",
+  "langue": "en",
+  "texte": "A small glass container sealed by flame that holds a drug or liquid.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 1,
+    "texte": "A",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 2,
+    "f": 7,
+    "texte": "small",
+    "lemme": "small",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 8,
+    "f": 13,
+    "texte": "glass",
+    "lemme": "glass",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 14,
+    "f": 23,
+    "texte": "container",
+    "lemme": "container",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 24,
+    "f": 30,
+    "texte": "sealed",
+    "lemme": "seal",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 31,
+    "f": 33,
+    "texte": "by",
+    "lemme": "by",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 34,
+    "f": 39,
+    "texte": "flame",
+    "lemme": "flame",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 40,
+    "f": 44,
+    "texte": "that",
+    "lemme": "that",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 45,
+    "f": 50,
+    "texte": "holds",
+    "lemme": "hold",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 51,
+    "f": 52,
+    "texte": "a",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 53,
+    "f": 57,
+    "texte": "drug",
+    "lemme": "drug",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 58,
+    "f": 60,
+    "texte": "or",
+    "lemme": "or",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 61,
+    "f": 67,
+    "texte": "liquid",
+    "lemme": "liquid",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   }
+  ]
+ },
+ {
+  "id": "d015505",
+  "langue": "en",
+  "texte": "A share of sales paid to the author.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 1,
+    "texte": "A",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 2,
+    "f": 7,
+    "texte": "share",
+    "lemme": "share",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 8,
+    "f": 10,
+    "texte": "of",
+    "lemme": "of",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 11,
+    "f": 16,
+    "texte": "sales",
+    "lemme": "sale",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 17,
+    "f": 21,
+    "texte": "paid",
+    "lemme": "pay",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 22,
+    "f": 24,
+    "texte": "to",
+    "lemme": "to",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 25,
+    "f": 28,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 29,
+    "f": 35,
+    "texte": "author",
+    "lemme": "author",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   }
+  ]
+ },
+ {
+  "id": "d015373",
+  "langue": "en",
+  "texte": "Journalism that tells the news through photographs.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 10,
+    "texte": "Journalism",
+    "lemme": "journalism",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 11,
+    "f": 15,
+    "texte": "that",
+    "lemme": "that",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 16,
+    "f": 21,
+    "texte": "tells",
+    "lemme": "tell",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 22,
+    "f": 25,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 26,
+    "f": 30,
+    "texte": "news",
+    "lemme": "news",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 31,
+    "f": 38,
+    "texte": "through",
+    "lemme": "through",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 39,
+    "f": 50,
+    "texte": "photographs",
+    "lemme": "photograph",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "x05486",
+  "langue": "en",
+  "texte": "Intended to win the favor of someone powerful or divine.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 8,
+    "texte": "Intended",
+    "lemme": "intend",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 9,
+    "f": 11,
+    "texte": "to",
+    "lemme": "to",
+    "nature": "PART",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 12,
+    "f": 15,
+    "texte": "win",
+    "lemme": "win",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 16,
+    "f": 19,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 20,
+    "f": 25,
+    "texte": "favor",
+    "lemme": "favor",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 26,
+    "f": 28,
+    "texte": "of",
+    "lemme": "of",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 29,
+    "f": 36,
+    "texte": "someone",
+    "lemme": "someone",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 37,
+    "f": 45,
+    "texte": "powerful",
+    "lemme": "powerful",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 46,
+    "f": 48,
+    "texte": "or",
+    "lemme": "or",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 49,
+    "f": 55,
+    "texte": "divine",
+    "lemme": "divine",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d002965",
+  "langue": "en",
+  "texte": "A round baggy cap with a small peak, worn by newspaper sellers.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 1,
+    "texte": "A",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 2,
+    "f": 7,
+    "texte": "round",
+    "lemme": "round",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 8,
+    "f": 13,
+    "texte": "baggy",
+    "lemme": "baggy",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 14,
+    "f": 17,
+    "texte": "cap",
+    "lemme": "cap",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 18,
+    "f": 22,
+    "texte": "with",
+    "lemme": "with",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 23,
+    "f": 24,
+    "texte": "a",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 25,
+    "f": 30,
+    "texte": "small",
+    "lemme": "small",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 31,
+    "f": 35,
+    "texte": "peak",
+    "lemme": "peak",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 37,
+    "f": 41,
+    "texte": "worn",
+    "lemme": "wear",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 42,
+    "f": 44,
+    "texte": "by",
+    "lemme": "by",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 45,
+    "f": 54,
+    "texte": "newspaper",
+    "lemme": "newspaper",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 55,
+    "f": 62,
+    "texte": "sellers",
+    "lemme": "seller",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d009343",
+  "langue": "en",
+  "texte": "A study that follows the same people for many years.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 1,
+    "texte": "A",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 2,
+    "f": 7,
+    "texte": "study",
+    "lemme": "study",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 8,
+    "f": 12,
+    "texte": "that",
+    "lemme": "that",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 13,
+    "f": 20,
+    "texte": "follows",
+    "lemme": "follow",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 21,
+    "f": 24,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 25,
+    "f": 29,
+    "texte": "same",
+    "lemme": "same",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 30,
+    "f": 36,
+    "texte": "people",
+    "lemme": "people",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 37,
+    "f": 40,
+    "texte": "for",
+    "lemme": "for",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 41,
+    "f": 45,
+    "texte": "many",
+    "lemme": "many",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 46,
+    "f": 51,
+    "texte": "years",
+    "lemme": "year",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "x04348",
+  "langue": "en",
+  "texte": "Walking with long, confident steps and a sense of purpose.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 7,
+    "texte": "Walking",
+    "lemme": "walk",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 8,
+    "f": 12,
+    "texte": "with",
+    "lemme": "with",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 13,
+    "f": 17,
+    "texte": "long",
+    "lemme": "long",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 19,
+    "f": 28,
+    "texte": "confident",
+    "lemme": "confident",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 29,
+    "f": 34,
+    "texte": "steps",
+    "lemme": "step",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 35,
+    "f": 38,
+    "texte": "and",
+    "lemme": "and",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 39,
+    "f": 40,
+    "texte": "a",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 41,
+    "f": 46,
+    "texte": "sense",
+    "lemme": "sense",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 47,
+    "f": 49,
+    "texte": "of",
+    "lemme": "of",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 50,
+    "f": 57,
+    "texte": "purpose",
+    "lemme": "purpose",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "a72_5",
+  "langue": "en",
+  "texte": "Inspiring deep respect, especially because of age.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 9,
+    "texte": "Inspiring",
+    "lemme": "inspire",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 10,
+    "f": 14,
+    "texte": "deep",
+    "lemme": "deep",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 15,
+    "f": 22,
+    "texte": "respect",
+    "lemme": "respect",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 35,
+    "f": 42,
+    "texte": "because",
+    "lemme": "because",
+    "nature": "SCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 43,
+    "f": 45,
+    "texte": "of",
+    "lemme": "of",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 46,
+    "f": 49,
+    "texte": "age",
+    "lemme": "age",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "w81_1",
+  "langue": "en",
+  "texte": "An uneasy doubt felt before or about an action.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 2,
+    "texte": "An",
+    "lemme": "an",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 3,
+    "f": 9,
+    "texte": "uneasy",
+    "lemme": "uneasy",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 10,
+    "f": 15,
+    "texte": "doubt",
+    "lemme": "doubt",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 16,
+    "f": 20,
+    "texte": "felt",
+    "lemme": "feel",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 21,
+    "f": 27,
+    "texte": "before",
+    "lemme": "before",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 28,
+    "f": 30,
+    "texte": "or",
+    "lemme": "or",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 31,
+    "f": 36,
+    "texte": "about",
+    "lemme": "about",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 37,
+    "f": 39,
+    "texte": "an",
+    "lemme": "an",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 40,
+    "f": 46,
+    "texte": "action",
+    "lemme": "action",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   }
+  ]
+ },
+ {
+  "id": "d006777",
+  "langue": "en",
+  "texte": "To dip food briefly in boiling water, then in cold water.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 2,
+    "texte": "To",
+    "lemme": "to",
+    "nature": "PART",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 3,
+    "f": 6,
+    "texte": "dip",
+    "lemme": "dip",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 7,
+    "f": 11,
+    "texte": "food",
+    "lemme": "food",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 20,
+    "f": 22,
+    "texte": "in",
+    "lemme": "in",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 23,
+    "f": 30,
+    "texte": "boiling",
+    "lemme": "boiling",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 31,
+    "f": 36,
+    "texte": "water",
+    "lemme": "water",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 43,
+    "f": 45,
+    "texte": "in",
+    "lemme": "in",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 46,
+    "f": 50,
+    "texte": "cold",
+    "lemme": "cold",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 51,
+    "f": 56,
+    "texte": "water",
+    "lemme": "water",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   }
+  ]
+ },
+ {
+  "id": "d014742",
+  "langue": "en",
+  "texte": "Slang: to steal items from a store.",
+  "mots": [
+   {
+    "d": 7,
+    "f": 9,
+    "texte": "to",
+    "lemme": "to",
+    "nature": "PART",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 10,
+    "f": 15,
+    "texte": "steal",
+    "lemme": "steal",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 16,
+    "f": 21,
+    "texte": "items",
+    "lemme": "item",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 22,
+    "f": 26,
+    "texte": "from",
+    "lemme": "from",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 27,
+    "f": 28,
+    "texte": "a",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 29,
+    "f": 34,
+    "texte": "store",
+    "lemme": "store",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   }
+  ]
+ },
+ {
+  "id": "b20585",
+  "langue": "en",
+  "texte": "In Marxist thought, the conflict between classes with opposed interests, especially labor and capital.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 2,
+    "texte": "In",
+    "lemme": "in",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 3,
+    "f": 10,
+    "texte": "Marxist",
+    "lemme": "marxist",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 11,
+    "f": 18,
+    "texte": "thought",
+    "lemme": "thought",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 20,
+    "f": 23,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 24,
+    "f": 32,
+    "texte": "conflict",
+    "lemme": "conflict",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 33,
+    "f": 40,
+    "texte": "between",
+    "lemme": "between",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 41,
+    "f": 48,
+    "texte": "classes",
+    "lemme": "class",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 49,
+    "f": 53,
+    "texte": "with",
+    "lemme": "with",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 54,
+    "f": 61,
+    "texte": "opposed",
+    "lemme": "oppose",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 62,
+    "f": 71,
+    "texte": "interests",
+    "lemme": "interest",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 84,
+    "f": 89,
+    "texte": "labor",
+    "lemme": "labor",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 90,
+    "f": 93,
+    "texte": "and",
+    "lemme": "and",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 94,
+    "f": 101,
+    "texte": "capital",
+    "lemme": "capital",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   }
+  ]
+ },
+ {
+  "id": "d018498",
+  "langue": "en",
+  "texte": "To miss the ball completely while swinging.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 2,
+    "texte": "To",
+    "lemme": "to",
+    "nature": "PART",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 3,
+    "f": 7,
+    "texte": "miss",
+    "lemme": "miss",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 8,
+    "f": 11,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 12,
+    "f": 16,
+    "texte": "ball",
+    "lemme": "ball",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 28,
+    "f": 33,
+    "texte": "while",
+    "lemme": "while",
+    "nature": "SCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 34,
+    "f": 42,
+    "texte": "swinging",
+    "lemme": "swing",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   }
+  ]
+ },
+ {
+  "id": "s03114",
+  "langue": "en",
+  "texte": "VACUUM is a PostgreSQL command that frees the space of dead rows so it can be used again.",
+  "mots": [
+   {
+    "d": 7,
+    "f": 9,
+    "texte": "is",
+    "lemme": "be",
+    "nature": "AUX",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 10,
+    "f": 11,
+    "texte": "a",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 12,
+    "f": 22,
+    "texte": "PostgreSQL",
+    "lemme": "postgresql",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 23,
+    "f": 30,
+    "texte": "command",
+    "lemme": "command",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 31,
+    "f": 35,
+    "texte": "that",
+    "lemme": "that",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 36,
+    "f": 41,
+    "texte": "frees",
+    "lemme": "free",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 42,
+    "f": 45,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 46,
+    "f": 51,
+    "texte": "space",
+    "lemme": "space",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 52,
+    "f": 54,
+    "texte": "of",
+    "lemme": "of",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 55,
+    "f": 59,
+    "texte": "dead",
+    "lemme": "dead",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 60,
+    "f": 64,
+    "texte": "rows",
+    "lemme": "row",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 65,
+    "f": 67,
+    "texte": "so",
+    "lemme": "so",
+    "nature": "SCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 68,
+    "f": 70,
+    "texte": "it",
+    "lemme": "it",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 71,
+    "f": 74,
+    "texte": "can",
+    "lemme": "can",
+    "nature": "AUX",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 75,
+    "f": 77,
+    "texte": "be",
+    "lemme": "be",
+    "nature": "AUX",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 78,
+    "f": 82,
+    "texte": "used",
+    "lemme": "use",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d006640",
+  "langue": "en",
+  "texte": "A grain with dark kernels, or bread made from its flour, with a slightly sour taste.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 1,
+    "texte": "A",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 2,
+    "f": 7,
+    "texte": "grain",
+    "lemme": "grain",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 8,
+    "f": 12,
+    "texte": "with",
+    "lemme": "with",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 13,
+    "f": 17,
+    "texte": "dark",
+    "lemme": "dark",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 18,
+    "f": 25,
+    "texte": "kernels",
+    "lemme": "kernel",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 27,
+    "f": 29,
+    "texte": "or",
+    "lemme": "or",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 30,
+    "f": 35,
+    "texte": "bread",
+    "lemme": "bread",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 36,
+    "f": 40,
+    "texte": "made",
+    "lemme": "make",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 41,
+    "f": 45,
+    "texte": "from",
+    "lemme": "from",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 46,
+    "f": 49,
+    "texte": "its",
+    "lemme": "its",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 50,
+    "f": 55,
+    "texte": "flour",
+    "lemme": "flour",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 57,
+    "f": 61,
+    "texte": "with",
+    "lemme": "with",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 62,
+    "f": 63,
+    "texte": "a",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 73,
+    "f": 77,
+    "texte": "sour",
+    "lemme": "sour",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 78,
+    "f": 83,
+    "texte": "taste",
+    "lemme": "taste",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d020597",
+  "langue": "en",
+  "texte": "An open gap between two defenders where the ball can fall.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 2,
+    "texte": "An",
+    "lemme": "an",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 3,
+    "f": 7,
+    "texte": "open",
+    "lemme": "open",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 8,
+    "f": 11,
+    "texte": "gap",
+    "lemme": "gap",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 12,
+    "f": 19,
+    "texte": "between",
+    "lemme": "between",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 24,
+    "f": 33,
+    "texte": "defenders",
+    "lemme": "defender",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 34,
+    "f": 39,
+    "texte": "where",
+    "lemme": "where",
+    "nature": "SCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 40,
+    "f": 43,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 44,
+    "f": 48,
+    "texte": "ball",
+    "lemme": "ball",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 49,
+    "f": 52,
+    "texte": "can",
+    "lemme": "can",
+    "nature": "AUX",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 53,
+    "f": 57,
+    "texte": "fall",
+    "lemme": "fall",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   }
+  ]
+ },
+ {
+  "id": "x03205",
+  "langue": "en",
+  "texte": "With clear, well-marked edges.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 4,
+    "texte": "With",
+    "lemme": "with",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 5,
+    "f": 10,
+    "texte": "clear",
+    "lemme": "clear",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 17,
+    "f": 23,
+    "texte": "marked",
+    "lemme": "mark",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 24,
+    "f": 29,
+    "texte": "edges",
+    "lemme": "edge",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   }
+  ]
+ },
+ {
+  "id": "d021070",
+  "langue": "en",
+  "texte": "The automatic shift to a lower gear when you floor the accelerator to overtake.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 3,
+    "texte": "The",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 4,
+    "f": 13,
+    "texte": "automatic",
+    "lemme": "automatic",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 14,
+    "f": 19,
+    "texte": "shift",
+    "lemme": "shift",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 20,
+    "f": 22,
+    "texte": "to",
+    "lemme": "to",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 23,
+    "f": 24,
+    "texte": "a",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 25,
+    "f": 30,
+    "texte": "lower",
+    "lemme": "low",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 31,
+    "f": 35,
+    "texte": "gear",
+    "lemme": "gear",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 36,
+    "f": 40,
+    "texte": "when",
+    "lemme": "when",
+    "nature": "SCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 41,
+    "f": 44,
+    "texte": "you",
+    "lemme": "you",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 45,
+    "f": 50,
+    "texte": "floor",
+    "lemme": "floor",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 51,
+    "f": 54,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 55,
+    "f": 66,
+    "texte": "accelerator",
+    "lemme": "accelerator",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 67,
+    "f": 69,
+    "texte": "to",
+    "lemme": "to",
+    "nature": "PART",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 70,
+    "f": 78,
+    "texte": "overtake",
+    "lemme": "overtake",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d014612",
+  "langue": "en",
+  "texte": "Green fodder stored and fermented in a silo to feed livestock.",
+  "mots": [
+   {
+    "d": 6,
+    "f": 12,
+    "texte": "fodder",
+    "lemme": "fodder",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 13,
+    "f": 19,
+    "texte": "stored",
+    "lemme": "store",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 20,
+    "f": 23,
+    "texte": "and",
+    "lemme": "and",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 24,
+    "f": 33,
+    "texte": "fermented",
+    "lemme": "ferment",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 34,
+    "f": 36,
+    "texte": "in",
+    "lemme": "in",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 37,
+    "f": 38,
+    "texte": "a",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 39,
+    "f": 43,
+    "texte": "silo",
+    "lemme": "silo",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 44,
+    "f": 46,
+    "texte": "to",
+    "lemme": "to",
+    "nature": "PART",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 47,
+    "f": 51,
+    "texte": "feed",
+    "lemme": "feed",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 52,
+    "f": 61,
+    "texte": "livestock",
+    "lemme": "livestock",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   }
+  ]
+ },
+ {
+  "id": "d007688",
+  "langue": "en",
+  "texte": "A furniture foot that looks like the webbed foot of a duck.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 1,
+    "texte": "A",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 2,
+    "f": 11,
+    "texte": "furniture",
+    "lemme": "furniture",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 12,
+    "f": 16,
+    "texte": "foot",
+    "lemme": "foot",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 17,
+    "f": 21,
+    "texte": "that",
+    "lemme": "that",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 22,
+    "f": 27,
+    "texte": "looks",
+    "lemme": "look",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 28,
+    "f": 32,
+    "texte": "like",
+    "lemme": "like",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 33,
+    "f": 36,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 37,
+    "f": 43,
+    "texte": "webbed",
+    "lemme": "web",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 44,
+    "f": 48,
+    "texte": "foot",
+    "lemme": "foot",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 49,
+    "f": 51,
+    "texte": "of",
+    "lemme": "of",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 52,
+    "f": 53,
+    "texte": "a",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 54,
+    "f": 58,
+    "texte": "duck",
+    "lemme": "duck",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   }
+  ]
+ },
+ {
+  "id": "d015132",
+  "langue": "en",
+  "texte": "The member who presides over the US House of Representatives and leads its majority.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 3,
+    "texte": "The",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 4,
+    "f": 10,
+    "texte": "member",
+    "lemme": "member",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 11,
+    "f": 14,
+    "texte": "who",
+    "lemme": "who",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 15,
+    "f": 23,
+    "texte": "presides",
+    "lemme": "preside",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 24,
+    "f": 28,
+    "texte": "over",
+    "lemme": "over",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 29,
+    "f": 32,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 42,
+    "f": 44,
+    "texte": "of",
+    "lemme": "of",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 61,
+    "f": 64,
+    "texte": "and",
+    "lemme": "and",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 65,
+    "f": 70,
+    "texte": "leads",
+    "lemme": "lead",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 71,
+    "f": 74,
+    "texte": "its",
+    "lemme": "its",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 75,
+    "f": 83,
+    "texte": "majority",
+    "lemme": "majority",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   }
+  ]
+ },
+ {
+  "id": "d016981",
+  "langue": "en",
+  "texte": "A territory led by an archbishop.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 1,
+    "texte": "A",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 2,
+    "f": 11,
+    "texte": "territory",
+    "lemme": "territory",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 12,
+    "f": 15,
+    "texte": "led",
+    "lemme": "lead",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 16,
+    "f": 18,
+    "texte": "by",
+    "lemme": "by",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 19,
+    "f": 21,
+    "texte": "an",
+    "lemme": "an",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 22,
+    "f": 32,
+    "texte": "archbishop",
+    "lemme": "archbishop",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   }
+  ]
+ },
+ {
+  "id": "b41169",
+  "langue": "en",
+  "texte": "A recurring business model structure that can be reused in other sectors.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 1,
+    "texte": "A",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 2,
+    "f": 11,
+    "texte": "recurring",
+    "lemme": "recur",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 12,
+    "f": 20,
+    "texte": "business",
+    "lemme": "business",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 21,
+    "f": 26,
+    "texte": "model",
+    "lemme": "model",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 27,
+    "f": 36,
+    "texte": "structure",
+    "lemme": "structure",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 37,
+    "f": 41,
+    "texte": "that",
+    "lemme": "that",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 42,
+    "f": 45,
+    "texte": "can",
+    "lemme": "can",
+    "nature": "AUX",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 46,
+    "f": 48,
+    "texte": "be",
+    "lemme": "be",
+    "nature": "AUX",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 49,
+    "f": 55,
+    "texte": "reused",
+    "lemme": "reuse",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 56,
+    "f": 58,
+    "texte": "in",
+    "lemme": "in",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 59,
+    "f": 64,
+    "texte": "other",
+    "lemme": "other",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 65,
+    "f": 72,
+    "texte": "sectors",
+    "lemme": "sector",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   }
+  ]
+ },
+ {
+  "id": "s01178",
+  "langue": "en",
+  "texte": "The most significant bit of a signed integer or floating-point number; it is 1 for a negative number and 0 otherwise.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 3,
+    "texte": "The",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 9,
+    "f": 20,
+    "texte": "significant",
+    "lemme": "significant",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 21,
+    "f": 24,
+    "texte": "bit",
+    "lemme": "bit",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 25,
+    "f": 27,
+    "texte": "of",
+    "lemme": "of",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 28,
+    "f": 29,
+    "texte": "a",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 30,
+    "f": 36,
+    "texte": "signed",
+    "lemme": "sign",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 37,
+    "f": 44,
+    "texte": "integer",
+    "lemme": "integer",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 45,
+    "f": 47,
+    "texte": "or",
+    "lemme": "or",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 48,
+    "f": 56,
+    "texte": "floating",
+    "lemme": "float",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 57,
+    "f": 62,
+    "texte": "point",
+    "lemme": "point",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 63,
+    "f": 69,
+    "texte": "number",
+    "lemme": "number",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 71,
+    "f": 73,
+    "texte": "it",
+    "lemme": "it",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 74,
+    "f": 76,
+    "texte": "is",
+    "lemme": "be",
+    "nature": "AUX",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 79,
+    "f": 82,
+    "texte": "for",
+    "lemme": "for",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 83,
+    "f": 84,
+    "texte": "a",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 85,
+    "f": 93,
+    "texte": "negative",
+    "lemme": "negative",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 94,
+    "f": 100,
+    "texte": "number",
+    "lemme": "number",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 101,
+    "f": 104,
+    "texte": "and",
+    "lemme": "and",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "x04238",
+  "langue": "en",
+  "texte": "Probably a misspelling of gap-toothed, meaning spaced teeth.",
+  "mots": [
+   {
+    "d": 9,
+    "f": 10,
+    "texte": "a",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 11,
+    "f": 22,
+    "texte": "misspelling",
+    "lemme": "misspelling",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 23,
+    "f": 25,
+    "texte": "of",
+    "lemme": "of",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 26,
+    "f": 29,
+    "texte": "gap",
+    "lemme": "gap",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 30,
+    "f": 37,
+    "texte": "toothed",
+    "lemme": "toothe",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 39,
+    "f": 46,
+    "texte": "meaning",
+    "lemme": "mean",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 47,
+    "f": 53,
+    "texte": "spaced",
+    "lemme": "spaced",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 54,
+    "f": 59,
+    "texte": "teeth",
+    "lemme": "tooth",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "s01351",
+  "langue": "en",
+  "texte": "A class is a template that describes the data and methods shared by all objects created from it.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 1,
+    "texte": "A",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 2,
+    "f": 7,
+    "texte": "class",
+    "lemme": "class",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 8,
+    "f": 10,
+    "texte": "is",
+    "lemme": "be",
+    "nature": "AUX",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 11,
+    "f": 12,
+    "texte": "a",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 13,
+    "f": 21,
+    "texte": "template",
+    "lemme": "template",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 22,
+    "f": 26,
+    "texte": "that",
+    "lemme": "that",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 27,
+    "f": 36,
+    "texte": "describes",
+    "lemme": "describe",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 37,
+    "f": 40,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 41,
+    "f": 45,
+    "texte": "data",
+    "lemme": "datum",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 46,
+    "f": 49,
+    "texte": "and",
+    "lemme": "and",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 50,
+    "f": 57,
+    "texte": "methods",
+    "lemme": "method",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 58,
+    "f": 64,
+    "texte": "shared",
+    "lemme": "share",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 65,
+    "f": 67,
+    "texte": "by",
+    "lemme": "by",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 68,
+    "f": 71,
+    "texte": "all",
+    "lemme": "all",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 72,
+    "f": 79,
+    "texte": "objects",
+    "lemme": "object",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 80,
+    "f": 87,
+    "texte": "created",
+    "lemme": "create",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 88,
+    "f": 92,
+    "texte": "from",
+    "lemme": "from",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 93,
+    "f": 95,
+    "texte": "it",
+    "lemme": "it",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d006428",
+  "langue": "en",
+  "texte": "A large predatory fish; in finance, an investor who tries to take over a company by force.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 1,
+    "texte": "A",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 2,
+    "f": 7,
+    "texte": "large",
+    "lemme": "large",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 8,
+    "f": 17,
+    "texte": "predatory",
+    "lemme": "predatory",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 18,
+    "f": 22,
+    "texte": "fish",
+    "lemme": "fish",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 24,
+    "f": 26,
+    "texte": "in",
+    "lemme": "in",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 27,
+    "f": 34,
+    "texte": "finance",
+    "lemme": "finance",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 36,
+    "f": 38,
+    "texte": "an",
+    "lemme": "an",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 39,
+    "f": 47,
+    "texte": "investor",
+    "lemme": "investor",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 48,
+    "f": 51,
+    "texte": "who",
+    "lemme": "who",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 52,
+    "f": 57,
+    "texte": "tries",
+    "lemme": "try",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 58,
+    "f": 60,
+    "texte": "to",
+    "lemme": "to",
+    "nature": "PART",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 61,
+    "f": 65,
+    "texte": "take",
+    "lemme": "take",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 66,
+    "f": 70,
+    "texte": "over",
+    "lemme": "over",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 71,
+    "f": 72,
+    "texte": "a",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 73,
+    "f": 80,
+    "texte": "company",
+    "lemme": "company",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 81,
+    "f": 83,
+    "texte": "by",
+    "lemme": "by",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 84,
+    "f": 89,
+    "texte": "force",
+    "lemme": "force",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d021112",
+  "langue": "en",
+  "texte": "The last pipe of the exhaust, through which the gasses exit.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 3,
+    "texte": "The",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 4,
+    "f": 8,
+    "texte": "last",
+    "lemme": "last",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 9,
+    "f": 13,
+    "texte": "pipe",
+    "lemme": "pipe",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 14,
+    "f": 16,
+    "texte": "of",
+    "lemme": "of",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 17,
+    "f": 20,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 21,
+    "f": 28,
+    "texte": "exhaust",
+    "lemme": "exhaust",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 30,
+    "f": 37,
+    "texte": "through",
+    "lemme": "through",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 38,
+    "f": 43,
+    "texte": "which",
+    "lemme": "which",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 44,
+    "f": 47,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 48,
+    "f": 54,
+    "texte": "gasses",
+    "lemme": "gas",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 55,
+    "f": 59,
+    "texte": "exit",
+    "lemme": "exit",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d009746",
+  "langue": "en",
+  "texte": "A person or movement that supports homosexuality and homosexual rights.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 1,
+    "texte": "A",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 2,
+    "f": 8,
+    "texte": "person",
+    "lemme": "person",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 9,
+    "f": 11,
+    "texte": "or",
+    "lemme": "or",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 12,
+    "f": 20,
+    "texte": "movement",
+    "lemme": "movement",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 21,
+    "f": 25,
+    "texte": "that",
+    "lemme": "that",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 26,
+    "f": 34,
+    "texte": "supports",
+    "lemme": "support",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 35,
+    "f": 48,
+    "texte": "homosexuality",
+    "lemme": "homosexuality",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 49,
+    "f": 52,
+    "texte": "and",
+    "lemme": "and",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 53,
+    "f": 63,
+    "texte": "homosexual",
+    "lemme": "homosexual",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 64,
+    "f": 70,
+    "texte": "rights",
+    "lemme": "right",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   }
+  ]
+ },
+ {
+  "id": "s03666",
+  "langue": "en",
+  "texte": "A limit, kept by the sender, on the amount of data sent without acknowledgment, based on the estimated state of the network.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 1,
+    "texte": "A",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 2,
+    "f": 7,
+    "texte": "limit",
+    "lemme": "limit",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 9,
+    "f": 13,
+    "texte": "kept",
+    "lemme": "keep",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 14,
+    "f": 16,
+    "texte": "by",
+    "lemme": "by",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 17,
+    "f": 20,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 21,
+    "f": 27,
+    "texte": "sender",
+    "lemme": "sender",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 29,
+    "f": 31,
+    "texte": "on",
+    "lemme": "on",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 32,
+    "f": 35,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 36,
+    "f": 42,
+    "texte": "amount",
+    "lemme": "amount",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 43,
+    "f": 45,
+    "texte": "of",
+    "lemme": "of",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 46,
+    "f": 50,
+    "texte": "data",
+    "lemme": "datum",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 51,
+    "f": 55,
+    "texte": "sent",
+    "lemme": "send",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 56,
+    "f": 63,
+    "texte": "without",
+    "lemme": "without",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 64,
+    "f": 78,
+    "texte": "acknowledgment",
+    "lemme": "acknowledgment",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 80,
+    "f": 85,
+    "texte": "based",
+    "lemme": "base",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 86,
+    "f": 88,
+    "texte": "on",
+    "lemme": "on",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 89,
+    "f": 92,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 93,
+    "f": 102,
+    "texte": "estimated",
+    "lemme": "estimate",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 103,
+    "f": 108,
+    "texte": "state",
+    "lemme": "state",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 109,
+    "f": 111,
+    "texte": "of",
+    "lemme": "of",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 112,
+    "f": 115,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 116,
+    "f": 123,
+    "texte": "network",
+    "lemme": "network",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   }
+  ]
+ },
+ {
+  "id": "d008397",
+  "langue": "en",
+  "texte": "A test that uses ultrasound to make a moving picture of the heart.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 1,
+    "texte": "A",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 2,
+    "f": 6,
+    "texte": "test",
+    "lemme": "test",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 7,
+    "f": 11,
+    "texte": "that",
+    "lemme": "that",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 12,
+    "f": 16,
+    "texte": "uses",
+    "lemme": "use",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 17,
+    "f": 27,
+    "texte": "ultrasound",
+    "lemme": "ultrasound",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 28,
+    "f": 30,
+    "texte": "to",
+    "lemme": "to",
+    "nature": "PART",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 31,
+    "f": 35,
+    "texte": "make",
+    "lemme": "make",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 36,
+    "f": 37,
+    "texte": "a",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 38,
+    "f": 44,
+    "texte": "moving",
+    "lemme": "moving",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 45,
+    "f": 52,
+    "texte": "picture",
+    "lemme": "picture",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 53,
+    "f": 55,
+    "texte": "of",
+    "lemme": "of",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 56,
+    "f": 59,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 60,
+    "f": 65,
+    "texte": "heart",
+    "lemme": "heart",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   }
+  ]
+ },
+ {
+  "id": "d003351",
+  "langue": "en",
+  "texte": "A tall black boot with a thick sole, worn by police motorcyclists.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 1,
+    "texte": "A",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 2,
+    "f": 6,
+    "texte": "tall",
+    "lemme": "tall",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 7,
+    "f": 12,
+    "texte": "black",
+    "lemme": "black",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 13,
+    "f": 17,
+    "texte": "boot",
+    "lemme": "boot",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 18,
+    "f": 22,
+    "texte": "with",
+    "lemme": "with",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 23,
+    "f": 24,
+    "texte": "a",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 25,
+    "f": 30,
+    "texte": "thick",
+    "lemme": "thick",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 31,
+    "f": 35,
+    "texte": "sole",
+    "lemme": "sole",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 37,
+    "f": 41,
+    "texte": "worn",
+    "lemme": "wear",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 42,
+    "f": 44,
+    "texte": "by",
+    "lemme": "by",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 45,
+    "f": 51,
+    "texte": "police",
+    "lemme": "police",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 52,
+    "f": 65,
+    "texte": "motorcyclists",
+    "lemme": "motorcyclist",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d016621",
+  "langue": "en",
+  "texte": "A very close picture showing two people who fill most of the frame.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 1,
+    "texte": "A",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 7,
+    "f": 12,
+    "texte": "close",
+    "lemme": "close",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 13,
+    "f": 20,
+    "texte": "picture",
+    "lemme": "picture",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 21,
+    "f": 28,
+    "texte": "showing",
+    "lemme": "show",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 33,
+    "f": 39,
+    "texte": "people",
+    "lemme": "people",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 40,
+    "f": 43,
+    "texte": "who",
+    "lemme": "who",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 44,
+    "f": 48,
+    "texte": "fill",
+    "lemme": "fill",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 49,
+    "f": 53,
+    "texte": "most",
+    "lemme": "most",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 54,
+    "f": 56,
+    "texte": "of",
+    "lemme": "of",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 57,
+    "f": 60,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 61,
+    "f": 66,
+    "texte": "frame",
+    "lemme": "frame",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   }
+  ]
+ },
+ {
+  "id": "x05688",
+  "langue": "en",
+  "texte": "Looking with eyes wide open, from surprise or wonder.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 7,
+    "texte": "Looking",
+    "lemme": "look",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 8,
+    "f": 12,
+    "texte": "with",
+    "lemme": "with",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 13,
+    "f": 17,
+    "texte": "eyes",
+    "lemme": "eye",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 23,
+    "f": 27,
+    "texte": "open",
+    "lemme": "open",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 29,
+    "f": 33,
+    "texte": "from",
+    "lemme": "from",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 34,
+    "f": 42,
+    "texte": "surprise",
+    "lemme": "surprise",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 43,
+    "f": 45,
+    "texte": "or",
+    "lemme": "or",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 46,
+    "f": 52,
+    "texte": "wonder",
+    "lemme": "wonder",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "s00656",
+  "langue": "en",
+  "texte": "To resize is to change the size of an array, often by creating a larger array and copying the elements into it.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 2,
+    "texte": "To",
+    "lemme": "to",
+    "nature": "PART",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 3,
+    "f": 9,
+    "texte": "resize",
+    "lemme": "resize",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 10,
+    "f": 12,
+    "texte": "is",
+    "lemme": "be",
+    "nature": "AUX",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 13,
+    "f": 15,
+    "texte": "to",
+    "lemme": "to",
+    "nature": "PART",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 16,
+    "f": 22,
+    "texte": "change",
+    "lemme": "change",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 23,
+    "f": 26,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 27,
+    "f": 31,
+    "texte": "size",
+    "lemme": "size",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 32,
+    "f": 34,
+    "texte": "of",
+    "lemme": "of",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 35,
+    "f": 37,
+    "texte": "an",
+    "lemme": "an",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 38,
+    "f": 43,
+    "texte": "array",
+    "lemme": "array",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 51,
+    "f": 53,
+    "texte": "by",
+    "lemme": "by",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 54,
+    "f": 62,
+    "texte": "creating",
+    "lemme": "create",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 63,
+    "f": 64,
+    "texte": "a",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 65,
+    "f": 71,
+    "texte": "larger",
+    "lemme": "large",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 72,
+    "f": 77,
+    "texte": "array",
+    "lemme": "array",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 78,
+    "f": 81,
+    "texte": "and",
+    "lemme": "and",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 82,
+    "f": 89,
+    "texte": "copying",
+    "lemme": "copy",
+    "nature": "VERB",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 90,
+    "f": 93,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 94,
+    "f": 102,
+    "texte": "elements",
+    "lemme": "element",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 103,
+    "f": 107,
+    "texte": "into",
+    "lemme": "into",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 108,
+    "f": 110,
+    "texte": "it",
+    "lemme": "it",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d009904",
+  "langue": "en",
+  "texte": "Teeth placed between the canines and the large molars.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 5,
+    "texte": "Teeth",
+    "lemme": "tooth",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 6,
+    "f": 12,
+    "texte": "placed",
+    "lemme": "place",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 13,
+    "f": 20,
+    "texte": "between",
+    "lemme": "between",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 21,
+    "f": 24,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 25,
+    "f": 32,
+    "texte": "canines",
+    "lemme": "canine",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 33,
+    "f": 36,
+    "texte": "and",
+    "lemme": "and",
+    "nature": "CCONJ",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 37,
+    "f": 40,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 41,
+    "f": 46,
+    "texte": "large",
+    "lemme": "large",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 47,
+    "f": 53,
+    "texte": "molars",
+    "lemme": "molar",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   }
+  ]
+ },
+ {
+  "id": "d006169",
+  "langue": "en",
+  "texte": "A landlocked country of West Africa that uses the CFA franc.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 1,
+    "texte": "A",
+    "lemme": "a",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 2,
+    "f": 12,
+    "texte": "landlocked",
+    "lemme": "landlocked",
+    "nature": "ADJ",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 13,
+    "f": 20,
+    "texte": "country",
+    "lemme": "country",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 21,
+    "f": 23,
+    "texte": "of",
+    "lemme": "of",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 36,
+    "f": 40,
+    "texte": "that",
+    "lemme": "that",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 41,
+    "f": 45,
+    "texte": "uses",
+    "lemme": "use",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 46,
+    "f": 49,
+    "texte": "the",
+    "lemme": "the",
+    "nature": "DET",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 54,
+    "f": 59,
+    "texte": "franc",
+    "lemme": "franc",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   }
+  ]
+ },
+ {
+  "id": "d020544",
+  "langue": "en",
+  "texte": "Sessions that alternate fast efforts with recovery periods.",
+  "mots": [
+   {
+    "d": 0,
+    "f": 8,
+    "texte": "Sessions",
+    "lemme": "session",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 9,
+    "f": 13,
+    "texte": "that",
+    "lemme": "that",
+    "nature": "PRON",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 14,
+    "f": 23,
+    "texte": "alternate",
+    "lemme": "alternate",
+    "nature": "VERB",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 24,
+    "f": 28,
+    "texte": "fast",
+    "lemme": "fast",
+    "nature": "ADJ",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 29,
+    "f": 36,
+    "texte": "efforts",
+    "lemme": "effort",
+    "nature": "NOUN",
+    "outil": false,
+    "present": false
+   },
+   {
+    "d": 37,
+    "f": 41,
+    "texte": "with",
+    "lemme": "with",
+    "nature": "ADP",
+    "outil": true,
+    "present": false
+   },
+   {
+    "d": 42,
+    "f": 50,
+    "texte": "recovery",
+    "lemme": "recovery",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   },
+   {
+    "d": 51,
+    "f": 58,
+    "texte": "periods",
+    "lemme": "period",
+    "nature": "NOUN",
+    "outil": false,
+    "present": true
+   }
+  ]
+ }
+]

@@ -1,0 +1,406 @@
+{
+ "existants": [
+  {
+   "saisie": "highlightings",
+   "attendu": "d016130",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "deterrents",
+   "attendu": "w31_6",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "theisms",
+   "attendu": "b00082",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "immunizations",
+   "attendu": "d012264",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "personals",
+   "attendu": "x05113",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "collectives",
+   "attendu": "d015175",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "dovetails",
+   "attendu": "d007686",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "paupers",
+   "attendu": "w37_5",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "mainframes",
+   "attendu": "s00378",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "dictatorships",
+   "attendu": "b00147",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "conjunctions",
+   "attendu": "d010623",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "debarkations",
+   "attendu": "d013458",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "bridles",
+   "attendu": "d000471",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "flatfoots",
+   "attendu": "d013784",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "proximities",
+   "attendu": "s01816",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "apartheids",
+   "attendu": "d022323",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "peaches",
+   "attendu": "x02136",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "AMBRY",
+   "attendu": "d001808",
+   "forme": "majuscules"
+  },
+  {
+   "saisie": "FIRE STORM",
+   "attendu": "d013279",
+   "forme": "majuscules"
+  },
+  {
+   "saisie": "PARIES E LAPIDE QUADRATO",
+   "attendu": "d001590",
+   "forme": "majuscules"
+  },
+  {
+   "saisie": "TOWHEADED",
+   "attendu": "x04097",
+   "forme": "majuscules"
+  },
+  {
+   "saisie": "PLEAD",
+   "attendu": "d011509",
+   "forme": "majuscules"
+  },
+  {
+   "saisie": "LUKOVITSA",
+   "attendu": "d001765",
+   "forme": "majuscules"
+  },
+  {
+   "saisie": "TINNY",
+   "attendu": "x04400",
+   "forme": "majuscules"
+  },
+  {
+   "saisie": "SOUDÉ, SOUDÉE",
+   "attendu": "a19_1",
+   "forme": "majuscules"
+  },
+  {
+   "saisie": "COLT",
+   "attendu": "d000078",
+   "forme": "majuscules"
+  },
+  {
+   "saisie": "SINGAPORE",
+   "attendu": "d006200",
+   "forme": "majuscules"
+  },
+  {
+   "saisie": "MANATINE",
+   "attendu": "x03317",
+   "forme": "majuscules"
+  },
+  {
+   "saisie": "PRICE POINT",
+   "attendu": "b41189",
+   "forme": "majuscules"
+  },
+  {
+   "saisie": "SULFUR",
+   "attendu": "d017724",
+   "forme": "majuscules"
+  },
+  {
+   "saisie": "HANGING VALLEY",
+   "attendu": "d005189",
+   "forme": "majuscules"
+  },
+  {
+   "saisie": "LAMBIC",
+   "attendu": "d006535",
+   "forme": "majuscules"
+  },
+  {
+   "saisie": "PENDANT",
+   "attendu": "d003678",
+   "forme": "majuscules"
+  },
+  {
+   "saisie": "DOUBLE NEGATIVE",
+   "attendu": "d010626",
+   "forme": "majuscules"
+  },
+  {
+   "saisie": "moulding",
+   "attendu": "d001086",
+   "forme": "orthographe britannique (VarCon)"
+  },
+  {
+   "saisie": "chequered",
+   "attendu": "x00903",
+   "forme": "orthographe britannique (VarCon)"
+  },
+  {
+   "saisie": "synthesise",
+   "attendu": "d017519",
+   "forme": "orthographe britannique (VarCon)"
+  },
+  {
+   "saisie": "synaesthesia",
+   "attendu": "d008973",
+   "forme": "orthographe britannique (VarCon)"
+  },
+  {
+   "saisie": "atomise",
+   "attendu": "d017448",
+   "forme": "orthographe britannique (VarCon)"
+  },
+  {
+   "saisie": "tranquilliser",
+   "attendu": "d012493",
+   "forme": "orthographe britannique (VarCon)"
+  },
+  {
+   "saisie": "parlour",
+   "attendu": "x02510",
+   "forme": "orthographe britannique (VarCon)"
+  },
+  {
+   "saisie": "synchronisation",
+   "attendu": "w25_2",
+   "forme": "orthographe britannique (VarCon)"
+  },
+  {
+   "saisie": "ochre",
+   "attendu": "x02150",
+   "forme": "orthographe britannique (VarCon)"
+  },
+  {
+   "saisie": "evangelise",
+   "attendu": "p0284",
+   "forme": "orthographe britannique (VarCon)"
+  },
+  {
+   "saisie": "digitise",
+   "attendu": "d003947",
+   "forme": "orthographe britannique (VarCon)"
+  },
+  {
+   "saisie": "paedology",
+   "attendu": "d005769",
+   "forme": "orthographe britannique (VarCon)"
+  },
+  {
+   "saisie": "piscinae",
+   "attendu": "x03408",
+   "forme": "orthographe britannique (VarCon)"
+  },
+  {
+   "saisie": "modeller",
+   "attendu": "v62_6",
+   "forme": "orthographe britannique (VarCon)"
+  },
+  {
+   "saisie": "novelisation",
+   "attendu": "d015477",
+   "forme": "orthographe britannique (VarCon)"
+  },
+  {
+   "saisie": "intellectualisation",
+   "attendu": "d009330",
+   "forme": "orthographe britannique (VarCon)"
+  }
+ ],
+ "nouveaux": [
+  {
+   "saisie": "tappa"
+  },
+  {
+   "saisie": "enticement"
+  },
+  {
+   "saisie": "alundum"
+  },
+  {
+   "saisie": "abdominousness"
+  },
+  {
+   "saisie": "scurrility"
+  },
+  {
+   "saisie": "clianthus"
+  },
+  {
+   "saisie": "reluctance"
+  },
+  {
+   "saisie": "coco"
+  },
+  {
+   "saisie": "pyocyanase"
+  },
+  {
+   "saisie": "pureness"
+  },
+  {
+   "saisie": "testcross"
+  },
+  {
+   "saisie": "caput"
+  },
+  {
+   "saisie": "beaner"
+  },
+  {
+   "saisie": "lightening"
+  },
+  {
+   "saisie": "harpulla"
+  },
+  {
+   "saisie": "chemotaxis"
+  },
+  {
+   "saisie": "mercaptopurine"
+  },
+  {
+   "saisie": "dehumanisation"
+  },
+  {
+   "saisie": "hitter"
+  },
+  {
+   "saisie": "footbath"
+  },
+  {
+   "saisie": "quadrupling"
+  },
+  {
+   "saisie": "dispute"
+  },
+  {
+   "saisie": "cynodont"
+  },
+  {
+   "saisie": "indigen"
+  },
+  {
+   "saisie": "frivolity"
+  },
+  {
+   "saisie": "bluepoint"
+  },
+  {
+   "saisie": "topognosis"
+  },
+  {
+   "saisie": "opsonin"
+  },
+  {
+   "saisie": "shearwater"
+  },
+  {
+   "saisie": "totem"
+  },
+  {
+   "saisie": "blepharitis"
+  },
+  {
+   "saisie": "yardstick"
+  },
+  {
+   "saisie": "mikado"
+  },
+  {
+   "saisie": "clearcutness"
+  },
+  {
+   "saisie": "surmullet"
+  },
+  {
+   "saisie": "pathway"
+  },
+  {
+   "saisie": "dorsum"
+  },
+  {
+   "saisie": "rijstafel"
+  },
+  {
+   "saisie": "massasauga"
+  },
+  {
+   "saisie": "irascibility"
+  },
+  {
+   "saisie": "subsidiarity"
+  },
+  {
+   "saisie": "ripsaw"
+  },
+  {
+   "saisie": "ridiculer"
+  },
+  {
+   "saisie": "perry"
+  },
+  {
+   "saisie": "scheduler"
+  },
+  {
+   "saisie": "azoturia"
+  },
+  {
+   "saisie": "straightaway"
+  },
+  {
+   "saisie": "cert"
+  },
+  {
+   "saisie": "teth"
+  },
+  {
+   "saisie": "agranulosis"
+  }
+ ]
+}

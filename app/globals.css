@@ -37,6 +37,8 @@ h1{font:700 20px/23px var(--serif);height:23px;letter-spacing:-.01em;margin:0 0 
 .tabs button{grid-column:span 2;font:500 14px/1.2 var(--sans);padding:4px 6px;border:0;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--bg);color:var(--fg);cursor:pointer}
 .tabs button:nth-child(-n+2){grid-column:span 3}
 .tabs button[aria-pressed="true"]{background:var(--strong);color:var(--on);font-weight:700}
+/* Onglet « Ajouter » (6e) : seul sur sa ligne en largeur téléphone, il la prend entière. */
+.tabs #tAdd{grid-column:1/-1}
 @media (min-width:760px){
  html{scroll-padding-top:116px}
  header{top:env(safe-area-inset-top,0px);padding-bottom:0;display:grid;grid-template-columns:auto 1fr;column-gap:24px;align-items:center}
@@ -191,3 +193,30 @@ h3.sec{font:700 20px/1.25 var(--serif);margin:24px 0 0;padding-top:10px;border-t
 .mrow button:hover{background:var(--acc);border-color:var(--acc)}
 #mres .wz-word{background:var(--bg)}
 .qh .chip{border-left:0}
+
+/* Définition au toucher (public/glose.js) */
+.gl{text-decoration:underline dotted;text-decoration-color:color-mix(in srgb,currentColor 35%,transparent);text-underline-offset:3px;cursor:help}
+.gl:hover{text-decoration-color:var(--acc)}
+.glpop{position:absolute;z-index:50;background:var(--bg);color:var(--fg);border:1px solid var(--line);box-shadow:0 6px 24px rgba(0,0,0,.18);padding:12px 14px;font:14px/1.45 var(--sans)}
+.glpop.glsheet{position:fixed;left:0;right:0;bottom:0;max-height:60vh;overflow:auto;border-width:1px 0 0;padding:14px 16px calc(14px + env(safe-area-inset-bottom))}
+.glhead{display:flex;align-items:baseline;gap:8px;margin-bottom:6px}
+.glmot{font:700 18px/1.25 var(--serif)}
+.glt{color:var(--mut);flex:1}
+.glhead button{border:0;background:none;color:var(--fg);font-size:20px;line-height:1;padding:4px 8px;cursor:pointer;min-width:36px;min-height:36px}
+.gldef{margin:0 0 4px}.gldef.en{color:var(--mut)}
+.gldom{margin:6px 0;font-size:12px;color:var(--mut)}
+.glautres{font-size:12px;color:var(--mut);margin:6px 0}
+.glautres button{border:1px solid var(--line);background:none;color:var(--fg);font-size:12px;padding:2px 6px;margin:2px 4px 0 0;cursor:pointer}
+.glopen{border:0;background:none;color:var(--acc);font:600 14px var(--sans);padding:6px 0;cursor:pointer}
+.glctx:empty{display:none}
+.glctx{border-top:1px solid var(--line);margin-top:8px;padding-top:6px}
+.glctxt{font-weight:600;margin:0 0 4px}.glctxt .en{font-weight:400;color:var(--mut);margin-left:6px}
+.glcharge{color:var(--mut);font-style:italic}
+.glphrase{font-family:var(--serif);background:var(--sur);padding:6px 8px;margin:4px 0}
+.glphrase mark,.glind-l mark{background:color-mix(in srgb,var(--acc) 18%,transparent);color:inherit;padding:0 2px}
+.glphrase mark.glcible{background:none;font-weight:700;text-decoration:underline}
+.gletape{font-weight:600;font-size:13px;margin:8px 0 2px}
+.glsens,.glind-l{margin:0;padding-left:20px;font-size:13px}
+.glsens li.glretenu{font-weight:600}
+.glsens li.glretenu::marker{content:"✓ "}
+.glctx p.en{color:var(--mut)}

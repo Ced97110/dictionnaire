@@ -1,6 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  // Les données (public/data) sont des fichiers statiques : la page peut être exportée telle quelle.
-  output: 'export',
-};
+// Mode serveur : les routes API (app/api) lisent la base Neon.
+const nextConfig = {};
 export default nextConfig;
