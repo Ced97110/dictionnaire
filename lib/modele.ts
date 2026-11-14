@@ -24,9 +24,10 @@ async function reserver(q: Requete): Promise<void> {
   const limite = Number(process.env.LIMITE_APPELS_JOUR ?? LIMITE_PAR_DEFAUT);
   const [r] = await q(
     `INSERT INTO appels_modele (jour, n) VALUES (current_date, 1)
-     ON CONFLICT (jour) DO UPDATE SET n = appels_modele.n + 1 WHERE appels_modele.n < $1
-     RETURNING n`, [limite]);
-  if (!r) throw new PlafondAtteint();
+     ON CONFLICT (jour) DO UPDATE SET n = appels_modele.n + 1 WHERE appels_modele.n < $1 OR $2
+     RETURNING n`, [limite, process.env.SANS_LIMITES === "1"]);
+  // Mode test (SANS_LIMITES=1) : les appels restent comptés, mais sans plafond.
+  if (!r && process.env.SANS_LIMITES !== "1") throw new PlafondAtteint();
 }
 
 // reflechir: false coupe la réflexion préalable du modèle (plus rapide ; pour les réponses courtes).

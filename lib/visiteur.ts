@@ -12,6 +12,7 @@ export function empreinteVisiteur(req: Request): string {
 
 // Compte un appel ; renvoie false si le visiteur a atteint sa limite du jour.
 export async function autoriser(q: Requete, visiteur: string): Promise<boolean> {
+  if (process.env.SANS_LIMITES === "1") return true; // mode test
   const limite = Number(process.env.LIMITE_SENS_VISITEUR ?? LIMITE_PAR_DEFAUT);
   const [r] = await q(
     `INSERT INTO appels_visiteur (visiteur, jour, n) VALUES ($1, current_date, 1)

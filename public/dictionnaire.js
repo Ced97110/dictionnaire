@@ -99,7 +99,7 @@ async function show(id){const prev=last;out.innerHTML='<p class="st">Ouverture�
  const grp=x.n||x.f;ctx+=qhead(grp)+(x.n?keyBlock(x.n,'w-'+id):'');
  const sib=(x.n?x.n.e:x.f.w).filter(e=>e!==x.e).map(e=>`<span class="lk" tabindex="0" data-id="${e.i||e.ref}">${esc(e.t)}</span>`).join(' · ');if(sib)ctx+=`<p class="path">Mots voisins : ${sib}</p>`;
  out.innerHTML=backBtn()+`<div class="card">${entryHTML(x.e,porHTML(x,r[3]))}${ctx}</div><p class="st"><span class="lk" tabindex="0" data-th="${r[3]}">Voir tout le thème « ${esc(x.t.fr)} »</span></p>`;
- const me=()=>show(id);wireBack(prev);last=me;window.scrollTo(0,0)}
+ out.dataset.fiche=id;const me=()=>show(id);wireBack(prev);last=me;window.scrollTo(0,0)}
 let SN=0;
 const resLi=r=>`<li tabindex="0" data-id="${r[2]}"><b>${esc(r[0])}</b><span class="t">${esc(r[1])}</span><span class="p">${esc(r[4])}</span><span class="vol">${esc(VOLOF[r[3]])}</span></li>`;
 const moreBtn=(shown,tot)=>shown<tot?`<button class="back" id="more">Résultats suivants (${shown} sur ${tot})</button>`:'';

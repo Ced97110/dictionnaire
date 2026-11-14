@@ -43,7 +43,8 @@ Le dictionnaire est dans une base Postgres hébergée chez Neon, et le site la l
    DATABASE_URL=postgresql://…-pooler…/neondb?sslmode=verify-full
    DATABASE_URL_UNPOOLED=postgresql://…/neondb?sslmode=verify-full
    ```
-2. Importer, puis contrôler :
+2. Pour les documents, lancer aussi le service d'analyse dans un second terminal : `uv run analyse/serveur.py`.
+3. Importer, puis contrôler :
    ```bash
    node --env-file=.env.local --import tsx scripts/import.mts
    node --env-file=.env.local --import tsx scripts/controle-import.mts
@@ -88,6 +89,13 @@ Le dictionnaire est dans une base Postgres hébergée chez Neon, et le site la l
 | `tests/semcor-eval.mts` | Mesure finale sur les 200 cas de test : sens annoté retrouvé, comparé à « toujours le sens le plus fréquent ». |
 | `tests/semcor-variantes.mts` | Compare des réglages sur le jeu de mise au point seulement. |
 | `tests/sens-fr-eval.mts` | 50 occurrences tirées des définitions françaises, jugées par un agent Sonnet indépendant. |
+| `analyse/serveur.py` | Service d'analyse en Python (spaCy `fr_core_news_sm` et `en_core_web_sm`) : extrait le texte d'un PDF, d'un Word ou d'un texte, détecte la langue, ramène noms, verbes et adjectifs à leur forme de base, avec occurrences et une phrase d'exemple. Lancer : `uv run analyse/serveur.py` (port 8001). |
+| `lib/documents.ts` | Téléversement : empreinte SHA-256 (même fichier → analyse existante), fichier d'origine gardé dans Vercel Blob (privé), appel au service d'analyse, rapprochement avec le dictionnaire, relance de l'analyse. |
+| `lib/ajout.ts` | Ajout d'un mot, commun à l'onglet « Ajouter » et aux documents (doublons, rangement, fiche ou « À valider »). |
+| `app/api/document/route.ts` | Téléverse et analyse un document. |
+| `app/api/documents/…` | Historique, mots d'un document (filtres nature et statut, pagination), ajout en lot, relance de l'analyse. |
+| `app/api/mot/[id]/documents/route.ts` | Les documents d'où vient un mot (affichés sur sa fiche). |
+| `public/documents.js` | Onglet « Mes documents » et mention « Vu dans vos documents » sur la fiche. |
 | `tests/parite-recherche.test.ts` | Vérifie, sur plus de 600 recherches, que le serveur rend exactement ce que rendait l'ancienne recherche. |
 | `tests/non-regression.spec.ts` | Test Playwright en largeur 400 px. Il joue les mêmes parcours sur l'ancien site (`out/`) et sur le nouveau, et compare le texte affiché à chaque étape. |
 | `playwright.config.mts`, `vitest.config.mts` | Réglages des deux outils de test. |
@@ -101,6 +109,11 @@ Le dictionnaire est dans une base Postgres hébergée chez Neon, et le site la l
 | `ANTHROPIC_API_KEY` | Claude Haiku (ajout de mots). |
 | `ADMIN_PASSWORD` | Mot de passe de l'onglet « Ajouter ». Sans lui, aucune écriture n'est possible. |
 | `LIMITE_APPELS_JOUR` | Nombre maximal d'appels à Haiku par jour (500 par défaut). |
+| `LIMITE_SENS_VISITEUR` | Nouvelles explications « sens en contexte » par visiteur et par jour (60 par défaut). |
+| `BLOB_READ_WRITE_TOKEN` | Vercel Blob : garde les fichiers téléversés (accès privé). |
+| `ANALYSE_URL` | Adresse du service d'analyse spaCy (par défaut `http://127.0.0.1:8001/analyse`). |
+| `ANALYSE_SECRET` | Facultatif : secret partagé entre le site et le service d'analyse. |
+| `SANS_LIMITES` | Mode test : `1` supprime le mot de passe, le plafond quotidien et la limite par visiteur (les appels restent comptés). **Ne jamais l'activer sur le site public.** |
 
 ### Lancer les tests
 

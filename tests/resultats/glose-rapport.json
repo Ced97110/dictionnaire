@@ -23,7 +23,7 @@
     "attendu": "relier",
     "affiche": "relié",
     "ok": false,
-    "ms": 0.6,
+    "ms": 0.7,
     "phrase": "Un multigraphe est un graphe où deux sommets peuvent être reliés par plusieurs arêtes distinctes.",
     "langue": "fr"
    },
@@ -32,7 +32,7 @@
     "attendu": "glisse",
     "affiche": "glisser",
     "ok": false,
-    "ms": 0.7,
+    "ms": 0.5,
     "phrase": "Une piste sèche, où la boule glisse vite et accroche peu.",
     "langue": "fr"
    },
@@ -41,7 +41,7 @@
     "attendu": "poils",
     "affiche": "poil",
     "ok": false,
-    "ms": 0.7,
+    "ms": 0.9,
     "phrase": "Poils qui descendent le long des joues devant les oreilles.",
     "langue": "fr"
    }
@@ -52,7 +52,7 @@
     "attendu": "form",
     "affiche": "form",
     "ok": true,
-    "ms": 2.2,
+    "ms": 2.8,
     "phrase": "Positive forms of a word that have vanished while their opposite still exists, like \"gruntled\".",
     "langue": "en"
    },
@@ -61,7 +61,7 @@
     "attendu": "element",
     "affiche": "element",
     "ok": true,
-    "ms": 1.2,
+    "ms": 1.4,
     "phrase": "A list is an ordered sequence of values, reached by position, to which elements can be added or removed.",
     "langue": "en"
    },
@@ -79,7 +79,7 @@
     "attendu": "petit",
     "affiche": "petit",
     "ok": true,
-    "ms": 1,
+    "ms": 0.7,
     "phrase": "Robe longue, à manches longues et à petit motif, qui rappelle celle des pionnières.",
     "langue": "fr"
    },
@@ -97,7 +97,7 @@
     "attendu": "session",
     "affiche": "session",
     "ok": true,
-    "ms": 0.7,
+    "ms": 0.9,
     "phrase": "Sessions that alternate fast efforts with recovery periods.",
     "langue": "en"
    },
@@ -106,7 +106,7 @@
     "attendu": "relier",
     "affiche": "relié",
     "ok": false,
-    "ms": 0.6,
+    "ms": 0.7,
     "phrase": "Un multigraphe est un graphe où deux sommets peuvent être reliés par plusieurs arêtes distinctes.",
     "langue": "fr"
    },
@@ -115,7 +115,7 @@
     "attendu": "groupe",
     "affiche": "groupe",
     "ok": true,
-    "ms": 0.9,
+    "ms": 0.7,
     "phrase": "Groupe d'environ cinquante grandes actions très recherchées dans les années 1970.",
     "langue": "fr"
    },
@@ -124,7 +124,7 @@
     "attendu": "voiture",
     "affiche": "voiture",
     "ok": true,
-    "ms": 0.6,
+    "ms": 0.7,
     "phrase": "Un service de location de voitures à l'heure, où l'on réserve et ouvre la voiture avec une carte ou une application.",
     "langue": "fr"
    },
@@ -133,7 +133,7 @@
     "attendu": "pist",
     "affiche": "piste",
     "ok": true,
-    "ms": 0.6,
+    "ms": 0.9,
     "phrase": "Une piste sèche, où la boule glisse vite et accroche peu.",
     "langue": "fr"
    },
@@ -142,7 +142,7 @@
     "attendu": "robe",
     "affiche": "robe",
     "ok": true,
-    "ms": 0.6,
+    "ms": 0.8,
     "phrase": "Robe longue, à manches longues et à petit motif, qui rappelle celle des pionnières.",
     "langue": "fr"
    },
@@ -151,7 +151,7 @@
     "attendu": "overhang",
     "affiche": "overhang",
     "ok": true,
-    "ms": 0.8,
+    "ms": 0.9,
     "phrase": "The lower edge of a roof that overhangs the wall.",
     "langue": "en"
    },
@@ -160,7 +160,7 @@
     "attendu": "future",
     "affiche": "future",
     "ok": true,
-    "ms": 1.8,
+    "ms": 1.6,
     "phrase": "Divination that reads the future in wine, its color or reflections.",
     "langue": "en"
    },
@@ -178,7 +178,7 @@
     "attendu": "walk",
     "affiche": "walking",
     "ok": true,
-    "ms": 0.6,
+    "ms": 0.5,
     "phrase": "Walking with long, confident steps and a sense of purpose.",
     "langue": "en"
    },
@@ -187,7 +187,7 @@
     "attendu": "bean",
     "affiche": "beans",
     "ok": true,
-    "ms": 0.6,
+    "ms": 0.5,
     "phrase": "Dried beans stewed Mexican style, often mashed and served as a side.",
     "langue": "en"
    },
@@ -196,7 +196,7 @@
     "attendu": "reach",
     "affiche": "reach",
     "ok": true,
-    "ms": 0.5,
+    "ms": 0.4,
     "phrase": "A list is an ordered sequence of values, reached by position, to which elements can be added or removed.",
     "langue": "en"
    },
@@ -214,7 +214,7 @@
     "attendu": "object",
     "affiche": "object",
     "ok": true,
-    "ms": 0.7,
+    "ms": 1,
     "phrase": "A class is a template that describes the data and methods shared by all objects created from it.",
     "langue": "en"
    },
@@ -223,7 +223,7 @@
     "attendu": "creux",
     "affiche": "creux",
     "ok": true,
-    "ms": 0.8,
+    "ms": 0.5,
     "phrase": "Qui sonne aigu et creux, comme une boîte en métal.",
     "langue": "fr"
    },
@@ -232,7 +232,7 @@
     "attendu": "glisse",
     "affiche": "glisser",
     "ok": false,
-    "ms": 0.7,
+    "ms": 0.5,
     "phrase": "Une piste sèche, où la boule glisse vite et accroche peu.",
     "langue": "fr"
    },
@@ -250,7 +250,7 @@
     "attendu": "postgresql",
     "affiche": "postgresql",
     "ok": true,
-    "ms": 0.7,
+    "ms": 1,
     "phrase": "VACUUM is a PostgreSQL command that frees the space of dead rows so it can be used again.",
     "langue": "en"
    },
@@ -259,7 +259,7 @@
     "attendu": "datum",
     "affiche": "datum",
     "ok": true,
-    "ms": 0.4,
+    "ms": 1,
     "phrase": "A class is a template that describes the data and methods shared by all objects created from it.",
     "langue": "en"
    },
@@ -268,7 +268,7 @@
     "attendu": "value",
     "affiche": "values",
     "ok": true,
-    "ms": 0.5,
+    "ms": 0.8,
     "phrase": "A list is an ordered sequence of values, reached by position, to which elements can be added or removed.",
     "langue": "en"
    },
@@ -277,7 +277,7 @@
     "attendu": "seal",
     "affiche": "sealed",
     "ok": true,
-    "ms": 0.7,
+    "ms": 0.9,
     "phrase": "A small glass container sealed by flame that holds a drug or liquid.",
     "langue": "en"
    },
@@ -286,7 +286,7 @@
     "attendu": "resize",
     "affiche": "resize",
     "ok": true,
-    "ms": 1,
+    "ms": 0.8,
     "phrase": "To resize is to change the size of an array, often by creating a larger array and copying the elements into it.",
     "langue": "en"
    },
@@ -304,7 +304,7 @@
     "attendu": "cordon",
     "affiche": "cordon",
     "ok": true,
-    "ms": 0.6,
+    "ms": 0.9,
     "phrase": "Un bijou suspendu à une chaîne ou à un cordon que l'on porte autour du cou.",
     "langue": "fr"
    },
@@ -313,7 +313,7 @@
     "attendu": "transit",
     "affiche": "transit",
     "ok": true,
-    "ms": 0.7,
+    "ms": 0.8,
     "phrase": "Le produit bande passante-délai est la quantité de données qui peut être en transit sur un lien à un instant donné.",
     "langue": "fr"
    },
@@ -322,7 +322,7 @@
     "attendu": "identifier",
     "affiche": "identifier",
     "ok": true,
-    "ms": 0.7,
+    "ms": 0.9,
     "phrase": "Association is the step where a device asks an access point to accept it and receives a connection identifier to exchange data.",
     "langue": "en"
    },
@@ -331,7 +331,7 @@
     "attendu": "boiling",
     "affiche": "boiling",
     "ok": true,
-    "ms": 0.6,
+    "ms": 0.9,
     "phrase": "To dip food briefly in boiling water, then in cold water.",
     "langue": "en"
    },
@@ -340,7 +340,7 @@
     "attendu": "église",
     "affiche": "église",
     "ok": true,
-    "ms": 0.7,
+    "ms": 1.2,
     "phrase": "Une coupole en forme d'oignon, typique des églises russes.",
     "langue": "fr"
    },
@@ -349,7 +349,7 @@
     "attendu": "améthyste",
     "affiche": "améthyste",
     "ok": true,
-    "ms": 0.6,
+    "ms": 0.8,
     "phrase": "Pierre qui mêle le violet de l'améthyste et le jaune de la citrine dans un même cristal.",
     "langue": "fr"
    },
@@ -376,7 +376,7 @@
     "attendu": "garde",
     "affiche": "garde",
     "ok": true,
-    "ms": 0.6,
+    "ms": 0.8,
     "phrase": "Partie de l'ordinateur qui garde les données et les programmes pour s'en servir.",
     "langue": "fr"
    },
@@ -385,7 +385,7 @@
     "attendu": "cap",
     "affiche": "cap",
     "ok": true,
-    "ms": 0.6,
+    "ms": 0.9,
     "phrase": "A round baggy cap with a small peak, worn by newspaper sellers.",
     "langue": "en"
    },
@@ -394,7 +394,7 @@
     "attendu": "frame",
     "affiche": "frame",
     "ok": true,
-    "ms": 0.5,
+    "ms": 0.8,
     "phrase": "A very close picture showing two people who fill most of the frame.",
     "langue": "en"
    },
@@ -403,7 +403,7 @@
     "attendu": "abser",
     "affiche": "absent",
     "ok": true,
-    "ms": 0.6,
+    "ms": 0.8,
     "phrase": "Vote où l'électeur écrit lui-même le nom d'un candidat absent de la liste imprimée.",
     "langue": "fr"
    },
@@ -421,7 +421,7 @@
     "attendu": "floor",
     "affiche": "floor",
     "ok": true,
-    "ms": 0.9,
+    "ms": 0.8,
     "phrase": "The automatic shift to a lower gear when you floor the accelerator to overtake.",
     "langue": "en"
    },
@@ -430,7 +430,7 @@
     "attendu": "lueur",
     "affiche": "lueur",
     "ok": true,
-    "ms": 0.7,
+    "ms": 0.8,
     "phrase": "Pièce fixée au bout d'une arme à feu qui réduit la lueur du tir.",
     "langue": "fr"
    },
@@ -439,7 +439,7 @@
     "attendu": "vallée",
     "affiche": "vallée",
     "ok": true,
-    "ms": 0.7,
+    "ms": 0.9,
     "phrase": "Vallée latérale dont le fond est bien plus haut que celui de la vallée principale.",
     "langue": "fr"
    },
@@ -448,7 +448,7 @@
     "attendu": "author",
     "affiche": "author",
     "ok": true,
-    "ms": 1.1,
+    "ms": 0.9,
     "phrase": "A share of sales paid to the author.",
     "langue": "en"
    },
@@ -457,7 +457,7 @@
     "attendu": "chèvre",
     "affiche": "chèvre",
     "ok": true,
-    "ms": 0.8,
+    "ms": 0.6,
     "phrase": "Mâle adulte de la chèvre, du lapin ou du cerf.",
     "langue": "fr"
    },
@@ -475,7 +475,7 @@
     "attendu": "poils",
     "affiche": "poil",
     "ok": false,
-    "ms": 0.7,
+    "ms": 0.9,
     "phrase": "Poils qui descendent le long des joues devant les oreilles.",
     "langue": "fr"
    },
@@ -484,7 +484,7 @@
     "attendu": "mobile",
     "affiche": "mobile",
     "ok": true,
-    "ms": 0.6,
+    "ms": 0.9,
     "phrase": "A mobile device whose screen folds, which changes the size and shape of the display area.",
     "langue": "en"
    },
@@ -493,7 +493,7 @@
     "attendu": "action",
     "affiche": "action",
     "ok": true,
-    "ms": 0.7,
+    "ms": 1,
     "phrase": "An uneasy doubt felt before or about an action.",
     "langue": "en"
    }
@@ -508,5 +508,5 @@
   "épaisse (AUX) ¶ Chaussures dont la semelle épaisse monte du talon jusqu'à l'avant, en forme de coin."
  ],
  "mots_outils_arbitres": [],
- "ouverture_ms_max": 2.2
+ "ouverture_ms_max": 2.8
 }

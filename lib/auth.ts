@@ -20,7 +20,11 @@ export function motDePasseValide(saisi: string): boolean {
   return !!mdp && egal(createHash("sha256").update(saisi).digest("hex"), createHash("sha256").update(mdp).digest("hex"));
 }
 
+// Mode test (SANS_LIMITES=1) : pas de mot de passe. À ne jamais laisser sur un site public.
+export const sansLimites = (): boolean => process.env.SANS_LIMITES === "1";
+
 export function estAdmin(req: Request): boolean {
+  if (sansLimites()) return true;
   const attendu = jeton();
   if (!attendu) return false;
   const cookies = req.headers.get("cookie") ?? "";

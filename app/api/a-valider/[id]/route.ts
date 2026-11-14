@@ -16,6 +16,8 @@ export async function POST(req: Request, ctx: RouteContext<"/api/a-valider/[id]"
     if (!m) return erreur("Mot introuvable ou déjà traité", 404);
     if (corps?.ecarter === true) {
       await q("UPDATE a_valider SET statut = 'écarté' WHERE id = $1", [id]);
+      // Dans les documents d'où il vient, le mot redevient « nouveau ».
+      await q("UPDATE document_mots SET statut = 'nouveau', a_valider_id = NULL WHERE a_valider_id = $1", [id]);
       return json({ statut: "écarté" }, 0);
     }
     const section = (m.propositions as { section_id: string; libelle: string }[]).find((p) => p.section_id === corps?.section_id);
@@ -23,6 +25,7 @@ export async function POST(req: Request, ctx: RouteContext<"/api/a-valider/[id]"
     const fiche = await rediger(q, String(m.t), String(m.r), String(m.definition), section.section_id);
     const mot_id = await enregistrer(q, String(m.t), String(m.r), fiche, section.section_id);
     await q("UPDATE a_valider SET statut = 'rangé', mot_id = $2 WHERE id = $1", [id, mot_id]);
+    await q("UPDATE document_mots SET statut = 'ajouté', mot_id = $2 WHERE a_valider_id = $1", [id, mot_id]);
     return json({ statut: "ajouté", id: mot_id, section }, 0);
   } catch (e: unknown) {
     if (e instanceof PlafondAtteint) return erreur(e.message, 429);

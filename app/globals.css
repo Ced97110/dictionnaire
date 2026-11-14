@@ -37,8 +37,8 @@ h1{font:700 20px/23px var(--serif);height:23px;letter-spacing:-.01em;margin:0 0 
 .tabs button{grid-column:span 2;font:500 14px/1.2 var(--sans);padding:4px 6px;border:0;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--bg);color:var(--fg);cursor:pointer}
 .tabs button:nth-child(-n+2){grid-column:span 3}
 .tabs button[aria-pressed="true"]{background:var(--strong);color:var(--on);font-weight:700}
-/* Onglet « Ajouter » (6e) : seul sur sa ligne en largeur téléphone, il la prend entière. */
-.tabs #tAdd{grid-column:1/-1}
+/* Onglets « Ajouter » et « Mes documents » : une ligne de deux en largeur téléphone. */
+.tabs #tAdd,.tabs #tDocs{grid-column:span 3}
 @media (min-width:760px){
  html{scroll-padding-top:116px}
  header{top:env(safe-area-inset-top,0px);padding-bottom:0;display:grid;grid-template-columns:auto 1fr;column-gap:24px;align-items:center}
@@ -220,3 +220,21 @@ h3.sec{font:700 20px/1.25 var(--serif);margin:24px 0 0;padding-top:10px;border-t
 .glsens li.glretenu{font-weight:600}
 .glsens li.glretenu::marker{content:"✓ "}
 .glctx p.en{color:var(--mut)}
+
+/* Mes documents (public/documents.js) */
+.dfiltres{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+.dpuce{border:1px solid var(--line);background:var(--bg);color:var(--fg);font:500 13px var(--sans);padding:5px 10px;cursor:pointer;min-height:32px}
+.dpuce[aria-pressed="true"]{background:var(--strong);color:var(--on)}
+.dactions{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:6px 0}
+#dajout{border:0;background:var(--acc);color:#fff;font:600 14px var(--sans);padding:8px 14px;cursor:pointer;min-height:40px}
+#dajout:disabled{opacity:.45;cursor:default}
+.dmots{list-style:none;margin:0;padding:0}
+.dmot{border-bottom:1px solid var(--line);padding:8px 0}
+.dtete{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 10px}
+.dtete b{font:700 17px/1.3 var(--serif)}
+.dtete .t{font-size:13px;color:var(--mut)}
+.dcoche{width:20px;height:20px;align-self:center}
+.dstat{font:600 11px var(--sans);text-transform:uppercase;letter-spacing:.03em;padding:2px 6px;border:1px solid var(--line);color:var(--mut)}
+.dstat[data-s="nouveau"]{border-color:var(--acc);color:var(--acc)}
+.dstat[data-s="ajouté"]{background:var(--acc);border-color:var(--acc);color:#fff}
+.dphrase{margin:4px 0 0;font:15px/1.45 var(--serif)}

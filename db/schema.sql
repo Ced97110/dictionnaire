@@ -170,3 +170,36 @@ CREATE TABLE IF NOT EXISTS appels_visiteur (
   n        int  NOT NULL DEFAULT 0,
   PRIMARY KEY (visiteur, jour)
 );
+
+-- Documents téléversés (historique « Mes documents »). Le fichier d'origine est gardé
+-- dans Vercel Blob (privé) pour pouvoir relancer l'analyse.
+CREATE TABLE IF NOT EXISTS documents (
+  id          bigint GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+  nom         text NOT NULL,
+  empreinte   text NOT NULL UNIQUE,            -- SHA-256 du fichier : même fichier = même analyse
+  langue      text,
+  taille      int  NOT NULL,
+  n_mots      int,
+  blob_url    text,
+  etat        text NOT NULL DEFAULT 'en cours' CHECK (etat IN ('en cours', 'prêt', 'échec')),
+  erreur      text,
+  cree_le     timestamptz NOT NULL DEFAULT now()
+);
+
+-- Mots d'un document : forme de base (spaCy), nature, occurrences, une phrase du document,
+-- et le lien au dictionnaire. Statut : présent, nouveau, ajouté, à valider.
+CREATE TABLE IF NOT EXISTS document_mots (
+  document_id  bigint NOT NULL REFERENCES documents(id) ON DELETE CASCADE,
+  lemme        text NOT NULL,
+  nature       text NOT NULL CHECK (nature IN ('nom', 'verbe', 'adjectif')),
+  forme        text NOT NULL,                  -- forme la plus fréquente dans le document
+  occurrences  int  NOT NULL,
+  phrase       text NOT NULL,
+  mot_id       text REFERENCES mots(id) ON DELETE SET NULL,
+  a_valider_id bigint REFERENCES a_valider(id) ON DELETE SET NULL,
+  statut       text NOT NULL CHECK (statut IN ('présent', 'nouveau', 'ajouté', 'à valider')),
+  PRIMARY KEY (document_id, lemme, nature)
+);
+CREATE INDEX IF NOT EXISTS document_mots_statut ON document_mots (document_id, statut);
+CREATE INDEX IF NOT EXISTS document_mots_nature ON document_mots (document_id, nature);
+CREATE INDEX IF NOT EXISTS document_mots_mot ON document_mots (mot_id);
