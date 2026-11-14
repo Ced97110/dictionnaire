@@ -86,7 +86,7 @@ test("définition au toucher : couverture, bon mot, mots-outils, vitesse", async
     mots_outils_arbitres: outilsArbitres,
     ouverture_ms_max: lent,
   };
-  writeFileSync(join(__dirname, "..", "test-results", "glose-rapport.json"), JSON.stringify(rapport, null, 1));
+  writeFileSync(join(__dirname, "resultats", "glose-rapport.json"), JSON.stringify(rapport, null, 1));
   console.log(JSON.stringify({ ...rapport, couverture: { ...rapport.couverture, manques: rapport.couverture.manques.slice(0, 40) } }, null, 1));
   expect.soft(rapport.couverture.taux).toBeGreaterThanOrEqual(0.95);
   // spaCy (petit modèle) se trompe parfois de lemme ou de nature : on conclut sur le chiffre arbitré.

@@ -1,0 +1,13 @@
+{
+ "pluriels_reconnus": "47/50",
+ "manques": [
+  "ouzoes",
+  "innuendoes",
+  "carbonadoes"
+ ],
+ "nouveaux_non_signales": "48/50",
+ "faux": [
+  "sparring → spar, spar",
+  "darts → dart"
+ ]
+}

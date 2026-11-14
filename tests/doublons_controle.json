@@ -1,0 +1,406 @@
+{
+ "existants": [
+  {
+   "saisie": "canyons",
+   "attendu": "d004580",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "calves",
+   "attendu": "d000151",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "hollandaises",
+   "attendu": "d007332",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "magentas",
+   "attendu": "x02110",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "bands",
+   "attendu": "d016176",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "rhinestones",
+   "attendu": "d003689",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "backups",
+   "attendu": "d018642",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "experts",
+   "attendu": "b00186",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "wings",
+   "attendu": "d010311",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "combinations",
+   "attendu": "d018794",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "keels",
+   "attendu": "d000203",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "files",
+   "attendu": "d003962",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "capacitors",
+   "attendu": "d004382",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "bazookas",
+   "attendu": "d010318",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "protozoa",
+   "attendu": "x03150",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "cations",
+   "attendu": "d017455",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "ouzoes",
+   "attendu": "d007282",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "screes",
+   "attendu": "d005363",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "undergrowths",
+   "attendu": "x02695",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "contraries",
+   "attendu": "x01488",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "yachtings",
+   "attendu": "d003020",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "kids",
+   "attendu": "d000005",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "quarters",
+   "attendu": "d000448",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "berets",
+   "attendu": "d002838",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "exposes",
+   "attendu": "d002366",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "idles",
+   "attendu": "d021042",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "networks",
+   "attendu": "d016209",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "blacklists",
+   "attendu": "s02532",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "cradles",
+   "attendu": "d008680",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "innuendoes",
+   "attendu": "w53_6",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "milestones",
+   "attendu": "s04101",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "torches",
+   "attendu": "d010300",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "fores",
+   "attendu": "d021474",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "magics",
+   "attendu": "d011865",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "jetties",
+   "attendu": "d004533",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "covers",
+   "attendu": "d013144",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "checks",
+   "attendu": "d019605",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "shades",
+   "attendu": "s02152",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "totalitarians",
+   "attendu": "d015152",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "carbonadoes",
+   "attendu": "d005512",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "caves",
+   "attendu": "d007478",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "physiologies",
+   "attendu": "d012135",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "cryptographies",
+   "attendu": "d004172",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "dunces",
+   "attendu": "w24_5",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "resonators",
+   "attendu": "d021084",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "queues",
+   "attendu": "s00629",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "cannellonis",
+   "attendu": "d007157",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "hostels",
+   "attendu": "x02351",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "alternators",
+   "attendu": "d020919",
+   "forme": "pluriel (inflect)"
+  },
+  {
+   "saisie": "pantywaists",
+   "attendu": "d013701",
+   "forme": "pluriel (inflect)"
+  }
+ ],
+ "nouveaux": [
+  {
+   "saisie": "groundskeeper"
+  },
+  {
+   "saisie": "carrefour"
+  },
+  {
+   "saisie": "deco"
+  },
+  {
+   "saisie": "washables"
+  },
+  {
+   "saisie": "robot"
+  },
+  {
+   "saisie": "coarctation"
+  },
+  {
+   "saisie": "senega"
+  },
+  {
+   "saisie": "spirituality"
+  },
+  {
+   "saisie": "jingoist"
+  },
+  {
+   "saisie": "paleocortex"
+  },
+  {
+   "saisie": "weekender"
+  },
+  {
+   "saisie": "conspectus"
+  },
+  {
+   "saisie": "zeta"
+  },
+  {
+   "saisie": "masdevallia"
+  },
+  {
+   "saisie": "proceeds"
+  },
+  {
+   "saisie": "congruity"
+  },
+  {
+   "saisie": "annoyer"
+  },
+  {
+   "saisie": "buddleia"
+  },
+  {
+   "saisie": "alkalimetry"
+  },
+  {
+   "saisie": "complementary"
+  },
+  {
+   "saisie": "lifesaving"
+  },
+  {
+   "saisie": "radiolarian"
+  },
+  {
+   "saisie": "sultana"
+  },
+  {
+   "saisie": "indigence"
+  },
+  {
+   "saisie": "berating"
+  },
+  {
+   "saisie": "wording"
+  },
+  {
+   "saisie": "inopportuneness"
+  },
+  {
+   "saisie": "piquance"
+  },
+  {
+   "saisie": "biophysicist"
+  },
+  {
+   "saisie": "chauvinist"
+  },
+  {
+   "saisie": "flagellate"
+  },
+  {
+   "saisie": "permutableness"
+  },
+  {
+   "saisie": "accouchement"
+  },
+  {
+   "saisie": "heraldry"
+  },
+  {
+   "saisie": "futurism"
+  },
+  {
+   "saisie": "cellulitis"
+  },
+  {
+   "saisie": "millwright"
+  },
+  {
+   "saisie": "hyson"
+  },
+  {
+   "saisie": "cryptogam"
+  },
+  {
+   "saisie": "urokinase"
+  },
+  {
+   "saisie": "sparring"
+  },
+  {
+   "saisie": "assuredness"
+  },
+  {
+   "saisie": "pneumonitis"
+  },
+  {
+   "saisie": "darts"
+  },
+  {
+   "saisie": "jook"
+  },
+  {
+   "saisie": "dynamism"
+  },
+  {
+   "saisie": "mycophage"
+  },
+  {
+   "saisie": "hypochondrium"
+  },
+  {
+   "saisie": "surpriser"
+  },
+  {
+   "saisie": "siesta"
+  }
+ ]
+}

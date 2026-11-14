@@ -7,7 +7,7 @@ import { readFileSync, writeFileSync } from "node:fs";
 
 const MODELE = "claude-sonnet-5-5";
 const N_TEMOINS = 10;
-const rapport = JSON.parse(readFileSync("test-results/glose-rapport.json", "utf8"));
+const rapport = JSON.parse(readFileSync("tests/resultats/glose-rapport.json", "utf8"));
 const api = new Anthropic({ maxRetries: 4 });
 
 async function demander(texte: string): Promise<Record<string, unknown>> {

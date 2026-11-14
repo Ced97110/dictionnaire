@@ -71,6 +71,6 @@ await Promise.all(Array.from({ length: PARALLELE }, ouvrier));
 await c.end();
 const justes = resultats.filter((r) => r.correct).length;
 const resume = { occurrences: N, justes, taux: justes / N, rejetes: resultats.filter((r) => r.rejete).length };
-writeFileSync("test-results/sens-fr.json", JSON.stringify({ resume, resultats }, null, 1));
+writeFileSync("tests/resultats/sens-fr.json", JSON.stringify({ resume, resultats }, null, 1));
 console.log(JSON.stringify(resume, null, 1));
 for (const r of resultats.filter((x) => !x.correct)) console.log("✗", r.mot, "|", String(r.phrase).slice(0, 90), "|", r.verdict ?? r.rejete, "|", r.raison ?? "");

@@ -9,6 +9,10 @@
 - 50 new words: WordNet nouns whose base form (WordNet morphy) matches no headword.
 
 Writes tests/doublons_cas.json. Usage: uv run tests/doublons_cas.py
+
+Control draw (never used for tuning): uv run tests/doublons_cas.py controle
+→ tests/doublons_controle.json: another seed, 50 plurals only (the only
+independent third: upper case is trivial and British spelling shares VarCon).
 """
 
 from __future__ import annotations
@@ -16,6 +20,7 @@ from __future__ import annotations
 import json
 import random
 import re
+import sys
 from pathlib import Path
 
 import inflect
@@ -23,6 +28,7 @@ import nltk
 
 RACINE = Path(__file__).resolve().parent.parent
 GRAINE = 20261113
+GRAINE_CONTROLE = 99
 N = 50
 
 nltk.download("wordnet", quiet=True)
@@ -52,26 +58,28 @@ def britanniques() -> dict[str, str]:
 
 
 def main() -> None:
-    rng = random.Random(GRAINE)
+    controle = sys.argv[1:] == ["controle"]
+    rng = random.Random(GRAINE_CONTROLE if controle else GRAINE)
     p = inflect.engine()
     tous = tetes()
     # Words already ending in -s are left out: inflect invents plurals like « litotess ».
     simples = [(i, t) for i, t in tous if re.fullmatch(r"[a-z]+", t) and not t.endswith("s") and wn.synsets(t, pos=wn.NOUN)]
     gb = britanniques()
     existants = []
-    for i, t in rng.sample(simples, 17):
+    for i, t in rng.sample(simples, N if controle else 17):
         existants.append({"saisie": p.plural_noun(t), "attendu": i, "forme": "pluriel (inflect)"})
-    for i, t in rng.sample(tous, 17):
+    for i, t in rng.sample(tous, 0 if controle else 17):
         existants.append({"saisie": t.upper(), "attendu": i, "forme": "majuscules"})
     candidats = [(i, t) for i, t in tous if t in gb]
-    for i, t in rng.sample(candidats, N - len(existants)):
+    for i, t in rng.sample(candidats, max(0, N - len(existants))):
         existants.append({"saisie": gb[t], "attendu": i, "forme": "orthographe britannique (VarCon)"})
 
     bases = {wn.morphy(t.lower()) or t.lower() for _, t in tous} | {t.lower() for _, t in tous}
     noms = sorted({l.name() for s in wn.all_synsets(wn.NOUN) for l in s.lemmas() if re.fullmatch(r"[a-z]{4,}", l.name())})
     nouveaux = [n for n in noms if n not in bases and (wn.morphy(n) or n) not in bases]
     nouveaux = [{"saisie": n} for n in rng.sample(nouveaux, N)]
-    (RACINE / "tests" / "doublons_cas.json").write_text(
+    nom = "doublons_controle.json" if controle else "doublons_cas.json"
+    (RACINE / "tests" / nom).write_text(
         json.dumps({"existants": existants, "nouveaux": nouveaux}, ensure_ascii=False, indent=1), encoding="utf-8"
     )
     print(f"{len(existants)} existants, {len(nouveaux)} nouveaux")

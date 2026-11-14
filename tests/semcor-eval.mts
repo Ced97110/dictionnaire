@@ -58,5 +58,5 @@ const resume = {
   par_nature: parPos,
   latence_ms: { mediane: ms[n >> 1], p95: ms[Math.floor(n * 0.95)] },
 };
-writeFileSync("test-results/semcor.json", JSON.stringify({ resume, resultats }, null, 1));
+writeFileSync("tests/resultats/semcor.json", JSON.stringify({ resume, resultats }, null, 1));
 console.log(JSON.stringify(resume, null, 1));

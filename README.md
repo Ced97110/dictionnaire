@@ -79,7 +79,7 @@ Le dictionnaire est dans une base Postgres hébergée chez Neon, et le site la l
 | `tests/tfidf.test.ts`, `tests/tfidf_reference.py` | Le TF-IDF en TypeScript donne les mêmes 10 sections que scikit-learn sur 60 définitions. |
 | `public/glose.js` | Définition au toucher : souligne en pointillé les mots du dictionnaire présents dans le texte affiché (une requête par texte), ouvre la fenêtre (bulle au survol sur ordinateur, panneau en bas d'écran au toucher sur téléphone), « ← » pour revenir au mot précédent. |
 | `lib/gloses.ts`, `app/api/gloses/route.ts` | Reçoit les mots et expressions d'un texte, renvoie ceux qui existent avec leur définition courte. Formes fléchies reconnues (« couraient », « ran », pluriels), mots-outils exclus. |
-| `tests/glose_cas.py`, `tests/glose.spec.ts` | Contrôle de la définition au toucher sur 100 définitions tirées au hasard, avec spaCy comme juge : couverture, bon mot, mots-outils, vitesse. Rapport dans `test-results/glose-rapport.json`. |
+| `tests/glose_cas.py`, `tests/glose.spec.ts` | Contrôle de la définition au toucher sur 100 définitions tirées au hasard, avec spaCy comme juge : couverture, bon mot, mots-outils, vitesse. Rapport dans `tests/resultats/glose-rapport.json`. |
 | `tests/juge-sonnet.mts` | Fait juger par Claude Sonnet, sans lui dire d'où viennent les réponses, les cas où spaCy et le site ne sont pas d'accord, plus 10 cas témoins (15 appels). Résultat dans `tests/glose_arbitrage.json`, que `tests/glose.spec.ts` applique (il affiche aussi le chiffre brut de spaCy). |
 | `lib/sens.ts`, `app/api/sens-en-contexte/route.ts` | Sens en contexte : sens possibles (dictionnaire, et WordNet pour l'anglais), Haiku explique (sens dit avec ses mots, indices, choix dans la liste ou « aucun », rôle), le code vérifie que les indices sont dans la phrase et relance une fois. Réponse gardée en base (une par texte + position), jamais deux appels en même temps. |
 | `lib/visiteur.ts` | Limite par visiteur des nouvelles explications (`LIMITE_SENS_VISITEUR`, 60 par jour) ; seule une empreinte de l'adresse IP est gardée. |
@@ -108,6 +108,10 @@ Le dictionnaire est dans une base Postgres hébergée chez Neon, et le site la l
 node --env-file=.env.local node_modules/vitest/vitest.mjs run   # parité de la recherche
 npx playwright test -c playwright.config.mts                   # non-régression (utilise Chrome)
 ```
+
+### Résultats d'évaluation
+
+Les scripts d'évaluation écrivent leurs résultats détaillés dans `tests/resultats/` (et non dans `test-results/`, que Playwright vide à chaque lancement) : `semcor.json`, `sens-fr.json`, `glose-rapport.json`, `doublons-controle.json`.
 
 ### Seul changement visible
 
