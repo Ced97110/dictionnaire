@@ -151,7 +151,7 @@
     zone.innerHTML = `<p class="glctxt">Sens dans ce contexte <span class="en" lang="en">Meaning in this context</span></p>
       <p class="glphrase">${surligner(d.contexte.phrase, d.contexte.mot, d.indices)}</p>
       <p class="gletape">a) Les sens possibles</p><ol class="glsens">${montre.map((x) => `<li class="${x.id === d.sens_retenu ? 'glretenu' : ''}">${txt(x)}</li>`).join('')}</ol>
-      <p class="gletape">b) Les indices dans la phrase</p><ul class="glind-l">${d.indices.map((i) => `<li><mark class="glind">${esc(i.mot)}</mark> : ${esc(i.apport_fr)}<br><span class="en" lang="en">${esc(i.apport_en)}</span></li>`).join('')}</ul>
+      <p class="gletape">b) Les indices dans la phrase</p>${d.indices.length ? `<ul class="glind-l">${d.indices.map((i) => `<li><mark class="glind">${esc(i.mot)}</mark> : ${esc(i.apport_fr)}<br><span class="en" lang="en">${esc(i.apport_en)}</span></li>`).join('')}</ul>` : '<p>Aucun autre mot de la phrase ne précise le sens.</p><p class="en" lang="en">No other word in the sentence narrows the meaning.</p>'}
       ${d.tranche && d.sens_retenu === 'AUCUN' ? `<p class="gletape">c) Aucun de ces sens ne convient ici</p><p>${esc(d.reformulation_fr)}</p><p class="en" lang="en">${esc(d.reformulation_en)}</p><p class="gldom">Ce sens n'est pas encore dans le dictionnaire.</p>`
         : d.tranche ? `<p class="gletape">c) Le sens retenu ici</p><p>${esc(d.reformulation_fr)}</p><p class="en" lang="en">${esc(d.reformulation_en)}</p>`
         : `<p class="gletape">c) Les indices ne suffisent pas à trancher</p><p>Deux sens restent possibles : ${d.sens_alternatifs.map((id) => parId[id] ? `« ${txt(parId[id])} »` : '').join(' ou ')}.</p><p class="en" lang="en">The clues are not enough to decide between these two meanings.</p>`}

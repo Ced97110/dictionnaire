@@ -1,0 +1,512 @@
+{
+ "couverture": {
+  "presents": 335,
+  "couverts": 328,
+  "taux": 0.9791044776119403,
+  "manques": [
+   "État (état, fr)",
+   "peut (pouvoir, fr)",
+   "peut (pouvoir, fr)",
+   "peut (pouvoir, fr)",
+   "avant (aver, fr)",
+   "boom (boom, en)",
+   "marked (mark, en)"
+  ]
+ },
+ "bon_mot": {
+  "touches": 50,
+  "bons": 47,
+  "taux": 0.94,
+  "erreurs": [
+   {
+    "texte": "reliés",
+    "attendu": "relier",
+    "affiche": "relié",
+    "ok": false,
+    "ms": 0.6,
+    "phrase": "Un multigraphe est un graphe où deux sommets peuvent être reliés par plusieurs arêtes distinctes.",
+    "langue": "fr"
+   },
+   {
+    "texte": "glisse",
+    "attendu": "glisse",
+    "affiche": "glisser",
+    "ok": false,
+    "ms": 0.7,
+    "phrase": "Une piste sèche, où la boule glisse vite et accroche peu.",
+    "langue": "fr"
+   },
+   {
+    "texte": "Poils",
+    "attendu": "poils",
+    "affiche": "poil",
+    "ok": false,
+    "ms": 0.7,
+    "phrase": "Poils qui descendent le long des joues devant les oreilles.",
+    "langue": "fr"
+   }
+  ],
+  "tous": [
+   {
+    "texte": "forms",
+    "attendu": "form",
+    "affiche": "form",
+    "ok": true,
+    "ms": 2.2,
+    "phrase": "Positive forms of a word that have vanished while their opposite still exists, like \"gruntled\".",
+    "langue": "en"
+   },
+   {
+    "texte": "elements",
+    "attendu": "element",
+    "affiche": "element",
+    "ok": true,
+    "ms": 1.2,
+    "phrase": "A list is an ordered sequence of values, reached by position, to which elements can be added or removed.",
+    "langue": "en"
+   },
+   {
+    "texte": "list",
+    "attendu": "list",
+    "affiche": "list",
+    "ok": true,
+    "ms": 0.8,
+    "phrase": "A list is an ordered sequence of values, reached by position, to which elements can be added or removed.",
+    "langue": "en"
+   },
+   {
+    "texte": "petit",
+    "attendu": "petit",
+    "affiche": "petit",
+    "ok": true,
+    "ms": 1,
+    "phrase": "Robe longue, à manches longues et à petit motif, qui rappelle celle des pionnières.",
+    "langue": "fr"
+   },
+   {
+    "texte": "wine",
+    "attendu": "wine",
+    "affiche": "wine",
+    "ok": true,
+    "ms": 0.8,
+    "phrase": "Divination that reads the future in wine, its color or reflections.",
+    "langue": "en"
+   },
+   {
+    "texte": "Sessions",
+    "attendu": "session",
+    "affiche": "session",
+    "ok": true,
+    "ms": 0.7,
+    "phrase": "Sessions that alternate fast efforts with recovery periods.",
+    "langue": "en"
+   },
+   {
+    "texte": "reliés",
+    "attendu": "relier",
+    "affiche": "relié",
+    "ok": false,
+    "ms": 0.6,
+    "phrase": "Un multigraphe est un graphe où deux sommets peuvent être reliés par plusieurs arêtes distinctes.",
+    "langue": "fr"
+   },
+   {
+    "texte": "Groupe",
+    "attendu": "groupe",
+    "affiche": "groupe",
+    "ok": true,
+    "ms": 0.9,
+    "phrase": "Groupe d'environ cinquante grandes actions très recherchées dans les années 1970.",
+    "langue": "fr"
+   },
+   {
+    "texte": "voitures",
+    "attendu": "voiture",
+    "affiche": "voiture",
+    "ok": true,
+    "ms": 0.6,
+    "phrase": "Un service de location de voitures à l'heure, où l'on réserve et ouvre la voiture avec une carte ou une application.",
+    "langue": "fr"
+   },
+   {
+    "texte": "piste",
+    "attendu": "pist",
+    "affiche": "piste",
+    "ok": true,
+    "ms": 0.6,
+    "phrase": "Une piste sèche, où la boule glisse vite et accroche peu.",
+    "langue": "fr"
+   },
+   {
+    "texte": "Robe",
+    "attendu": "robe",
+    "affiche": "robe",
+    "ok": true,
+    "ms": 0.6,
+    "phrase": "Robe longue, à manches longues et à petit motif, qui rappelle celle des pionnières.",
+    "langue": "fr"
+   },
+   {
+    "texte": "overhangs",
+    "attendu": "overhang",
+    "affiche": "overhang",
+    "ok": true,
+    "ms": 0.8,
+    "phrase": "The lower edge of a roof that overhangs the wall.",
+    "langue": "en"
+   },
+   {
+    "texte": "future",
+    "attendu": "future",
+    "affiche": "future",
+    "ok": true,
+    "ms": 1.8,
+    "phrase": "Divination that reads the future in wine, its color or reflections.",
+    "langue": "en"
+   },
+   {
+    "texte": "cerf",
+    "attendu": "cerf",
+    "affiche": "cerf",
+    "ok": true,
+    "ms": 0.6,
+    "phrase": "Mâle adulte de la chèvre, du lapin ou du cerf.",
+    "langue": "fr"
+   },
+   {
+    "texte": "Walking",
+    "attendu": "walk",
+    "affiche": "walking",
+    "ok": true,
+    "ms": 0.6,
+    "phrase": "Walking with long, confident steps and a sense of purpose.",
+    "langue": "en"
+   },
+   {
+    "texte": "beans",
+    "attendu": "bean",
+    "affiche": "beans",
+    "ok": true,
+    "ms": 0.6,
+    "phrase": "Dried beans stewed Mexican style, often mashed and served as a side.",
+    "langue": "en"
+   },
+   {
+    "texte": "reached",
+    "attendu": "reach",
+    "affiche": "reach",
+    "ok": true,
+    "ms": 0.5,
+    "phrase": "A list is an ordered sequence of values, reached by position, to which elements can be added or removed.",
+    "langue": "en"
+   },
+   {
+    "texte": "wine",
+    "attendu": "wine",
+    "affiche": "wine",
+    "ok": true,
+    "ms": 0.6,
+    "phrase": "Divination that reads the future in wine, its color or reflections.",
+    "langue": "en"
+   },
+   {
+    "texte": "objects",
+    "attendu": "object",
+    "affiche": "object",
+    "ok": true,
+    "ms": 0.7,
+    "phrase": "A class is a template that describes the data and methods shared by all objects created from it.",
+    "langue": "en"
+   },
+   {
+    "texte": "creux",
+    "attendu": "creux",
+    "affiche": "creux",
+    "ok": true,
+    "ms": 0.8,
+    "phrase": "Qui sonne aigu et creux, comme une boîte en métal.",
+    "langue": "fr"
+   },
+   {
+    "texte": "glisse",
+    "attendu": "glisse",
+    "affiche": "glisser",
+    "ok": false,
+    "ms": 0.7,
+    "phrase": "Une piste sèche, où la boule glisse vite et accroche peu.",
+    "langue": "fr"
+   },
+   {
+    "texte": "fond",
+    "attendu": "fond",
+    "affiche": "fond",
+    "ok": true,
+    "ms": 0.9,
+    "phrase": "Vallée latérale dont le fond est bien plus haut que celui de la vallée principale.",
+    "langue": "fr"
+   },
+   {
+    "texte": "PostgreSQL",
+    "attendu": "postgresql",
+    "affiche": "postgresql",
+    "ok": true,
+    "ms": 0.7,
+    "phrase": "VACUUM is a PostgreSQL command that frees the space of dead rows so it can be used again.",
+    "langue": "en"
+   },
+   {
+    "texte": "data",
+    "attendu": "datum",
+    "affiche": "datum",
+    "ok": true,
+    "ms": 0.4,
+    "phrase": "A class is a template that describes the data and methods shared by all objects created from it.",
+    "langue": "en"
+   },
+   {
+    "texte": "values",
+    "attendu": "value",
+    "affiche": "values",
+    "ok": true,
+    "ms": 0.5,
+    "phrase": "A list is an ordered sequence of values, reached by position, to which elements can be added or removed.",
+    "langue": "en"
+   },
+   {
+    "texte": "sealed",
+    "attendu": "seal",
+    "affiche": "sealed",
+    "ok": true,
+    "ms": 0.7,
+    "phrase": "A small glass container sealed by flame that holds a drug or liquid.",
+    "langue": "en"
+   },
+   {
+    "texte": "resize",
+    "attendu": "resize",
+    "affiche": "resize",
+    "ok": true,
+    "ms": 1,
+    "phrase": "To resize is to change the size of an array, often by creating a larger array and copying the elements into it.",
+    "langue": "en"
+   },
+   {
+    "texte": "studio",
+    "attendu": "studio",
+    "affiche": "studio",
+    "ok": true,
+    "ms": 0.8,
+    "phrase": "To create in a studio the small sounds of a film, such as footsteps or a slamming door.",
+    "langue": "en"
+   },
+   {
+    "texte": "cordon",
+    "attendu": "cordon",
+    "affiche": "cordon",
+    "ok": true,
+    "ms": 0.6,
+    "phrase": "Un bijou suspendu à une chaîne ou à un cordon que l'on porte autour du cou.",
+    "langue": "fr"
+   },
+   {
+    "texte": "transit",
+    "attendu": "transit",
+    "affiche": "transit",
+    "ok": true,
+    "ms": 0.7,
+    "phrase": "Le produit bande passante-délai est la quantité de données qui peut être en transit sur un lien à un instant donné.",
+    "langue": "fr"
+   },
+   {
+    "texte": "identifier",
+    "attendu": "identifier",
+    "affiche": "identifier",
+    "ok": true,
+    "ms": 0.7,
+    "phrase": "Association is the step where a device asks an access point to accept it and receives a connection identifier to exchange data.",
+    "langue": "en"
+   },
+   {
+    "texte": "boiling",
+    "attendu": "boiling",
+    "affiche": "boiling",
+    "ok": true,
+    "ms": 0.6,
+    "phrase": "To dip food briefly in boiling water, then in cold water.",
+    "langue": "en"
+   },
+   {
+    "texte": "églises",
+    "attendu": "église",
+    "affiche": "église",
+    "ok": true,
+    "ms": 0.7,
+    "phrase": "Une coupole en forme d'oignon, typique des églises russes.",
+    "langue": "fr"
+   },
+   {
+    "texte": "améthyste",
+    "attendu": "améthyste",
+    "affiche": "améthyste",
+    "ok": true,
+    "ms": 0.6,
+    "phrase": "Pierre qui mêle le violet de l'améthyste et le jaune de la citrine dans un même cristal.",
+    "langue": "fr"
+   },
+   {
+    "texte": "charrue",
+    "attendu": "charrue",
+    "affiche": "charrue",
+    "ok": true,
+    "ms": 0.8,
+    "phrase": "Une charrue dont la pièce courbe retourne la terre en bandes.",
+    "langue": "fr"
+   },
+   {
+    "texte": "grandes",
+    "attendu": "grand",
+    "affiche": "grand",
+    "ok": true,
+    "ms": 0.7,
+    "phrase": "Groupe d'environ cinquante grandes actions très recherchées dans les années 1970.",
+    "langue": "fr"
+   },
+   {
+    "texte": "garde",
+    "attendu": "garde",
+    "affiche": "garde",
+    "ok": true,
+    "ms": 0.6,
+    "phrase": "Partie de l'ordinateur qui garde les données et les programmes pour s'en servir.",
+    "langue": "fr"
+   },
+   {
+    "texte": "cap",
+    "attendu": "cap",
+    "affiche": "cap",
+    "ok": true,
+    "ms": 0.6,
+    "phrase": "A round baggy cap with a small peak, worn by newspaper sellers.",
+    "langue": "en"
+   },
+   {
+    "texte": "frame",
+    "attendu": "frame",
+    "affiche": "frame",
+    "ok": true,
+    "ms": 0.5,
+    "phrase": "A very close picture showing two people who fill most of the frame.",
+    "langue": "en"
+   },
+   {
+    "texte": "absent",
+    "attendu": "abser",
+    "affiche": "absent",
+    "ok": true,
+    "ms": 0.6,
+    "phrase": "Vote où l'électeur écrit lui-même le nom d'un candidat absent de la liste imprimée.",
+    "langue": "fr"
+   },
+   {
+    "texte": "signed integer",
+    "attendu": "sign integer",
+    "affiche": "signed integer",
+    "ok": true,
+    "ms": 0.8,
+    "phrase": "The most significant bit of a signed integer or floating-point number; it is 1 for a negative number and 0 otherwise.",
+    "langue": "en"
+   },
+   {
+    "texte": "floor",
+    "attendu": "floor",
+    "affiche": "floor",
+    "ok": true,
+    "ms": 0.9,
+    "phrase": "The automatic shift to a lower gear when you floor the accelerator to overtake.",
+    "langue": "en"
+   },
+   {
+    "texte": "lueur",
+    "attendu": "lueur",
+    "affiche": "lueur",
+    "ok": true,
+    "ms": 0.7,
+    "phrase": "Pièce fixée au bout d'une arme à feu qui réduit la lueur du tir.",
+    "langue": "fr"
+   },
+   {
+    "texte": "vallée",
+    "attendu": "vallée",
+    "affiche": "vallée",
+    "ok": true,
+    "ms": 0.7,
+    "phrase": "Vallée latérale dont le fond est bien plus haut que celui de la vallée principale.",
+    "langue": "fr"
+   },
+   {
+    "texte": "author",
+    "attendu": "author",
+    "affiche": "author",
+    "ok": true,
+    "ms": 1.1,
+    "phrase": "A share of sales paid to the author.",
+    "langue": "en"
+   },
+   {
+    "texte": "chèvre",
+    "attendu": "chèvre",
+    "affiche": "chèvre",
+    "ok": true,
+    "ms": 0.8,
+    "phrase": "Mâle adulte de la chèvre, du lapin ou du cerf.",
+    "langue": "fr"
+   },
+   {
+    "texte": "command",
+    "attendu": "command",
+    "affiche": "command",
+    "ok": true,
+    "ms": 0.8,
+    "phrase": "VACUUM is a PostgreSQL command that frees the space of dead rows so it can be used again.",
+    "langue": "en"
+   },
+   {
+    "texte": "Poils",
+    "attendu": "poils",
+    "affiche": "poil",
+    "ok": false,
+    "ms": 0.7,
+    "phrase": "Poils qui descendent le long des joues devant les oreilles.",
+    "langue": "fr"
+   },
+   {
+    "texte": "mobile",
+    "attendu": "mobile",
+    "affiche": "mobile",
+    "ok": true,
+    "ms": 0.6,
+    "phrase": "A mobile device whose screen folds, which changes the size and shape of the display area.",
+    "langue": "en"
+   },
+   {
+    "texte": "action",
+    "attendu": "action",
+    "affiche": "action",
+    "ok": true,
+    "ms": 0.7,
+    "phrase": "An uneasy doubt felt before or about an action.",
+    "langue": "en"
+   }
+  ]
+ },
+ "bon_mot_arbitre": {
+  "bons": 49,
+  "taux": 0.98
+ },
+ "mots_outils_consultables": [
+  "creux (PRON) ¶ Qui sonne aigu et creux, comme une boîte en métal.",
+  "épaisse (AUX) ¶ Chaussures dont la semelle épaisse monte du talon jusqu'à l'avant, en forme de coin."
+ ],
+ "mots_outils_arbitres": [],
+ "ouverture_ms_max": 2.2
+}

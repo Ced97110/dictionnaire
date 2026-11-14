@@ -110,13 +110,17 @@ const present = (mot: string, phrase: string): boolean => {
 export function verifier(r: Record<string, unknown> | null, sens: Sens[], ctx: Contexte): { ok: Explication } | { erreur: string } {
   if (!r) return { erreur: "Réponse illisible : il faut un objet JSON." };
   const ids = new Set(sens.map((s) => s.id));
-  const indices = Array.isArray(r.indices) ? (r.indices as Record<string, unknown>[]) : [];
-  if (indices.length < 1 || indices.length > 3) return { erreur: "Il faut 1 à 3 indices." };
-  for (const x of indices) {
+  // Un indice absent de la phrase fait rejeter la réponse (règle du prompt). Un indice qui
+  // contient le mot lui-même est seulement retiré ; au-delà de 3, on garde les 3 premiers.
+  const cites = Array.isArray(r.indices) ? (r.indices as Record<string, unknown>[]) : [];
+  for (const x of cites) {
     const mot = String(x?.mot ?? "");
     if (!present(mot, ctx.phrase)) return { erreur: `L'indice « ${mot} » n'est pas dans la phrase. Cite des mots copiés de la phrase.` };
-    if (` ${minuscules(mot)} `.includes(` ${minuscules(ctx.mot)} `)) return { erreur: "Un indice ne peut pas contenir le mot lui-même." };
   }
+  if (cites.length < 1) return { erreur: "Cite au moins un indice de la phrase." };
+  // Phrase trop courte (« Âne femelle. ») : si tous les indices contiennent le mot, on accepte
+  // la réponse sans indice ; la fenêtre dit qu'aucun autre mot ne précise le sens.
+  const indices = cites.filter((x) => !` ${minuscules(String(x?.mot ?? ""))} `.includes(` ${minuscules(ctx.mot)} `)).slice(0, 3);
   // « Je ne sais pas » seulement si le modèle donne vraiment deux sens de la liste
   // (champ « ambigu » ; « tranche: false » accepté pour les anciennes réponses en base).
   const deuxSens = Array.isArray(r.sens_alternatifs) && (r.sens_alternatifs as unknown[]).filter((x) => ids.has(String(x))).length >= 2;

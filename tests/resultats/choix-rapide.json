@@ -1,0 +1,626 @@
+{
+ "anglais": [
+  {
+   "retenu": "W1",
+   "ms": 1852.5430421829224,
+   "essais": 1,
+   "juste": false,
+   "mfs": false
+  },
+  {
+   "retenu": "W4",
+   "ms": 2529.997708797455,
+   "essais": 2,
+   "juste": false,
+   "mfs": false
+  },
+  {
+   "retenu": "W1",
+   "ms": 1081.9848747253418,
+   "essais": 1,
+   "juste": true,
+   "mfs": true
+  },
+  {
+   "retenu": "W1",
+   "ms": 942.9070420265198,
+   "essais": 1,
+   "juste": true,
+   "mfs": true
+  },
+  {
+   "retenu": "W1",
+   "ms": 1469.9290418624878,
+   "essais": 1,
+   "juste": true,
+   "mfs": true
+  },
+  {
+   "retenu": "W2",
+   "ms": 1533.8653750419617,
+   "essais": 1,
+   "juste": false,
+   "mfs": true
+  },
+  {
+   "retenu": "W1",
+   "ms": 1115.7650828361511,
+   "essais": 1,
+   "juste": true,
+   "mfs": true
+  },
+  {
+   "retenu": "W2",
+   "ms": 2383.083582878113,
+   "essais": 2,
+   "juste": false,
+   "mfs": true
+  },
+  {
+   "retenu": "W1",
+   "ms": 1629.322916984558,
+   "essais": 1,
+   "juste": true,
+   "mfs": true
+  },
+  {
+   "retenu": "W1",
+   "ms": 1015.8898749351501,
+   "essais": 1,
+   "juste": true,
+   "mfs": true
+  },
+  {
+   "retenu": "W7",
+   "ms": 1026.3565421104431,
+   "essais": 1,
+   "juste": false,
+   "mfs": false
+  },
+  {
+   "retenu": "W2",
+   "ms": 2352.874541759491,
+   "essais": 2,
+   "juste": true,
+   "mfs": false
+  },
+  {
+   "retenu": "W5",
+   "ms": 1225.7952919006348,
+   "essais": 1,
+   "juste": true,
+   "mfs": false
+  },
+  {
+   "retenu": "W1",
+   "ms": 973.9985828399658,
+   "essais": 1,
+   "juste": true,
+   "mfs": true
+  },
+  {
+   "retenu": "W1",
+   "ms": 3462.879958152771,
+   "essais": 2,
+   "juste": true,
+   "mfs": true
+  },
+  {
+   "retenu": "W1",
+   "ms": 897.035041809082,
+   "essais": 1,
+   "juste": true,
+   "mfs": true
+  },
+  {
+   "retenu": "W1",
+   "ms": 1138.9426670074463,
+   "essais": 1,
+   "juste": true,
+   "mfs": true
+  },
+  {
+   "retenu": "W1",
+   "ms": 1658.5627088546753,
+   "essais": 1,
+   "juste": false,
+   "mfs": false
+  },
+  {
+   "retenu": "W6",
+   "ms": 1215.0145421028137,
+   "essais": 1,
+   "juste": false,
+   "mfs": false
+  },
+  {
+   "retenu": null,
+   "ms": 2123.7432084083557,
+   "essais": 2,
+   "juste": false,
+   "mfs": true
+  },
+  {
+   "retenu": "W2",
+   "ms": 1024.2193326950073,
+   "essais": 1,
+   "juste": false,
+   "mfs": true
+  },
+  {
+   "retenu": "W2",
+   "ms": 2880.4786248207092,
+   "essais": 2,
+   "juste": true,
+   "mfs": false
+  },
+  {
+   "retenu": "W1",
+   "ms": 1220.8672909736633,
+   "essais": 1,
+   "juste": true,
+   "mfs": true
+  },
+  {
+   "retenu": "W3",
+   "ms": 1430.3479590415955,
+   "essais": 1,
+   "juste": true,
+   "mfs": false
+  },
+  {
+   "retenu": "W1",
+   "ms": 1216.2786660194397,
+   "essais": 1,
+   "juste": true,
+   "mfs": true
+  },
+  {
+   "retenu": "W1",
+   "ms": 1230.6378750801086,
+   "essais": 1,
+   "juste": true,
+   "mfs": true
+  },
+  {
+   "retenu": "W3",
+   "ms": 827.9844160079956,
+   "essais": 1,
+   "juste": false,
+   "mfs": true
+  },
+  {
+   "retenu": "W1",
+   "ms": 793.5043330192566,
+   "essais": 1,
+   "juste": true,
+   "mfs": true
+  },
+  {
+   "retenu": "W1",
+   "ms": 1136.0753750801086,
+   "essais": 1,
+   "juste": true,
+   "mfs": true
+  },
+  {
+   "retenu": "W2",
+   "ms": 1012.140625,
+   "essais": 1,
+   "juste": false,
+   "mfs": false
+  },
+  {
+   "retenu": "W2",
+   "ms": 1043.0095829963684,
+   "essais": 1,
+   "juste": true,
+   "mfs": false
+  },
+  {
+   "retenu": "W2",
+   "ms": 1175.083999633789,
+   "essais": 1,
+   "juste": false,
+   "mfs": true
+  },
+  {
+   "retenu": "W1",
+   "ms": 1199.5655422210693,
+   "essais": 1,
+   "juste": true,
+   "mfs": true
+  },
+  {
+   "retenu": "W5",
+   "ms": 1306.1846671104431,
+   "essais": 1,
+   "juste": false,
+   "mfs": true
+  },
+  {
+   "retenu": "W2",
+   "ms": 1241.5483331680298,
+   "essais": 1,
+   "juste": false,
+   "mfs": true
+  },
+  {
+   "retenu": "W3",
+   "ms": 1433.494333744049,
+   "essais": 1,
+   "juste": true,
+   "mfs": false
+  },
+  {
+   "retenu": "W2",
+   "ms": 1127.390417098999,
+   "essais": 1,
+   "juste": true,
+   "mfs": false
+  },
+  {
+   "retenu": "W3",
+   "ms": 1065.2958331108093,
+   "essais": 1,
+   "juste": false,
+   "mfs": true
+  },
+  {
+   "retenu": "W4",
+   "ms": 1207.8067502975464,
+   "essais": 1,
+   "juste": false,
+   "mfs": false
+  },
+  {
+   "retenu": "W1",
+   "ms": 1016.5479159355164,
+   "essais": 1,
+   "juste": true,
+   "mfs": true
+  },
+  {
+   "retenu": "W1",
+   "ms": 1423.827875137329,
+   "essais": 1,
+   "juste": true,
+   "mfs": true
+  },
+  {
+   "retenu": null,
+   "ms": 2562.3529171943665,
+   "essais": 2,
+   "juste": false,
+   "mfs": true
+  },
+  {
+   "retenu": "W3",
+   "ms": 1622.513291835785,
+   "essais": 1,
+   "juste": false,
+   "mfs": true
+  },
+  {
+   "retenu": "W1",
+   "ms": 1120.5246658325195,
+   "essais": 1,
+   "juste": false,
+   "mfs": false
+  },
+  {
+   "retenu": "W4",
+   "ms": 1047.986249923706,
+   "essais": 1,
+   "juste": false,
+   "mfs": false
+  },
+  {
+   "retenu": "W1",
+   "ms": 1119.1701250076294,
+   "essais": 1,
+   "juste": false,
+   "mfs": false
+  },
+  {
+   "retenu": "W1",
+   "ms": 1132.1057920455933,
+   "essais": 1,
+   "juste": true,
+   "mfs": true
+  },
+  {
+   "retenu": "W2",
+   "ms": 1078.0508751869202,
+   "essais": 1,
+   "juste": true,
+   "mfs": false
+  },
+  {
+   "retenu": "W1",
+   "ms": 3524.186915874481,
+   "essais": 2,
+   "juste": true,
+   "mfs": true
+  },
+  {
+   "retenu": "W1",
+   "ms": 1329.7249159812927,
+   "essais": 1,
+   "juste": true,
+   "mfs": true
+  }
+ ],
+ "francais": [
+  {
+   "retenu": "AUCUN",
+   "ms": 882.02104139328,
+   "essais": 1,
+   "mot": "plan",
+   "systeme": 0,
+   "juge": 0,
+   "juste": true
+  },
+  {
+   "retenu": "D1",
+   "ms": 1287.0829591751099,
+   "essais": 1,
+   "mot": "troupeaux",
+   "systeme": 1,
+   "juge": 1,
+   "juste": true
+  },
+  {
+   "retenu": "AUCUN",
+   "ms": 2016.3515000343323,
+   "essais": 1,
+   "mot": "série",
+   "systeme": 0,
+   "juge": 0,
+   "juste": true
+  },
+  {
+   "retenu": "D2",
+   "ms": 1089.6848340034485,
+   "essais": 1,
+   "mot": "Île",
+   "systeme": 2,
+   "juge": 1,
+   "juste": false
+  },
+  {
+   "retenu": "AUCUN",
+   "ms": 1086.4920830726624,
+   "essais": 1,
+   "mot": "nuance",
+   "systeme": 0,
+   "juge": 0,
+   "juste": true
+  },
+  {
+   "retenu": "AUCUN",
+   "ms": 1188.3501253128052,
+   "essais": 1,
+   "mot": "prise",
+   "systeme": 0,
+   "juge": 0,
+   "juste": true
+  },
+  {
+   "retenu": "D2",
+   "ms": 2016.1009583473206,
+   "essais": 2,
+   "mot": "lâche",
+   "systeme": 2,
+   "juge": 0,
+   "juste": false
+  },
+  {
+   "retenu": "AUCUN",
+   "ms": 1194.651041984558,
+   "essais": 1,
+   "mot": "loi",
+   "systeme": 0,
+   "juge": 0,
+   "juste": true
+  },
+  {
+   "retenu": "D1",
+   "ms": 967.6324167251587,
+   "essais": 1,
+   "mot": "Marqué",
+   "systeme": 1,
+   "juge": 1,
+   "juste": true
+  },
+  {
+   "retenu": "D1",
+   "ms": 1108.2977499961853,
+   "essais": 1,
+   "mot": "objet",
+   "systeme": 1,
+   "juge": 1,
+   "juste": true
+  },
+  {
+   "retenu": "AUCUN",
+   "ms": 886.32133436203,
+   "essais": 1,
+   "mot": "éditeur",
+   "systeme": 0,
+   "juge": 0,
+   "juste": true
+  },
+  {
+   "retenu": "AUCUN",
+   "ms": 990.8550419807434,
+   "essais": 1,
+   "mot": "bois",
+   "systeme": 0,
+   "juge": 0,
+   "juste": true
+  },
+  {
+   "retenu": "AUCUN",
+   "ms": 884.6170415878296,
+   "essais": 1,
+   "mot": "douce",
+   "systeme": 0,
+   "juge": 0,
+   "juste": true
+  },
+  {
+   "retenu": "AUCUN",
+   "ms": 869.1238327026367,
+   "essais": 1,
+   "mot": "bleue",
+   "systeme": 0,
+   "juge": 0,
+   "juste": true
+  },
+  {
+   "retenu": "D1",
+   "ms": 800.0993328094482,
+   "essais": 1,
+   "mot": "humide",
+   "systeme": 1,
+   "juge": 1,
+   "juste": true
+  },
+  {
+   "retenu": "AUCUN",
+   "ms": 1194.1656250953674,
+   "essais": 1,
+   "mot": "voler",
+   "systeme": 0,
+   "juge": 1,
+   "juste": false
+  },
+  {
+   "retenu": "AUCUN",
+   "ms": 2113.657374858856,
+   "essais": 2,
+   "mot": "structure",
+   "systeme": 0,
+   "juge": 0,
+   "juste": true
+  },
+  {
+   "retenu": "AUCUN",
+   "ms": 962.095666885376,
+   "essais": 1,
+   "mot": "pont",
+   "systeme": 0,
+   "juge": 0,
+   "juste": true
+  },
+  {
+   "retenu": "D4",
+   "ms": 807.7392497062683,
+   "essais": 1,
+   "mot": "actions",
+   "systeme": 4,
+   "juge": 3,
+   "juste": false
+  },
+  {
+   "retenu": "D1",
+   "ms": 786.6119999885559,
+   "essais": 1,
+   "mot": "petit",
+   "systeme": 1,
+   "juge": 1,
+   "juste": true
+  },
+  {
+   "retenu": "AUCUN",
+   "ms": 1092.4764165878296,
+   "essais": 1,
+   "mot": "charges",
+   "systeme": 0,
+   "juge": 1,
+   "juste": false
+  },
+  {
+   "retenu": null,
+   "ms": 2105.1733751296997,
+   "essais": 2,
+   "mot": "clé",
+   "systeme": 0,
+   "juge": 3,
+   "juste": false
+  },
+  {
+   "retenu": "AUCUN",
+   "ms": 1500.2280831336975,
+   "essais": 1,
+   "mot": "rapide",
+   "systeme": 0,
+   "juge": 0,
+   "juste": true
+  },
+  {
+   "retenu": "D3",
+   "ms": 891.0569162368774,
+   "essais": 1,
+   "mot": "salée",
+   "systeme": 3,
+   "juge": 3,
+   "juste": true
+  },
+  {
+   "retenu": "AUCUN",
+   "ms": 1089.8316249847412,
+   "essais": 1,
+   "mot": "grande",
+   "systeme": 0,
+   "juge": 1,
+   "juste": false
+  },
+  {
+   "retenu": "D1",
+   "ms": 1489.1416249275208,
+   "essais": 1,
+   "mot": "plaine",
+   "systeme": 1,
+   "juge": 1,
+   "juste": true
+  },
+  {
+   "retenu": "AUCUN",
+   "ms": 2938.2964582443237,
+   "essais": 2,
+   "mot": "café",
+   "systeme": 0,
+   "juge": 0,
+   "juste": true
+  },
+  {
+   "retenu": "AUCUN",
+   "ms": 1085.9854998588562,
+   "essais": 1,
+   "mot": "Étude",
+   "systeme": 0,
+   "juge": 0,
+   "juste": true
+  },
+  {
+   "retenu": "AUCUN",
+   "ms": 1504.9744997024536,
+   "essais": 1,
+   "mot": "droite",
+   "systeme": 0,
+   "juge": 0,
+   "juste": true
+  },
+  {
+   "retenu": "AUCUN",
+   "ms": 985.0512089729309,
+   "essais": 1,
+   "mot": "base",
+   "systeme": 0,
+   "juge": 0,
+   "juste": true
+  }
+ ]
+}
